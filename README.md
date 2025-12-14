@@ -1,6 +1,10 @@
 # 🎓 QED-Scribe - Hybrid RAG
 
-This project is a **production-grade Retrieval-Augmented Generation (RAG) Tutor** built to understand and explain **handwritten college notes**, even with OCR noise.
+This project is a **production-grade Retrieval-Augmented Generation (RAG) Tutor** built to understand and explain **handwritten notes of QEDS**, even with OCR noise.
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Stack](https://img.shields.io/badge/Stack-LangChain_|_Streamlit_|_Ollama-orange.svg)
+![OCR](https://img.shields.io/badge/OCR-Surya-green.svg)
 
 It uses:
 
@@ -12,6 +16,17 @@ It uses:
 - 🧠 **LLaMA3 (Ollama)** for answering
 
 Perfect for academic notes, handwritten documents, mathematical derivations, and noisy OCR text.
+
+## 📸 Demo
+
+**Asking about Gini Coefficient:**
+
+![App Demo](https://github.com/apooorv19/QEDS-RAG-Project/blob/master/assets/Demo.png)
+
+**Asking questions about Homogenous Differential Equations:**
+
+![App Demo](https://github.com/apooorv19/QEDS-RAG-Project/blob/master/assets/Demo2.png)
+*(The AI retrieves the correct handwritten module, fixes the math symbols, and explains the concept)*
 
 ---
 
@@ -43,6 +58,12 @@ Uses `ms-marco-MiniLM-L-6-v2` to re-rank retrieved chunks for maximum relevance.
 ---
 
 ## 🧠 Architecture
+
+### **RAG Pipeline**
+![Basic RAG Pipeline](https://github.com/apooorv19/QEDS-RAG-Project/blob/master/assets/OCR-RAG%20Architecture.jpg)
+
+### **Detailed Retrieval & Embedding Flow**
+![Detailed Architecture](https://github.com/apooorv19/QEDS-RAG-Project/blob/master/assets/RAG-Pipeline.jpg)
 
 ```
 User Query
