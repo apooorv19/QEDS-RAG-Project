@@ -1,0 +1,198 @@
+Instrumental Variables
+
+Motivation
+
+"Selection-on-observables" approach to identifying causal effects -
+
+Treatment (D/X or regressor of interest) are conditionally uncorrelated with potential outcome.
+
+Controlling for other observables, D/X is uncorrelated with error.
+
+But in many settings this sort of identification fails.
+
+Individuals select into treatment on the basis of some unobservables (private information) that we may hope to measure and control for in our regression.
+
+"Omitted variable bias"
+
+Bias: means "non-identification"—i.e., that the parameter of interest is not recovered by a particular regression estimand.
+
+In some cases this problem can be solved by instrumental variables (IVs).
+
+Returns-to-schooling example
+
+Yi = β0 + β1Xi + εi
+
+β1 being our usual returns-to-schooling parameter of interest
+
+When Cov(Xi, εi) ≠ 0 we cannot recover β1 by the regression of Yi on Xi
+
+Here we might say:
+• Xi is "endogenous," perhaps because more advantaged people (with higher εi) are
+more likely to select into high schooling levels Xi.
+
+Regression "Exogeneity"
+
+ε
+
+Regression "Endogeneity"
+
+ε
+
+The IV Solution <math>ε</math>
+
+Note: I left the math equation alone as per instruction, and fixed the typos (assuming "IV" was intended to be a single word). The broken lines were merged into a single paragraph. Let me know if you have any further requests!
+
+Instrumental Variable
+
+Suppose we have a Z_i that is randomly assigned across individuals but which affects schooling decisions. Let's suppose we randomly give some students a scholarship to attend college and not others: Z_i = 1 if individual i is a scholarship winner, and Z_i = 0 otherwise. The randomization of Z_i ensures it is uncorrelated with student ability or background characteristics. It only affects earnings Y_i through X_i; we say it is "excludable" from the model of interest. Cov(Z_i, ε_i) = 0
+
+Cov(Zi,Yi) = Cov(Zi,β0 + β1Xi + εi) = β1Cov(Zi,Xi) + Cov(Zi,εi)
+
+= β1Cov(Zi,Xi)
+
+Provided Cov(Zi,Xi) ≠ 0, we can identify the returns-to-schooling parameter β1 by the estimand
+
+β1 = Cov(Zi,Yi) / Cov(Zi,Xi)
+
+• Z is a valid instrument when Cov(Zi,εi) = 0
+• Z is a relevant instrument when Cov(Zi,Xi) ≠ 0
+
+IV can solve different endogeneity problems. Each problem essentially boils down to finding some Z_i which is: "valid" in the sense of being uncorrelated with a particular model's unobservable (error term of the main model) and "relevant" in the sense of being correlated with a particular "endogenous variable" or treatment.
+
+Let me know if this meets your requirements!
+
+Reduced form and first stage
+
+β1 = Cov(Zi, Yi) / Cov(Zi, Xi) = ρOLS / πOLS
+where Yi = κOLS + ρOLS Zi + θi "Reduced form"
+Xi = μOLS + πOLS Zi + ηi "First stage"
+ρOLS = Cov(Zi, Yi) / Var(Zi)
+πOLS = Cov(Zi, Xi) / Var(Zi)
+
+Let me know if you need any further assistance!
+
+Omitted Variable Case
+
+• Long equation: Y_i = β_0 + β_1 X_i + γ W_i + ε_i
+
+Suppose: Cov(X_i, ε_i) = Cov(W_i, ε_i) = 0
+
+But we do not observe W_i, we get biased β_1
+
+Omitted Variable Formula:
+
+= β_1 + γ Cov(X_i, W_i) / Var(X_i)
+
+Omitted Variable Bias: product of two terms-
+
+Effect of omitted variable W_i on the outcome Y_i (γ) and Cov(X_i,W_i)/Var(X_i), whose sign depends on the correlation between X_i and W_i
+
+From equation (1), we have:
+
+Cov(Zi, Yi) = β1 Cov(Zi, Xi) + Cov(Zi, εi)
+
+If Cov(Zi, Wi) = Cov(Zi, εi) = 0,
+
+then β1 = Cov(Zi, Yi) / Cov(Zi, Xi)
+
+Provided Cov(Zi, Xi) ≠ 0,
+
+the bivariate regression identifies β1 even without observing Wi.
+
+In an OVB setting, a valid instrumental variable (IV) is one that is uncorrelated with the omitted variables.
+
+Measurement error
+
+Suppose Y_i = α + βX_i^* + v_i is known to be unconfounded i.e., Cov(X_i^*, v_i) - classical errors-in-variables (CEV) assumptions. However, we do not observe the regressor of interest X_i^*, but instead observe X_i = X_i^* + η_i where Cov(X_i^*, v_i) = 0 and Cov(η_i, v_i) = 0. In this case a regression of Y_i on X_i does not identify the parameter β
+
+The regression estimand is a scaled version of the parameter of interest, which is β. The scaling factor (attenuation bias) is λ, where λ ≡ Var(X_i*) / (Var(X_i*) + Var(η_i)). It is always true that 0 < λ < 1. When β > 0, then βλ < β.
+
+If we know λ, i.e., know the variance of Xi* or the variance of ηi,
+
+If we know Var(Xi*), we can estimate β = Cov(Xi,Yi)/Var(Xi*) =
+
+Valid instrument different mismeasured
+Z = Xi* + ξi
+
+Satisfying Cov(Xi*, ξi) = Cov(ηi, ξi) = 0
+
+The measurement error in this instrument i is uncorrelated with the measurement
+error in the observed Xi = Xi* + ηi
+
+Instrument is guaranteed to be relevant, since Cov(Zi, Xi) = Var(Xi*) > 0
+
+β = Cov(Zi, Yi)/Cov(Zi, Xi)
+
+Simultaneous Equations
+Example of simultaneous data is supply and demand: suppose we are interested in a demand elasticity from the system.
+
+The demand equation is given by:
+
+ln q_i = α_D + β_D ln p_i + ν_i
+
+The supply equation is given by:
+
+ln q_i = α_S + β_S ln p_i + η_i
+
+β_D represents the elasticity of demand.
+β_S represents the elasticity of supply.
+ν_i and η_i are demand and supply shocks, normalized to E(ν_i) = E(η_i) = 0.
+
+We observe equilibrium quantities and prices, which solve the demand and supply equations.
+
+The equilibrium relationship between price and quantity is not driven by variation along either the demand or supply curve, in general, but is instead given by the intersection of these curves as the different shocks move around the equilibrium.
+
+A valid instrument in the simultaneous supply-and-demand case is one that isolates variation in shocks to one of the sides of the market: to identify the demand elasticity βD we require a shock to the supply side (i.e. ηi) and to identify a supply elasticity βS we require a shock to the demand side (i.e. νi).
+
+Note: The original math equations were left unchanged as per instruction #3.
+
+Suppose we have a Z_i such that Cov(Z_i, η_i) ≠ 0 (relevance) and Cov(Z_i, ν_i) = 0 (validity). Then,
+
+∂(Cov(Z_i, ln q_i)) / ∂(Cov(Z_i, ln p_i)) = (∂(Cov(Z_i, β_D α_S - β_S α_D + β_D η_i - β_S ν_i))) / (∂(Cov(Z_i, α_S - α_D + η_i - ν_i))) = β_D
+
+Similarly for a demand side instrument that identifies supply elasticity β_S when Cov(Z_i, ν_i) ≠ 0 and Cov(Z_i, η_i) = 0
+
+Estimation Method: 2SLS
+
+Involves two successive applications of ordinary least squares (OLS).
+
+Stage 1: Estimate the first-stage coefficients and estimate the predicted values of the endogenous explanatory variable.
+
+Stage 2: Insert the predicted endogenous variables into the structural equation and estimate the coefficients.
+
+Need at least as many instruments as there are endogenous explanatory variables.
+
+<b>Order Condition for Identification</b>
+
+Problem: Standard errors - use software applications such as ivregress, ivreg2 in Stata or foels, ivreg in R.
+
+Overidentification problem
+
+Sometimes, we have more than one instrument. Overidentified because we could use any of the instruments to identify beta. The relevance condition may not hold for some instruments. Bias is towards ordinary least squares (OLS). As a result, the standard errors (SEs) decrease.
+
+Weak instruments
+
+• Argument: Why is Z a good IV? Nature of relationship between X and Z.
+• When running just-identified IV, you should always worry about the "strength" of your instrument.
+• Specifically, the first-stage F-statistic, which tests π_{OLS} = 0.
+• If π_{OLS} is small relative to its standard error, the IV is "weak".
+• Typically, use the rule-of-thumb of F < 10 (Staiger and Stock, 1997).
+• In this case, the second-stage SEs will be large, and the 2SLS estimate will tend to be biased towards the corresponding OLS.
+
+Some more on validity conditions. 
+
+• An instrument must be uncorrelated with the error term.
+• Intuitively, this requires two distinct assumptions:
+• As-good-as-random assignment: individuals with higher or lower potential earnings (in returns to education example) face the same distribution of Z_i.
+• Exclusion: the "assignment" of Z_i only affects Y_i through X_i.
+
+Possible IVs?
+
+The equation is: log(wage) = β0 + β1 educ + β2 exper + β3 ability + ε
+
+IVs?
+
+- Last digit of social security number
+- IQ (proxy variable for omitted variable)
+- Mother's education (might be correlated with ability)
+- Number of siblings (for years of education, requires to be uncorrelated with ability)

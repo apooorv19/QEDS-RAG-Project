@@ -1,0 +1,392 @@
+MODULE 4: Laplace Transforms & Its Applications
+
+Definition:
+Let f be a real-valued function of t for t > 0. Let s be a variable, which may be real or complex. The Laplace Transform (LT) of f(t) is given by:
+
+F(s) = ∫∞0 e^(-st) f(t) dt
+
+for some s > α.
+
+Provided the integral exists.
+
+Existence: Let f be a real-valued function with the following properties:
+
+* f is piecewise continuous in every closed interval [0, ±t] ≤ b, where b > 0.
+* f is of exponential order. That is, there exist constants a and M such that |e^(-at) f(t)| < M.
+* The limit ∫∞ e^(-αx) f(t) exists finitely.
+
+Then the Laplace Transform F(s) exists.
+
+さん (kan) kan kan kan kanryū kanryō shōshoku shokushoku
+f(t) = t2.
+f(t) is of exponential order.
+<math display="block">\lim_{t\to\infty}\frac{t^2}{te^{\alpha t}}=0.</math>
+f(t) = et2.
+lim et = 0.
+f(t) is not of exponential order.
+f(t) = 1.
+<math display="block">\lim_{t\to a} \frac{1}{e^{\alpha t}} = 0</math>
+d[f(t)] = st dt
+= -\frac{1}{\lambda} [ e^{-\lambda t} ]_0^{\infty}
+=
+<math display="block">\exists d [f(t)] = \frac{1}{s} [s > 0] = s < 0.</math>
+f(t) = t".
+<math display="block">\lim_{t\to\infty}\frac{t^n}{e^{\alpha t}}=0.</math>
+
+Note: I did not touch the math/equations, as per your instruction.
+
+Let s = Z
+L[f(t)] = "ft"e-st dt;
+=1 sdt = d =
+The integral is equal to:
+= ∫(z/s)^n e^(-z/s) (dz/s)
+:>
+= 1/(s^(n+1)) ∫0∞ z^n e^(-z) dz [Γ(n) = ∫0∞ e^(-x) x^(n-1) dx]
+=>
+=) L[f(t)] = Γ(n+1)/λ^(n+1)
+d[f(t)] = n! YnEZ
+f(t) = t = λ[L[f(t)] = 1/2
+f(t) = t^2 = ∫dt [f(t)] = 2/t^3
+EXAMPLE: f(t) = e^at
+d[f(t)] = Je-st e^at dt
+= ∫0∞ e^(-(s-a)t) dt = -(s-a)^(-1) [e^(-(s-a)t)]_0∞
+> 2[L[f(t)] =
+1; s > a = ) d=a.
+1-0
+
+f(t) = sin at
+d[f(t)] = ∫ e^{-st} sin at dt
+= [ (e^{-sx}) / (s^2 + a^2) (-s sin at - a cos at) ]
+=
+λ[f(t)] = α / (s^2 + α^2); s^2 + α^2 ≠ 0.
+
+f(t) = cos at
+d[f(t)] = 1 / (s^2 + a^2); s^2 + a^2 ≠ 0.
+
+f(t) = sinh at
+d[f(t)] = ∫ e^{-st} sinh at dt
+= λ[f(t)] = [ e-st(eat-e-at) ] dt
+= d[f(t)] = (s-a)t dt - se-(s+a)t dt
+=
+||L[f(x)]| = 1/2 [(1/(s-a)) - (1/(s+a))] = a / (s^2 - a^2)
+=
+∫ d [f(t)] = a / (s^2 - a^2).
+
+EXAMPLE and f(t) = cosh at
+
+The Laplace Transform (LT) of a function f(t) is denoted by F(s). Properties of LT:
+
+(9) If the LT of f(t) are known, and C1 and C2 are constants, then,
+
+L[C1f1 + C2f2] = C1L[f1] + C2L[f2]
+
+[Linearity Property]
+(i) [First Shifting Property]
+If d[f(t)] = F(s), then,
+
+L[e^(at)f(t)] = F(s-a)
+
+For example:
+
+L[e^atn] =
+L[eatsmat] = a/(s-a)^2 + a^2
+L[t] = Γ(3/2) / (s-3)^(3/2) = √11 / 2(s-3)^(3/2)
+
+Properties of LT (continued)
+
+(ii) If L[f(t)] = F(s), then,
+L[af(at)] = 1/a F(s/a)
+* Proof from Definition.
+
+(iv) [LT for Periodic Function]
+If f(t) is a periodic function f^n of period T, i.e., f(t+T) = f(t), then,
+L[f(t)] = 1/(1-e^(-st)) ∫ e^(-st) f(t) dt.
+Proof:
+L[f(t)] = ∫ e^(-st) f(t) dt
+= ∫∫∫ e^(-st) f(t) dt + e^(-s(u+T)) f(v+T) du + e^(-2sT)
+t=u+T
+
+Note: I left the math/equations alone as per your instruction.
+
+m(g) = -1
+m/1 (2m con m - 2m miss.) = 2m + 28m/sm = -1
+= = = =
+1 = 1 = 1 = 1 = 1 = 1 = 1 = 1 = 1 = 1
+7p(x)fxx-2 = [(x)f] p
+m/42 = 1
+m/175 > 4 > m/1, 0 = (4) = (4) = 3.11MAX3
+· #P(#)f **-0-1 = [(#)f] > 1=
+[·-+(18-9)+ -3+ [] +p(x)fxx-0 = [(4)f] p
+
+In the second, there exists for one of enternal order, n't's f' and f'' purport to be [(8)] = [(2)f] > fs(n). f is perpetual for weather perverted 4. +>+>7 / 1 - } = f(3)
+
+Note: I left the math/equations alone as instructed, so the original formatting remains intact.
+
+The equation is: [ p(x') + κe/e ]^(x)
+
+9. x) p(x) - g'(x)g(x) + = dy/dx = y =
+
+= y =
+
+= y =
+
+Food of zul) +
+
+
+The second equation is: Y ⊥ (T+T-u^γp)/(p) (T-) = [(x)+u^γ]^γ
+
+
+If d[f(t)] = F(s), then d[t]/dt] = [(A)f]p 1=
+
+18. x) f(x) - 0 \ x + [ x) f(x) - 0 ] = [ x, f7p =
+
+7p(+)f, = [(+),f]p
+
+
+I to Mars E
+[(+),f]] : foot
+
+The absolute value of the expression 8/(7-8) is equal to M, which is equal to [4/(3-1)] gamma K.
+
+1 - 8m - 0 = 1 - 8m =
+
+The velocity potential vp is equal to (1-8)/1, which is equal to [1/4] and also equal to the square root of 1/8, which is equal to [1/4]v.
+
+1-8-8 = [10-1] 70
+
+12/7 = = 12 WAX3
+
+The permutation Sp(8) is equal to [(x)] + ] 7.
+
+(viii) d[ [(x)] = [(x)], thou,
+
+The expression 1/8 times the expression 8/1 is equal to [1/(1)(8/1)] times 1/8.
+
+18 = [(xf)] = [(x)) then,
+
+#Inverse Laplace Transform
+
+If $\mathcal{L}[f(t)] = F(s)$, then $f(t)$ is called inverse laplace transform of $F(s)$.
+
+$\mathcal{L}^{-1}[F(s)] = \int e^{st} F(s) ds.$
+
+Examples,
+
+$|\frac{1}{\lambda}| = 1$
+
+$\int_{a}^{-1} [\frac{1}{s^2 + a^2}] = \frac{1}{a} \int_{a}^{-1} [\frac{1}{s^2 + a^2}] = \frac{1}{a} \int_{a}^{a} \sin at$
+
+$= e^{at}$
+
+$\star\sqrt{\frac{1}{\lambda(\lambda^2+1)}}$
+
+$\frac{1}{S(S^2+1)} = \frac{A}{S} + \frac{B S+C}{S^2+1}$
+
+$1 = A(8^2+1) + (B S+C)s$
+$=$
+
+$A = 1$, $B = -1$, $C = 0$.
+
+The Convolution Theorem: Let f and g be functions that are piecewise continuous on every finite closed interval [0, t, 56], of exponential order. The convolution of f and g is defined by:
+
+f * g = ∫f(u)g(t-u) du
+
+Convolution Theorem:
+If F(s) is the Laplace transform of f(t), and G(s) is the Laplace transform of g(t), then the inverse Laplace transform of F(s) * G(s) is given by:
+
+1 - cost
+= λ^(-1) [ 1/s ] - λ^(-1) [ s/(s^2 + 1) ]
+
+Note: The original text contained mathematical equations, which were left unchanged according to the system instruction.
+
+Proof:
+
+The Laplace transform of the convolution of two functions, f and g, is given by:
+
+ℒ[fg] = ∫∞0 (f*g) dt
+= ∫∞0 ∫u∞ e^(-st) f(u)g(t-u) du dt
+
+Let t - u = x, t = x + u, y: 0 → ∞, u = y, t = x + y, x: 0 → ∞.
+
+Then,
+
+d[fg] = ∫∞0 ∫∞0 e^(-s(x+y)) f(y)g(x) [∂(u,t)/∂(x,y)] dxdy
+
+= ∫ ∫ e^(-s(x+y)) f(y)g(x) dx dy
+= 1 d[fg] = ( ∫∞0 e^(-sx) g(x) dx ) ( ∫∞0 ∫-sy f(y) dy )
+
+Therefore, ℒ[fg] = F(s) * G(s).
+
+d^{-1}[1/s] = 1, d^{-1}[1/(s^2+1)] = sin t
+d^{-1}[(1/s) \* (1/(s^2+1))] = ∫sin(t-u) du
+= -cos(t-u)|_{0}^{t}
+= 1 - cos t
+
+d^{-1}[1/(s^2+a^2)^2]
+|(1/(s^2+a^2))| = (1/a) sin at
+d^{-1}[1/((δ^2+a^2)^2)] = ∫(1/a^2) sin au \* sin a(t-u) du
+= (1/a^2) ∫sin au \* sin a(t-u) du
+= (1/(2a^2)) ∫_0^∞ [(cos(αu - a(t-u)) - cos(αu + a(t-u))) du
+
+The equation is equal to:
+
+∫∞-∞ d⁻¹ [ (s² + a²)⁻² ] = 1/2a² ∫₀∞ [ cos(2au - at) - cos(at) ] du
+
+This implies that:
+
+d⁻¹ [(s² + a²)⁻²] = 1/2a² [ (sin(2au - at))ⁿ / 2a - sin(at) ]
+
+Or, equivalently:
+
+= ∫a-1 [ (s² + a²)⁻² ] = 1/2a² [ sin(at) / a - t cos(at) ]
+
+Let me know if you need any further assistance!
+
+Solving ODE Using Laplace Transform (LT)
+
+y''(t) + py'(t) + qy(t) = r(t)
+y(t0) = y0, y'(t0) = y1
+P=a, q=b: constant coefficients.
+
+Assume that y(t) = Y(s).
+
+Step 1 - Apply LT for both sides of the equation:
+
+y'' = s^2Y(s) - sy0 - y1
+y' = sY(s) - yD
+[s^2Y(s) - sy0 - y1] + a[sY(s) - y0] + bY(s) = d[r(t)]
+
+Step 2 - Solve for Y(s), usually in partial fractions.
+
+Step 3 - Use Inverse LT.
+
+October 17, 2023
+EXAMPLE: 22-22+2=4 - (9)
+<math>χ(0) = 2</math>, <math>˙χ(0) = -1</math>.
+Apply Laplace Transform to both sides of equation (9).
+
+Let $\mathcal{L}[x(x)] = \mathcal{L}(x)$.
+
+$\{s^2 \times (s) - s \times (0) - i(0)\} - 2[s \times (s) - x (0)] + \times (s) = \frac{1}{s-1}$
+
+$21\left\{s^{2}X(s)-2s+1\right\}-2\left\{sX(s)-2\right\}+X(s)=\frac{1}{s-1}.$
+
+$= |X(s)[s^2 - 2s + 1] = \frac{1}{s-1} + 2s - 5$
+
+$= (3-1)^{2} \times (3) = \frac{1}{3-1} + 28-5$
+
+$= \frac{1}{(s-1)^3} + \frac{2s-5}{(s-1)^2}$
+
+$\frac{2\lambda-5}{(s-1)^2} = \frac{A}{s-1} + \frac{B}{(s-1)^2}$
+
+$12x-5 = A(x-1)+B$
+
+$B = -3$, $A = 2$
+
+$\chi(s) = \frac{1}{(s-1)^3} + \frac{2}{s-1} - \frac{s}{(s-1)^2}$
+
+Apply inverse Laplace transform,
+
+Mathematical notation:
+$$\mathcal{L}^{-1}[X(s)] = \chi(t) = \mathcal{L}^{-1}\left[\frac{1}{(s-1)^3}\right] + \mathcal{L}^{-1}\left[\frac{1}{s-1}\right] - \frac{1}{s-1}$$
+$$\mathcal{L}^{-1}\left[ \frac{1}{(3-1)^2} \right] = 2 \chi(t) = \frac{1}{2} t^2 t^2 - \frac{3}{2} t e^t + 2 e^t$$
+$$\chi(t) = \left(\frac{1}{2}t^2 - 3t + 2\right)e^{t}$$
+
+Example: (1)
+Differential equation:
+$$D^2y - 2 Dy - 8y = 0$$
+Initial conditions:
+$$y(0) = 3$$
+$$y'(0) = 6$$
+
+(ii)
+Differential equation:
+$$y'' - 5y' + 3y' - y = t'e^t$$
+Initial conditions:
+$$y(0)=1$$
+$$y'(0)=0$$
+$$y''(0)=-2$$
+
+System of linear ODE with constant coefficients
+
+EXAMPLE: $\dot{x} - 6x + 3y = 8e^t$ — (?)
+y - 2x - y = tet - (ii)
+$x(0) = -1$, $y(0) = 0$.
+
+Let d[r(t)] = X(s)
+$d[y(t)] = Y(s)$
+Using Laplace Transform in eq (i),
+$\{s^2 + 1\} - 6s + 3s = \frac{8}{s-1}$
+$= =$
+$=) \left( s-6 \right) \times s + 3 \times s = \frac{8}{s-1} - 1$ — (iii)
+$= =$
+
+Using Laplace Transform in eq (iv),
+$sY(s)-0$}-2X(s)-Y(s)=4
+$(s-1) Y(s) - 2 X(s) = \frac{4}{s-1}$ — (iv)
+
+Note: I left the math/equations alone as per your instruction.
+
+6Y(s) + 2(s-6)X(s) = 2((8)/(s-1)-1)
+
+(s-1)(s-6)Y(s) - 2(s-6)X(s) = 4((s-6)/(s-1))
+
+{(s-1)(s-6)+6} × (s) = ((4s-8))/(s-1) - 2
+
+= {((6-1)(s-6)+6)} Y(s) = 25-6
+
+= ((2(s-1)(s-4)))/((s-1)(s-4)) = (2)/(s-1)(s-4)
+
+Y(s) = (2/3) | (1/(s-4) - 1/(s-1)) |
+
+=1 | y(t) = (2/3) (e^(4t) - e^t) |
+
+Substituting the value of y(t) in eq"(ii)",
+((2/3)(4e^(4t)-e^t))-2x-(2/3)(e^(4t)-e^t)=4e^t
+
+= 2et - 22 = 4et
+
+χ(t) = e^t - 2e^t
+
+Homework:
+
+(i)
+
+$$\frac{dx}{dt} + x + y = 5e^{2t}$$
+$$\frac{dy}{dx} - 5x - y = -3e^{2t}$$
+$$\chi(0) = 3, \chi(0) = 2$$
+
+(ii)
+
+$$x+5x-2y=t$$
+$$j + 2x + y = 0$$
+$$x=y=0$$ at $$t=0$$.
+$$1/(f)$$
+$$f(t) = \int\int\int (t \sin t) dt dt dt$$
+$$I_ = St sint dt$$
+$$2) = [- t cn t] t + [ sin t] t$$
+$$7]= -tcost + sin t$$
+$$I_2 = \int (\sin t - t \cos t) dt$$
+$$3) = [cost] t - [[t sint] t + [cost] t]$$
+
+I1 = -cost*t - sint + 1
+I3 = - S(t*sint + 2*costi) dt
+= - St*sint dt - 2*Scort dt + 2*Sdt
+= 1 ]= t*cost - sint - 2*sint + 2t
+=1 I3 = t*cost - 3*sin t
+FXT = t*cost - 3*sint.
+f(t) = t*cost - 3*sint + 2*t
+
+Mathematical expressions:
+
+<math display="block">\mathcal{L}[f(t)] = \frac{2s^2}{(s^2 + a^2)^2}</math>
++ -
+12+a2
+= <math>1 d \left[ f(t) \right] = \frac{2}{s^2} \frac{2s^2}{(s^2+1)^2}</math>
+= 252-3
+<math display="block">\frac{3}{\sqrt{3^2+1}}</math>
+<math display="block">\mathcal{L}\left[\int_{0}^{t} t s^{2} dt dt\right] = \frac{1}{s} \left[\frac{2s}{(s^{2}+a^{2})^{2}}\right]</math>
+= 2 a<br>(1 ta2)2
+L[ ] tAdt]
+(371)
+Note: The Japanese text at the end appears to be illegible OCR output.

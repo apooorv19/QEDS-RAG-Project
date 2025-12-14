@@ -1,0 +1,248 @@
+Analysis of Variance
+UNIT-3
+Dr. Tina Dutta
+
+Introduction to Analysis of Variance (ANOVA)
+In many situations we may have conduct a hypothesis test to compare mean
+values simultaneously for more than two groups (samples) created using a
+factor (or factors).
+For example, a marketer may like to understand the impact of three different
+discount values (such as 0%, 10%, and 20% discount) on the average sales.
+• The marketing manager would like to understand whether the variable 'price
+discount' has any significant impact on the average sales quantity.
+Such studies are called single factor experimental studies.
+
+Introduction to Analysis of Variance (ANOVA)
+Different discount rates correspond to different levels of the factor
+(different levels of price discount)
+The different discount levels (such as 0%, 10% and 20%) are assigned
+•
+randomly to different units.
+• In the case of price discounts, units refer to different days chosen randomly
+since the quantity of sales may also depend on the day of the week.
+It is possible that the weekend sales quantity may be higher than the sales quantity on
+weekdays.]
+
+Introduction to Analysis of Variance (ANOVA)
+To understand whether the effect of different levels of a factor (such as
+price discount) has any statistical significance on the population parameter
+(such as average sales), we perform Analysis of Variance (ANOVA)
+The objective of ANOVA is to check simultaneously whether the
+means from more than two populations are different.
+
+ONE-WAY ANALYSIS OF VARIANCE
+(ANOVA)
+In One-way ANOVA, we would like to study the impact of a single treatment
+(also known as factor) at different levels (thus forming different groups) on a
+continuous response variable (or outcome variable).
+One-way ANOVA is appropriate under the following conditions:
+1. In each group, the population response variable follows a normal distribution and the sample subjects are chosen using random sampling.
+2. The population variances for different groups are assumed to be same. That is, variability in the response variable values within different groups is
+same.
+
+Violation of Assumptions in one-way
+<b>ANOVA</b>
+Although conditions 1 and 2 are necessary for one-way ANOVA, the model is
+robust and minor violations of the assumptions may not result in incorrect decision
+about the null hypothesis.
+However, we need to check whether conditions 1 and 2 are met to ensure validity of
+ANOVA as a good practice.
+Normality assumption can be checked using P-P plot (probability-probability plot).
+The equality of variance can be checked through the hypothesis test for equal
+variance.
+
+Setting up an one-way ANOVA
+Assume that we would like to study the impact of a factor (such as discount)
+with k levels on a continuous variable (such as sales quantity)
+Then the null and alternative hypotheses for one-way ANOVA are given by:
+
+<math>H_0: \mu_1 = \mu_2 = \mu_3 = \dots = \mu_k</math>
+<math>H_{A}</math>: Not all <math>\mu</math> values are equal
+
+Setting up an one-way ANOVA
+• The One-way ANOVA model is specified as follows:
+<math display="block">Y_{ij} = \mu + \tau_i + \varepsilon_{ij}</math>
+<math>\mu</math> is the overall mean
+<math>\tau_i</math> is the effect of factor <i>i</i> (or factor effect).
+<math>\varepsilon_{ij}</math> is the error assumed to be a normal distribution with mean 0 and standard deviation <math>\sigma</math>.
+
+Comparing Population means
+<math>\mu_1</math>
+<math>\mu_2</math>
+<math>\mu_3</math>
+Comparing three means (<math>\mu_1</math>, <math>\mu_2</math>, and <math>\mu_3</math>).
+
+Setting up an one-way ANOVA
+• Let
+<math>k =</math> Number of groups (or samples)
+<math>n_i</math> = Number of observations in group <math>i</math> (<math>i = 1, 2, ..., k</math>)
+<math>n = \text{Total number of observations} \left( = \sum_{i=1}^{k} n_i \right)</math>
+<math>Y_{ij}</math> = Observation <math>j</math> in group <math>i</math>
+To arrive at the statistic, we decompose the total variation in Y into two components:
+1. variations between groups (SSB)
+2. variations within group (SSW)
+SST=SSB+SSW
+Then we carry out F-test.
+
+Example
+One of the steps involved in the processing of corn flakes for cereals involves
+toasting the flakes. The table shows data for corn flakes thickness (mm) for four
+different toasting times (seconds).
+20 sec
+60 sec
+80 sec
+40 sec
+1.7
+2.0
+1.6
+1.0
+1.2
+0.6
+1.6
+0.7
+0.7
+0.7
+0.8
+0.3
+At the 0.05 level of significance, is there evidence of a difference in the mean
+•
+thickness of the corn flakes for the different toasting times?
+
+TWO-WAY ANALYSIS OF VARIANCE
+• The values of response variable may be influenced by several factors.
+For example, in addition to price discounts, location of the stores may also
+•
+play an important role in the sales quantity.
+• The discounts may not have much impact if the store is located near affluent
+community compared to stores located near non-affluent community.
+To understand the impact of both factors (price discount and location)
+simultaneously on sales, two-way ANOVA can be carried out.
+
+TWO-WAY ANALYSIS OF VARIANCE
+• The specific questions the two-way ANOVA would answer are:
+1. Are there differences in the average sales quantity with different levels
+of price discounts?
+2. Are there differences in the average sales quantity with respect to
+different locations?
+3. Are there interactions between price discounts and location with respect
+to average sales quantity?
+
+TWO-WAY ANOVA model The two-way ANOVA model can be expressed as <math display="block">Y_{iik} = \mu + \alpha_i + \beta_i + \alpha_i \beta_i + \varepsilon_{iik}</math> where <math>Y_{ijk}</math> = Value of the <math>k^{th}</math> observation (<math>k = 1, 2, ..., c</math>) of the response variable at level <math>i</math> (<math>i = 1, 2, ..., a</math>) of factor A and level <math>j</math> (<math>j = 1, 2, ..., b</math>) of factor B. <math>\mu</math> = Overall mean value of the response variable <math>Y_{iik}</math> <math>\alpha_i</math> = Level (effect) of factor <math>A</math> (<math>i = 1, 2, ..., a</math>) <math>\beta_i</math> = Level (effect) of factor <math>B</math> (<math>j = 1, 2, ..., b</math>) <math>\alpha_i \beta_i</math> = Interaction of <math>i^{th}</math> level of factor A and <math>j^{th}</math> level of factor B <math>\varepsilon_{iik}</math> = Error associated with <math>k^{th}</math> of observation at level <math>i</math> of factor A and level <math>j</math> of factor B.
+
+Hypothesis Tests in TWO-WAY ANOVA
+1. Test of Factor A Main Effects:
+<math>H_0</math>: <math>\alpha_i = 0</math> for all <math>i</math> (<math>i = 1, 2, ..., a</math>)
+The sum of squares in the case of two-way ANOVA
+<math>H_{A}</math>: Not all <math>\alpha_{i}</math> are zero
+with equal sample sizes is given by (Fisher, 1934)
+2. Test of Factor B Main Effects:
+<math>SST = SSA + SSB + SSAB + SSE</math>
+<math>H_0: \beta_j = 0 \text{ for all } j (j = 1, 2, ..., b)</math>
+<math>H_A</math>: Not all <math>\beta_i</math> are zero
+3. Test of Interaction Effects:
+<math>H_0: \alpha_i \beta_i = 0</math> for all <math>i</math> (<math>i = 1, 2, ..., a</math>) and <math>j</math> (<math>j = 1, 2, ..., b</math>)
+<math>H_A</math>: Not all <math>\alpha_i \beta_i</math> are zero
+
+Calculation Formulae in TWO-WAY ANOVA
+1. Sum of squares of total deviation (SST):
+<math display="block">SST = \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{c} (Y_{ijk} - \mu)^{2}</math>
+where <i>c</i> is the number of observations in each group and <math>\mu</math> is the overall mean.
+2. Sum of Squares of deviation due to Factor A
+<math>SSA = b *c \sum (\mu_{Ai} - \mu)^2</math>
+where <math>\mu_i</math> is the mean of all observations in level <i>i</i> of factor A
+<i>c</i> is the number of observations in each group (assumed to be same for all groups).
+
+Calculation Formulae in TWO-WAY ANOVA
+3. Sum of Squares of deviation due to Factor B
+<math display="block">SSB = a *c \sum (\mu_{Bi} - \mu)^2</math>
+4. Sum of Squares of deviation due to interaction of Factor A and Factor B
+<math display="block">SSAB = c \sum_{i} \sum_{j} (\mu_{ij} - \mu_{Ai} - \mu_{Bj} + \mu)^{2}</math>
+
+Calculation Formulae in TWO-WAY ANOVA
+5. Sum of squares of deviation within a group (SSW):
+<math display="block">SSW = \sum_{i=1}^{a} \sum_{j=1}^{b} \sum_{k=1}^{c} (Y_{ijk} - \mu_{ij})^{2}</math>
+
+TWO-WAY ANOVA Table
+Sources of
+Critical Value
+df
+SS
+Mean SS
+F-Statistic
+of F
+Variation
+F-value for
+F=MSA/MSW
+SSA
+<math>MSA=SSA/(a-1)</math>
+Factor A
+(numerator df,
+<math>(a-1)</math>
+denominator df)
+F-value for
+Factor B
+SSB
+F=MSB/MSW
+<math>(b-1)</math>
+<math>MSB=SSB/(b-1)</math>
+(numerator df,
+denominator df)
+F-value for
+Interaction AB
+<math>|MSAB=SSAB/[(a-1)(b-1)]|F=MSAB/MSW|</math>
+<math>(a-1)(b-1)</math>
+SSAB
+(numerator df,
+denominator df)
+SSW
+Error (within group)
+<math>ab(c-1)</math>
+<math>MSW=SSW/ab(c-1)</math>
+SST
+Total
+n-1 or (abc-1)
+
+Q. A nationwide company specializing in preparing students for college and graduate school
+entrance exams, such as the SAT, ACT, GRE, and LSAT, had the business objective of
+improving its ACT preparatory course. Two factors of interest to the company are the length
+of the course (a condensed 10-day period or a regular 30-day period) and the type of
+course (traditional classroom or online distance learning). The company collected data
+by randomly assigning 4 clients to each of the four cells that represent a combination of
+length of the course and type of course. Data shown in the table.
+What are the effects of the type of course and the length of the course on ACT
+scores?
+Source: Example adapted from Statistics for Managers Using Microsoft Excel Book by David M Levine David F Stephan
+
+Type of
+Condensed
+Regular
+What are the effects
+course
+of the type of course
+Traditional
+24
+34
+and the length of the
+course on ACT
+27
+24
+scores?
+28
+17
+24
+21
+Online
+27
+24
+29
+16
+21
+21
+32
+19
+
+Sources:
+Book1: Business Analytics: The Science of Data Driven Decision
+Making by U Dinesh Kumar (year 2017)
+Book2: Statistics for Managers Using Microsoft Excel by David M
+Levine, David F Stephan and Kathryn A. Szabat (year 2021)

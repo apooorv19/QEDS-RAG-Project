@@ -1,0 +1,26 @@
+# --- Python System ---
+__pycache__/
+*.pyc
+
+# --- Virtual Environments (Fixes your 'env' issue) ---
+env/
+.env/
+
+# --- Editor Settings (Fixes your .vscode issue) ---
+.vscode/
+.idea/
+
+# --- Database (Too big for GitHub) ---
+chroma_db_advanced/
+*.db
+*.sqlite
+*.pkl
+
+# --- Secrets ---
+.env
+
+# Private data
+notes-llm/data/processed_notes/
+notes-llm/data/raw_notes/
+*.json
+*.pkl

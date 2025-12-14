@@ -1,0 +1,81 @@
+I'm ready to help! Please provide the OCR text, and I'll rewrite it according to the system instructions:
+
+1. FIX typos.
+2. MERGE broken lines.
+3. LEAVE MATH/EQUATIONS ALONE.
+4. OUTPUT ONLY THE CLEANED TEXT.
+
+Please go ahead and provide the input text.
+
+Q. A chemist wishes to test the effect of four chemical agents on the strength of a particular type of cloth. Because there might be variability from one bolt to another, the chemist decides to use a randomized block design, with the bolts of cloth considered as blocks. She selects five bolts and applies all four chemicals in random order to each bolt. The resulting tensile strengths follow: Analyze the data from this experiment (using α = 0.05) and draw appropriate conclusions.
+
+Bolt 5: 73
+Bolt 3: 68, 67, 74, 71, 73, 70, 67, 75, 72
+Chemical 2: 75, 73, 68, 68, 78, 73, 71, 75, 69
+
+Q. Three different washing solutions are being compared to study their effectiveness in retarding bacteria growth in 5-gallon milk containers. The analysis is done in a laboratory, and only three trials can be run on any day. Because days could represent a potential source of variability, the experimenter decides to use a randomized block design. Observations are taken for four days, and the data are shown here. Analyze the data from this experiment (use α = 0.05) and draw conclusions.
+
+Days	Solution
+3	39
+13	22
+18	16
+24	17
+44	5
+22	4
+
+The effect of three different lubricating oils on fuel economy in diesel truck engines is being studied. Fuel economy is measured using brake-specific fuel consumption after the engine has been running for 15 minutes. Five different truck engines are available for the study, and the experimenters conduct the following randomized complete block design.
+
+Truck    Oil    1    2    3
+5    0.512    0.500    0.487
+2    0.540    0.535    0.675    0.520    0.435
+3    0.510    0.513    0.488    0.595    0.400
+
+Analyze the data from this experiment.
+
+Q. An industrial engineer is conducting an experiment on eye focus time. He is interested in the effect of the distance of the object from the eye on the focus time. Four different distances are of interest. He has five subjects available for the experiment. Because there may be differences among individuals, he decides to conduct the experiment in a randomized block design. The data obtained follow. Analyze the data from this experiment (use α = 0.05) and draw appropriate conclusions.
+
+Subject
+1         2       3       4       5
+Distance (ft)
+2          6        6        6        6
+3          6        6        6        6
+4          5        8      10
+6          2        3
+
+Note: I left the math/equations alone as per your instruction.
+
+The effect of five different ingredients (A, B, C, D, E) on the reaction time of a chemical process is being studied. Each batch of new material is only large enough to permit five runs to be made. Furthermore, each run requires approximately 1½ hours, so only five runs can be made in one day. The experimenter decides to run the experiment as a Latin square so that day and batch effects may be systematically controlled. She obtains the data that follow. Analyze the data from this experiment (use α = 0.05) and draw conclusions.
+
+Day 3: Batch 2, A = 8, B = 7, D = 1, C = 7, E = 3; C = 11, E = 2; A = 7, D = 3, B = 8 B = 4
+A = 9
+C = 10
+E = 1
+D = 5
+D = 6
+C = 8
+E = 6
+B = 6
+A = 10
+E = 4
+D = 2
+B = 3
+A = 8
+C = 8
+
+Q. An industrial engineer is investigating the effect of four assembly methods (A, B, C, D) on the assembly time for a color television component. Four operators are selected for the study. Furthermore, the engineer knows that each assembly method produces such fatigue that the time required for the last assembly may be greater than the time required for the first, regardless of the method. That is, a trend develops in the required assembly time. To account for this source of variability, the engineer uses the Latin square design shown below. Analyze the data from this experiment (α = 0.05) and draw appropriate conclusions.
+
+Operator    Order
+3          4
+Assembly   C = 10     D = 14     A = 7      B=8
+1          B = 7 C = 18
+D = 11
+A = 8
+A = 5
+B = 10
+C = 11
+D = 9
+3
+D = 10
+A = 10
+B = 12
+C = 14

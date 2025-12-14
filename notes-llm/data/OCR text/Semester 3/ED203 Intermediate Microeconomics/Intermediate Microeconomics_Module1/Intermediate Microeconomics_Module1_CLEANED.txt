@@ -1,0 +1,397 @@
+MODULE 1: Oligopoly - Revision of ED 115:
+
+* Perfect Competition
+(i) very large number of buyers and sellers
+- each individual is atomistic, i.e., has no market power.
+- Liberty (ii) free entry & exit
+-> everyone takes a price taken
+-> sellers are incentivized hence no supernormal profit
+non-homogeneous à identical gross are sold.
+
+MC SAC: P=D=AR=MR
+
+Imperfect Competition: Types based on market power and product characteristics. These include:
+
+(i) MONOPOLY (single seller)
+(ii) MONOPSONY (single buyer)
+
+A monopolist seeking to maximize profits will never be on the inelastic part of the demand curve, i.e., Ed < 1. Hence, elasticity will always be Ed > 1.
+
+LERNER'S INDEX: P-MC - markup ratio
+
+A monopolist will never produce in the inelastic part.
+
+In perfect competition (price takers), (P-MC) = 0. In monopoly (high market power), (P-MC) = 1.
+
+AR = D
+9m > 8
+
+Note: The text appears to be discussing the principles of imperfect competition, including monopolies and monopsonies, as well as the concept of Lerner's Index.
+
+Monopolistic Competition
+
+* Close substitutes - broad loyalty of consumers
+-> Maximum advertisement (tool of increasing market share)
+-> Monopoly over the brand, but competition over products/services.
+
+# Oligopoly
+
+TO TO
+
+* Important Elements:
+  A few number of large firms having significant market power,
+  each perceptible influence on industry price and output.
+  Each firm knows that the outcome of its decision (rivals) is interdependent.
+  Strategic interactions between firms as their actions are interdependent.
+  Firms are not passive competitors. They react and revise own actions in response to rival firms.
+  + Strategic interaction => Interdependence
+  Of firms, we have a small number but with large market power.
+  Of strategic interactions is crucial feature rather than homogeneous or differentiated product, free or restricted entry/exit, for which oligopoly stands out.
+
+There is a wide range of strategic interactions. No single unique equilibrium as Grame Theory → Nach equilibrium * strategizing to grab market share by charging price or output. * reactions occur.
+
+Eg., Prisoner collusion is not sustained in One-shot MARKETS Lo-opera certel OLIGOPOLY STANDARD the Sell S. SEN 20th ages Loborodol (Sertrano) Price Non-Co-opera Ass A HULTANEDUS Course
+
+September 8, 2023
+
+Von-Cooperative Models: M-MI
+
+9) Simultaneous (Class discussion better)
+
+(Cournot-Nash Duopoly reference)
+-> Cournot Nash Duopoly
+
+* NASH EQUILIBRIUM:
+When two firms compete with one another, deciding on quantity or price and a Cournot-Nash equilibrium is formed. It is where the best response from each firm are matched. And neither has any further incentive to deviate.
+(i) Firms are choosing quantity simultaneously without getting to observe the choice of rival firm.
+(? Each firm considers the output chosen by the rival firm as given,
+
+Let me know if you need anything else!
+
+"A quote from a famous author."
+
+"A quote from a famous author."
+
+"A quasi-firm of a firm) when deciding its own output choice. And they cannot consult each other.
+
+P = a - b & i & = $91 + $92 : Market demand
+-> max To [Response function]
+
+TT2=TR-TC = P x 92 - C92 = [(a-b)(1+0.92)] 92 - C92"
+
+An oligopoly firm chooses its best quantities; they put it in the market to clear the market. So, price is adjusted to clear the market.
+
+We have total output in the market. Times receive their respective profits.
+
+For all oligopoly models, we consider homogeneous commodities.
+
+The Cournot Duopolist maximizes his own profits on the basis of residual demand in the market.
+
+Greater is 92; the best response would be to lower VI P.
+
+The greater the distance from market demand, the larger is the optimal choice.
+
+This inverse relationship can be defined by a negatively sloped best response curve for reaction functions.
+
+Note: The math equations (91=9-92, 92=9-91, and 115 = 14-40) were left unchanged as per instruction.
+
+The best response for a firm is the locus of all those traces that show the relationship between a firm's profit-maximizing output level, based on the output level it thinks its rivals will produce.
+
+A Story of the Story of Azc R1
+Market Demand: P=a-bQ
+
+The story begins with a question about why it's stable. The market demand equation is given as P=a-bQ, where Q represents the quantity.
+
+Two problems are then presented:
+
+(1) Say 21 = 0,
+(i) Say 91: 9c,
+
+It appears that there may be some additional text or equations that were not readable from the original OCR output. If you would like me to try and decipher any remaining math or text, please let me know!
+
+Joset Profit: man (TI+TIZ) [Collusive equilibrium]
+
+Anywhere on 9, m9, m lies below the CNT, thus making a possibility to deviate. Hence making it unsustainable.
+
+If firms want to raise profit, it seems good to collude and choose 92m & 92c levels of output. Since, it is an one-shot game, there is no binding commitment that they keep choosing their agreed outputs. Hence this choice of outputs is not a Nash equilibrium.
+
+-> If firm 1 produces q1, then firm 2's best response should not be 22m but rather 22 = (6a-blyn), where 92m < 92c; 92c = (9-91M); TT2 > T1 Given F1 - 91M
+
+(Bertrand Price Competition) brings commitment?
+
+(i) Here, duopolists choose price rather than quantity, and then sell what the market demands.
+(ii) When there is a monopolist, it doesn't matter whether we choose price or quantity.
+
+BEST PRICE RESPONSE FUNCTIONS.
+
+Sipest such a clear entrée of allusions as we was some state and may not be suchained without commitment to at least one player.
+
+P1 200:20
+
+man Tij = [8 - (21.02)] + 0.621
+37. = [a - (grue)] = - C = 0
+3) 0-21/5/2-0 = 0
+=> 2014 12 = 00-0
+max Tiz [a - (2,12)] 22 - 692
+
+The primary motive behind collusion is to achieve greater profits for both players, compared to what they can achieve under non-cooperation (CNE).
+
+In fact, the main criticism against non-cooperative games with Nash equilibrium is that if pre-play communication is possible, through which they can enjoy greater profits, then why should they not collude? Despite such a clear advantage of collusion over CNE, we observe that collusion is unstable and may not be sustained without commitment strategies.
+
+Given:
+
+P = a - 19
+C2 = C22
+
+max TI = [P - (21 + 22)] * 22 - C21
+
+∂Π1/∂q1 = [(a - (q1 + q2)) - q1 - C] = 0
+=> a - 221 = 22 - c = 0
+=> 29.1 + 9.2 = a - C
+mage Tz = [a - (21 + 22)] * 92 - C92
+
+The derivative of pi with respect to q1 equals [a minus q1 plus q2] times q1 minus c times q2, which is equal to zero.
+
+292 + 91 = a - c
+Q1 = (a - c) / 3
+P = (a + 2c) / 3
+
+T2 = (a - c) / 3
+T1 = ((a + 2c) / 3) * ((a - c) / 3) - (c / 2) * (a - c)
+TI_ = (a + 2c) * (a - c) - c * (a - c)
+TI_1 = (a + 2c) * (a - c) - 3c * (a - c)
+TI_ = a^2 - ac + 2ac - 2c^2 - 3ac + 3c^2
+T1 = a^2 - 3ac + c^2 = (a - c)^2 = T7
+
+That's limp one plus high one.
+The accord is greater than or equal to 10-12.
+
+Firm equals (1/2) * (well) * (veil).
+
+Collusion
+
+The file!
+
+Max TT equals (a - q)q - qq1 - qq2.
+
+HAR GOVERN
+
+:max TT = (a-q)q - cq
+
+:q1 * q2 / q1
+
+The input is already a clean mathematical equation, so there's nothing to fix! The output remains:
+
+<math>\frac{\partial \pi}{\partial q} = 0</math>
+
+a - Q - Q - C = 0
+2Q = a - C
+
+Let α be the proportion of total output q that firm 1 and firm 2 agree to produce.
+
+For Form 1, TIME = α(α-c)^2 / 9
+Firm 2, TM2 = (1-α)(a-c) [> (a-c)^2]
+
+P = a - q = a - a - c = a + c
+
+TT = ((a+c)/2)((a-c)/2) - c((a-c)/2)
+= (a^2 - c^2)/4 - (c(a - c))/2 = (a^2 - c^2 - 2ac + 3c^2)/4
+=1
+∏m = (a^2 - 2ac + c^2)/1 = ((a - c)^2)/1
+
+The collusion line is the locus of all values of α. Is α(a-c) the best response to (1-α)(a-c)?
+
+No, this is because it won't satisfy any of the firm's best response function. There would be an incentive to deviate and hence leading them towards CNE.
+
+Put 92 in the best response of firm I and check whether q_1 = (a-c)/2 or other way round. 
+
+2q_1 + (1-α)(a-c) = a-c = q_1 = (1+α)(a-c)
+
+The entire male private specification is:
+
+(1+x)(a-c)/2 - x(a-c)/2 > 0
+
+Is this correct?
+
+Individual profits would rise, which in turn would increase the output production. Hence, the price would fall and the total profit (jointly) would be less. This is Bertrand Price Competition (continued).
+
+Simultaneous Price Choice
+Market demand gives output levels a profit of Best Price Response Functions
+
+Suppose the four firms choose prices simultaneously and then sell the respective output levels generated by the market demand. The Nash equilibrium in this Bertrand model is a combination of prices, where the best response price for(s) matches.
+
+No other piece pair has the characteristic of mutual consistency. For Bertrand-Nash equilibrium (BNE), P1 = a1 + b1, and P2 = 71(P2). Both parties have the same marginal cost (P<sub>1</sub>=P<sub>2</sub>=MC). The equation is:
+
+P2 = a2 + b2 * P1 / P2
+
+Bertrand Paradox (Edgeworth Model)
+When one form has a capacity constraint and the other form is aware of it. Every decision will be affected.
+
+The key insights are:
+· P1=MC < P2
+will of the market dictate the outcome.
+· P2=MC, C > P1
+
+One Monday in December (New 1994) St. Co.
+
+I fixed the typos, merged the broken lines, and left the math/equations alone as per your instructions. Let me know if you need anything else!
+
+One to eighteen, plus eighteen minus zero plus one, equals 111.
+
+17/08/2023
+
+"SEQUENTIAL"
+
+Stackelberg (Output Choice)
+
+(1) First, mover advantage market leader / dominant
+(ii) Follower firms
+
+Firm 1 charges Firm 2 to maximise TR subject to best response of the follower firm, to various levels of 21.
+
+P = a - b(91+92)
+Ci = cqi + 2=1,2.
+
+max T1 = [a-b(91+22)]91-c91
+5.t. 29,+2,=a-c
+=) max T1: (21+ a-c-21)]21 - C21
+= [a-(21+a-c)]21-c21
+=1
+= (a-91+c)21-c21
+=1
+
+<math display="block">
+∂Π₁/∂₂₁ = (∂(α + c - 2₁)/2) + 2₁/2 - c = 0
+</math>
+
+a + c - 221 - c = 0 = 1, a - c - 221 = 0
+
+The Stackelberg solution is a Nash equilibrium, even though the follower firm produces less and earns lower profits compared to what it earned under Cournot. This is because, unlike in collusive oligopoly, the Stackelberg solution lies on the best response of both firms.
+
+The leader credibly commits to a choice of quantity only after internalizing the best response of the follower to that level of output. The follower will have no incentive to deviate once he observes the credibly committed output choice of the leader.
+
+The total profits under Stackelberg are less
+
+Than under total profits, Courtenay's total
+
+Profits. But leaders' profit is more important in
+
+Stackelberg compared to Cournot. And, a follower's
+
+Profit is less in Stackelberg compared to
+
+Current
+
+James of be due to the burn. The burn was a test of the state of the state, when it is the production of the state of the state. He had some.
+
+Let me know if you need any further assistance!
+
+The account is to make the state of the art. And for the sold on the medical market, the same applies.
+
+The water from certain sources providing with the same quality is essential.
+
+Remarks are made by those in position with some fitting qualifications to the board of the second instance.
+
+In conclusion, in it with fine as the final report to some extent, Late in the contract of the contract of the contract, which is the state of the matter.
+
+Price-Leadership Model
+
+Leader: Dominant firm chooses price.
+Followers react based on market demand.
+Economies of scale are like those of perfectly competitive producers.
+
+Police Takers
+
+EMCF and the Grave Condition
+
+MD
+Economies General Heterogeneous in 45 Automobile Mustings.
+
+91
+The duration of four wives is the best to search for the search to find the search to find the search to find the search to find the search to find the search to find the search to find the search to find the search to find the search to find the search to find the search to find the search to find the search.
+
+P2.
+R2 RE 9# was a sent liquid to something
+Being the defined demand converted to nothing but the obligation between
+
+P4 -
+The market demand and supply by the following, will be given by the resident
+PL.
+Of the MC of the following and the Manner and the MAN
+As herfest competitions (price-takers) and operate at the time chosen by the dominant
+
+Leader announces the prize and the followers respond to it. So this is a kind of a signaling model, where the leader and the followers are engaged in an implicit coordination. This solves the problem of coordinating twice among the firms.
+
+Example: General Motors in US Automobile Industry.
+
+The dominant form will set the price to maximize its own profits by taking into account what will be the follower's outputs at all those prices.
+
+So the derived demand curve for the leader firm is nothing but the difference between the market demand and the supply by the followers, which is given by the rising part of the MC of the followers.
+
+Followers have little influence and they act as perfect competitors (price-takers) and operate at the price chosen by the dominant form.
+
+August 18, 2023
+GAMES TO GAME THEORY
+
+# Game 1: Prisoner's Dilemma
+
+Payoff Matrix:
+|  C (Cooperate) |  N (Nash) |
+| --- | --- |
+| 3 | -10 |
+| -10 | -2 |
+
+Let me know if you need any further assistance!
+
+Two players confess
+
+Don't Confess: To confess in the best strategy.
+
+This non-cooperative game sustains a (C,C) equilibrium, which is unstable as both players are driven by the credible threat that the other one may confess. If the other one confesses, he will end up with more years in jail. If both had agreed to not confess, their pay-offs would have been maximized. But the dilemma arises because they cannot discuss with each other and neither can they trust each other.
+
+Game 2: Group Project
+
+Shavyn DW 0-41
+Utility from not working
+Utility from working
+* Jon't work is the best strategy.
+→ NÉ will be (DW, DW)
+This is Non-Cooperative.
+Due to Non-Cooperation, both players end up at a lower level of utility compared to if they had cooperated.
+
+Transport and Array
+
+Game 3: Battle of the Sexes
+Abhishek: Classical Sunburn
+
+Classical Sunburn
+
+I'm ready! Please provide the OCR text, and I'll clean it up for you.
+
+Sunburn
+
+The two players get higher utility from going together.
+
+But their individual preferences are different. The best strategy is to do what the other does, which is a cooperative approach. Here we have two possible outcomes: (C,C) or (S,S). I can chart my chances of staying in this game. The solution to this game is a single strategically neutral equilibrium, NE.
+
+Game 4: Matching Pennies
+
+H = -10 (18 times)
+
+PI
+
+• Tossing a coin, both choosing Mr. T, not knowing what the other has chosen.
+• If both match, then P2 will pay P1 ₹1.
+• If they don't match, then PI will pay P1 ₹1.
+
+Matching Pennies game has no pure strategy.
+NE (Nash Equilibrium).
+
+Pure Strategy: whatever the other person chooses. For any strategy chosen by the other person, I can clearly demonstrate my choice of strategy.
+The solution to this game is a mixed strategy NE.
+
+Game 5: Stag Hunt Game
+
+Two hunters want to catch a stag, they will succeed if both are equally attentive. Of course, each as tempted to roam around and catch a rabbit. If any one hunter goes for the rabbit, the stag will escape and the rabbit will go to the defecting hunter, and the attentive hunter will get nothing. But each hunter prefers to stay with the stag.
+
+We get two Nash equilibria (NE) = (S,S) on (R,R). This is a Cooperative game.

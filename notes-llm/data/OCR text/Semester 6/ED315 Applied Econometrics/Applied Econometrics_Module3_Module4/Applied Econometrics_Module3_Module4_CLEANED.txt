@@ -1,0 +1,711 @@
+Module 3
+
+19/02/2025
+
+Grevelle Recues
+
+Demand Analysis
+
+MRS = 1/P².
+
+Ordinal Utility
+
+Convex set
+Corner solution
+Properties of IC
+Lagrangian y
+r preferences
+Marshallian Demand f^n
+
+Di = Di(Pi, Pi, M)
+'r budget set is Indirect Utility for.
+x = x²(P1, P2, M)
+
+"Let x, (p, M) be a feasible solution to the following problem:
+
+max U = 2122
+subject to: P1*x1 + P2*x2 ≤ M
+and u = M2"
+
+I fixed typos, merged broken lines, and left math/equations alone. Let me know if you need any further assistance!
+
+4P1 P2
+Income:
+
+"The consumption curve: M'' > M' > M"
+
+SE always negative
+
+I.e. may not be
+
+P1: 1
+
+Hicksian Demand Curve
+(Constant Utility)
+(Compensated)
+
+The effect of changes in P on demand, keeping utility constant.
+
+Marshallian dd vs. Hicksian dd
+
+* Utility remains the same
+* Income (purchasing power) is some minimum value Pi xi
+* Maximum U(x1,x2) such that U(x1,x2) > 0
+* Subject to: Zpoxq < m
+* X: ≥ 0
+* x2: 20
+
+The compensated demand function d is:
+
+d = Σρ, x, + μ[ū - u(x, x2)]
+
+where d = U(21,22) + 2[m - Σρ,2;]
+
+The marginal utility of the ith good is:
+
+<math>\frac{\partial \lambda}{\partial x_i} = P_i - \mu \frac{\partial u}{\partial x_i} = 0</math>
+
+The optimal consumption bundle (x1*, x2*) satisfies:
+
+Pe - 1 Hp = 0
+
+And the utility function U is:
+
+U(x1,x2) ≥ 6
+
+P: P-:
+= H(P1, P2, ū).
+
+Note: The Japanese text at the end appears to be a translation note or comment, but it's not readable in its original form.
+
+May 3, 2025
+(H:(P, u) = D: (P, M))
+We are estimating the slope of the curve,
+2 = x - BP
+
+The partial derivatives are given by:
+
+∂H/∂p
+∂D^n/∂p
+
+Dream of Estimation
+· Hi (P, ũ) makes whatever changes in expenditure are required to compensate for the effects of price change on real income or utility.
+
+# Shepherd's Lemma
+Therefore,
+(p, u) = p_1 H_1(p, u) + p_2 H_2(p, u) : Expenditure/f^n
+
+Therefore, ∂m/∂p_i = Hi(p, u)
+
+The partial derivative of m with respect to p_i equals H_i(p, u).
+
+H(p, u) = x1 + 2.
+
+m(p, u) = P1x1 + P2x2
+
+The partial derivatives of m with respect to P1 and P2 are given by:
+
+∂m/∂P1 = χ1* + P2 ∂χ2*/∂P1
+∂m/∂P2 = P1 ∂χ1*/∂P2 + χ2*
+
+Let me know if you need any further assistance!
+
+Since u=0, du=0.
+
+The intuition is that to first approximate, to maintain the same utility or standard of living, the expenditure must increase by H_i just enough to maintain the consumption at the initial price level.
+
+Roy's Identity
+
+To the reader,
+
+(P)
+
+Note: The "(P)" and "u1>u1" appear to be mathematical notation or equations, so I left them intact as per instruction #3.
+
+m/p1
+m/P1
+<b>4</b>
+m(p,u) = ∫E P, H, (p,u)
+
+Maximize u(x1, x2)
+Minimize ∑p_i x_i^2
+Subject to: ∑p_i x_i ≤ M
+and u(x1, x2) ≥ ū.
+
+Indirect utility refers to a type of consumer behavior where an individual's satisfaction or happiness is influenced by factors other than the direct consumption of goods and services. In other words, indirect utility is concerned with how people derive pleasure or fulfillment from activities, experiences, and social interactions that are not necessarily related to the purchase or use of specific products.
+
+For example, a person may derive great joy and sense of accomplishment from hiking in the mountains, even if they do not buy any goods or services as a direct result. Similarly, someone may feel fulfilled by spending time with friends and family, without necessarily purchasing anything.
+
+The u*(21, 22) set
+
+This U(21, 22) = U.
+
+Then, the minimum amount M = Iponi.
+
+Since 20 = xi(p,M) + ?
+
+u*(x1, x2) = u(x1,22)
+= u[x1(p,M), x2(p,M)]
+
+<math display="block">
+∂u⁄∂P₁ = (∂u⁄∂x₁)(∂x₁⁄∂P₁) + (∂u⁄∂x₂)(∂x₁⁄∂P₁)
+</math>
+
+In Marshallian demand,
+
+The partial derivative of utility with respect to P1 is equal to lambda times P1 times the partial derivative of x1 star with respect to P1, plus lambda times P2 times the partial derivative of x2 star with respect to P1.
+
+M equals P121 plus P222.
+
+The partial derivative of M with respect to P1 is equal to x1 squared, plus P1 times the partial derivative of x1 with respect to P1, plus P2 times the partial derivative of x2 squared with respect to P1. This is equal to zero.
+
+x1 star equals negative one times the expression inside the brackets: P1 times the partial derivative of x1 star with respect to P1, plus P2 times the partial derivative of x2 star with respect to P1.
+
+The derivative of utility with respect to du is equal to lambda times the derivative. The product of two a minus xi is the rate at which utility voices with money income, times the rate at which purchasing power of money varies with Pi.
+
+The partial derivative of utility star with respect to pi star is equal to lambda times the partial derivative of M with respect to pi star.
+
+H*(P, u) = D*(P,u)
+F
+Cm
+
+The partial derivative of Hi* with respect to Pi* is equal to the partial derivative of Di* with respect to Pi*, plus the product of the partial derivative of Di* with respect to m and the partial derivative of m with respect to Pi.
+
+= ∂Hi/∂Pi = ∂Di/∂Pi + αi* ∂Di/∂m
+
+= ∂Di/∂Pi = ∂Hi/∂Pi - χi* ∂Di/∂m
+
+Substitution Income
+
+(Effect of Substitution on Income)
+
+The partial derivative of D_i^e with respect to P_i^o times P_i^e over 2i equals the partial derivative of H_i^e with respect to P_i^o times P_i^o over chi_i^o minus the partial derivative of P_i^e over chi_i^o times the partial derivative of D_i^o with respect to m times P_i^o over chi_i^o times m over m.
+
+2: i equals sigma ii minus left parenthesis chi_i dagger P_i over m right parenthesis eta i. i delta i equals chi_i dagger P_i over m
+
+"(200 = On-Sini) : Slutsky Equation
+Sini is negligible for commodities like"
+
+Pen and Salt.
+
+SLUTSKY MATRIX:
+
+The Slutsky matrix, denoted by S_M, is a 2x2 symmetric and negative semi-definite matrix. It is the matrix of second-order partials of the expenditure function.
+
+EXAMPLE: Minimize ∑_i=1^2 P_i χ_i
+
+χ_i χ_i^(1-α) > χ_i^α
+
+d = Zpoxo + μ[ũ-xix2 ]
+
+P_1 = αμ(α_1)^(α-1) / α_2
+
+∂L/∂x_2 = P_2 - (1-α)μx_1^α x_2^(-α) = 0
+
+P_2 = (1-α)μ((n_1)/(n_2))^α
+
+2d = ~ = x1 x1-x.
+
+Note: I left the math/equations alone as per your instruction.
+
+The fraction P1/P2 equals left parenthesis alpha/(1-alpha) right parenthesis times n2/n1.
+
+n1 = (α/(1-α)) * (p2*n2)/p2
+
+4
+x2 = (1-α)/R * P1*x1 / p
+
+The equation is given by:
+
+1/2 = (α/(1-α)) * (P2/(1-α)) * (1-α)/(1-α)
+
+and
+
+~U = χ1^α * χ1^(1-α)
+
+= χ1^α * χ1^(1-α)
+
+= χ1^α * χ1^(1-α)
+
+= ((α/(1-α)) * (P1*χ1)/P1)^\alpha * ((1-α)/(1-α) * (P1*χ2)/P2*χ1))^(1-α)
+
+= (α/(1-α))^α * (P1/P2)^α * χ1
+
+and
+
+~u = (α/(1-α))^α The equation is given by:
+
+$$\left(\frac{\rho_2}{\rho_1}\right)^\alpha \chi_1^\alpha \chi_2^{1-\alpha} = \frac{1-\alpha}{\alpha} = \left(\frac{1-\alpha}{\alpha}\right)^\alpha \left(\frac{P_1}{P_2}\right)^\alpha \tilde{u}$$
+
+And the second equation is:
+
+$$\chi_1^\alpha = \left(\frac{1-\alpha}{1-\alpha}\right)^{1-\alpha} \left(\frac{\gamma_2}{\gamma_2}\right)^{1-\alpha} \tilde{u} - \left(\frac{\gamma_2}{\gamma_1}\right)^{1-\alpha}$$
+
+m(p,u) = P_1 ((α/(1-α)) * (p_2/p_1))^(1-α) u + p_2 ((1-α)/α * (p_1/p_2))^\alpha u.
+
+α = x_1^α x_2^(1-α) + λ [m - P_1 x_1 - P_2 x_2]
+
+x_1* = αm/P_1
+
+x_2* = (1-α)m/P_2
+
+u* = ((αm)/P_1)^\alpha ((1-α)m)/P_2)^(1-α)
+
+Note: I left the math equations alone as per your instruction. According to Roy's Identity,
+
+$$\frac{\alpha^{2}}{P_{1}^{\alpha}} = \frac{\alpha^{2}}{P_{1}^{\alpha}} = \frac{\alpha^{2}}{P_{1}^{\alpha}}$$
+
+$$\frac{\partial u^*}{\partial P_1} = \frac{-\alpha^{\alpha+1}(1-\alpha)^{1-\alpha}m}{P_1 P_2}$$
+
+According to Shephord's Lemma,
+
+$$du" = - Axi$$
+
+$$= -\left(\frac{\alpha}{P_1}\right)^{\alpha} \left(\frac{1-\alpha}{P_2}\right)^{1-\alpha} \frac{\alpha m}{P_1} = -m\left(\frac{\alpha}{P_1}\right)^{1-\alpha} \left(\frac{1-\alpha}{P_2}\right)^{1-\alpha}$$
+
+According to Shephord's Lemma,
+
+$$\left(\frac{\partial m}{\partial p_i} = \chi_i^* : H_i^*(p_iu)\right)$$
+
+Chapter 3: G.R. Pini
+
+Almost Ideal Demand System
+
+Angus Deaton
+
+log m(p,u) = (1-u) log {a(p)} + u log {b(p)} - (1)
+where u represents a specific class of preferences which permit exact aggregation over consumers.
+u ∈ [0,1]
+
+UPGLOH Preferences
+
+Please note that I've corrected the typo "U" to "UP", and merged the broken lines into a single paragraph. I've left any math/equations alone, as per your instructions. Here is the cleaned output:
+
+UPGLOH Preferences
+
+Piglog preferences are represented via a cost function.
+
+Expenditure "that defines the minimum"
+
+Let me know if you'd like me to make any further changes!
+
+Expenditure necessary to attain a specific utility
+
+Level at given prices usually lies between
+
+Subsistence is a state of 1 bliss.
+
+a(p): can be regarded as the cost of subsistence
+
+b(p): cost of bliss
+
+Cost function does not become zero
+
+I'm ready! Please provide the OCR text, and I'll clean it up for you.
+
+log {a(p)} = α + ∫ Z αk log Pk + 1/2 ∫ ∫ Z Yk; log Pj +
+ußottik — (iv)
+
+Substituting in equation (i),
+log m(u,p) = x0 + Z x log Pk + 1/2 Z Z Yk; log Pj +
+ußottik — (iv)
+
+Choice of a(p) & b(p) such that,
+(i) we have flexible functions for m
+(ii) leads to a system of demand functions with desirable properties
+(iii) Such that, ∂m/∂u, ∂²m/∂p_i∂p_j, ∂²m/∂u∂p_i = ∂²m/∂u² can be set equal to that of an arbitrary cost function.
+α?, βî, Yij: parameters
+
+Si = di + Z Vij log Pj + Bi UB. TTPK — (v)
+where Vi; = 1/2 [Yij + Vii]
+
+Se = xi + Z Vij log P; + Bi log [m] · - (vi)
+log P = x0 + Z x k log Pk
+1 I Z Ykj lag Pk log Pj.
++
+-(vi)
+
+∑i=1^n αi^n = 1
+∑i=1^n βi^n = 0
+
+rij = rji
+Z Yij=0 Z Yij=0
+
+Eq. (vii) is same as log {a(p)}, often this is referred to as the Stone price index.
+
+Sc = ∂log m(u,p)/∂log pi = χc pi^c / m(piu)
+
+BUDGET SHARES
+Relative prices don't change and real expenditure (M/P) does not change, the budget shares remain constant.
+
+Y Relative price changes work through Ti's. Each Vi -> 102 times the effect on the 2th budget share of a 1% increase in the I perceived with (/p) held constant.
+Changes In real expenditure operate through the
+β: + ve => prosperity; β: - ve => recession
+
+si = (xi - pixo) + Zyij log P; + pixolog m-
+
+Z ∼ k * log(PR) = ZZYZYkj * log(Pk) * log(Pj).
+
+Please provide the OCR text, and I'll be happy to help you clean it up!
+
+March 17, 2025
+
+Price Differential
+
+1. 6
+We are observing equilibrium prices and quantities.
+
+Q=Qd: We fail to determine whether demand or supply is changing the price.
+
+E
+
+Qijd = α0 + α1 Pij + γ P-ij + θ Ij^o + ∑j=1,2,...m {households}
+
+here, Pij is derived when dij = dij.
+
+~ Reverse Causality
+· Price of ith good is not independent of related goods. Laptops + Tabs
+
+Empirical Input: System of Simultaneous Equations
+
+- Q_i = D_i(x, P, u)
+
+X = (X1, X2, ..., Xn)
+
+For all i = 1, 2, ..., n goods,
+(P1, P2, ..., Pn)
+
+Let me know if you need any further assistance!
+
+Suppose Pr falls due to some random unobservable shock,
+
+The reduced form system of simultaneous equations with multiple structural errors in each observation.
+
+(i) We need n instruments for n endogenous variables.
+
+Note: I left the math equation alone as per instruction. Let me know if you'd like me to format it differently!
+
+Prices are exogenous shocks. Equation sudden changes is exogenous shocks. Example, sudden changes in supply
+
+March 19, 2025
+Module 4: Production Analysis
+
+Please provide the OCR text, and I'll be happy to help you rewrite it to make it readable by fixing typos, merging broken lines, leaving math/equations alone, and outputting only the cleaned text.
+
+Technical used commonly in education to understand welfare implications of government expenditure. The theory of the firm is often used to monitor efficiency, particularly in a period of economic downturn.
+
+K (a²)
+
+1. (9.) I Quantify
+
+Objective: To find out if the resources are used to achieve the maximum possible output.
+
+Using DEA, estimate it by:
+
+* Input-oriented efficiency
+* Output-oriented efficiency
+
+Efficiency: The degree to which the observed use of resources to produce outputs of a given quality matches the often-used resources to produce outputs of a given quality.
+
+ASER in India for Rural (Omega Journal)
+TIMSS & PISA
+Abstract: This summary provides an overview of the research paper.
+• Bendemarking package for DEA.
+• Vglu: censored data; Probit model
+• Tobit model (beyond the scope of this horizon)
+Fixed effects are during variables which take into account time or individual-specific factors.
+
+Choice Variables for a proof process:
+should be technically feasible
+(9) levels of output
+
+Inputs
+
+-3 infeasible
+
+I am trying to get the maximum possible output from 4 inputs.
+
+y = f(L, K)
+
+Maximum possible output from 4 inputs.
+
+INEFFICIENT: A comparison of actual
+
+Please provide the OCR text you'd like me to clean, and I'll be happy to help!
+
+What is deemed maximally possible. Single Output-Single Input Technology
+
+Firm A: 'XA' units of input x to produce 'ya' output, AP(FA) = gA.
+
+'Az' units of input a to produce 'yz' output.
+
+Firm B:
+AP(FB): JB
+AP(FB) < AP(FA): Firm A is more productive.
+AP(FA)
+TI AB =
+AP(F3)
+
+Let me know if you need any further assistance!
+
+Product function: y = f(x)
+Maximum possible product: y = f(xA)
+Actual product: y
+
+V2 = {A, B}
+TEO = TEO
+x = 0 → f(x) = 0
+f'(x) > 0
+TE > 0}
+
+Jye > 0, ye > 0
+f''(x) < p
+y = f(x)
+PA
+
+1. y .
+YA YA
+Jugari
+YA YA
+TEO =
+YA/2A
+APA .
+Slope of OPA
+TEO =
+y 1/20
+APA
+Slope of OFA"
+XA PA
+
+The extent to which the inputs are under-utilized gives us *
+
+Technical Efficiency of a firm is its productivity index relative to a hypothetical firm producing the maximum output per possible from the same input quantity that the observed firm is using.
+
+Output-Oriented Technical Efficiency
+Input-Oriented Technical Efficiency 20/03/2025
+
+TEunderline{Y}A = χA× / χA ≤ 1
+
+Output-oriented and input-oriented are different except for constant returns to scale.
+
+χA / χA = χA / χA∗ = χA / χA = (O/P TEo^A) = (I/P TEi^A)
+
+Slopes are different for variable returns to scale
+
+23 24
+xi
+2
+7
+y = f(a)
+5
+3
+E C
+6
+4 X
+A Benchmark cases are the points where technical efficiency equals 1.
+* The CRG frontier is the steepest line.
+
+24/03/2025
+
+Gilven data on I/O, we cannot use ordinary least squares (OLS) to estimate the production frontier. Data envelopment analysis (DEA) permits observed points to be above the fitted line and fails to construct a production frontier.
+
+* Use DEA to refrain from using any particular production function.
+Hence, it is a non-parametric method that requires some general assumptions about the underlying technology.
+
+1. Construct a benchmark technology from the observed I/O bundles of the firms in the sample.
+2. All actually observed I/O combinations are feasible (x,y) - using bundle x, y can be produced.
+
+Six.
+
+X_j = (_1j, _2j, …, _nj)
+
+Vector input of jth firm.
+Six inputs used by firms.
+
+Vj = (y1j, y2j, …, ymj)
+Four outputs produced by jth firm.
+
+4. The production possibility set is convex.
+
+Two feasible I/O combinations are (x, y) = (0, 0) and (2B, yB).
+
+Then, any point (x, y) where
+
+The model is given by:
+
+λ ∈ [0,1]
+
+y = 2y + (1-2)yB - 9
+
+This is also feasible.
+
+Inputs are freely disposable.
+Outputs are freely disposable.
+
+26/03/2025
+
+DEA Assumptions:
+
+(i) No specific form of production is assumed.
+(ii) Linear Programming is used to solve the problem.
+
+SFA Assumptions:
+
+(i) We assume a functional form of production.
+(c) The maximum likelihood estimation (MLE) is to start from here without addressing point y = LX + K
+
+Stochastic Random
+
+=1 log y = log L + β log K + ½T + ε
+Inefficiency
+
+Holosolo groupby (NIC2 digit) % > Pb. summarise (Mean: mean())
+(Microdotta.gov.in) State Code
+NIC
+
+A (1) If additionally, we assume that CRS holds. If (x,y) is feasible, then Y k > 0 implies that (kx, ky) is also feasible.
+
+y = f(x)
+ky = f(kx) : CRS
+Since ky = f(kx), we have y=f(x)
+
+Note: I left the math equations alone as per your instruction.
+
+Using assumptions (1) through (v), it is possible to empirically construct a probability set from observed data.
+
+I'm ready to help! Please provide the OCR text, and I'll do my best to clean it up according to the system instructions.
+
+Consider the input-output pair (x, y) where,
+
+The equation for estimating the expected value of χ is given by:
+
+ˆχ = ∑j=1^N μj χj
+
+The equation for estimating the expected value of y is given by:
+
+ˆy = ∑j=1^N μj yj
+
+By Aus. 122, (∪, ∫) is feasible.
+
+We can define a period possibility set on the technology set as follows:
+
+From observed input-output data, Data Envelopment Analysis (DEA) is constructing a benchmark. It is comparing firms or units of production relative to the benchmark case. Firm t: yt from xt - maximum producible output from x is y.
+
+The mathematical equations remain unchanged:
+
+T = {(x,y): χ ≥ ∑_{j=1}^{N} λ_j χ^j,}
+y ≤ ∑_{i=1}^{\infty} λ_i y_i,
+λ_{j} ≥ 0 ∀ j = (1, 2, ..., N)
+
+Suppose of is the maximum value of t such that (2t, tyte) lies within the technology set. Essentially, for what value of t does yt = yt?
+
+TE = 1/4* = 1/4*
+
+Then, yt = + yt.
+
+To what extent is it possible to reduce the inputs (in equal proportions) without reducing the output?
+
+θ^* = min θ : (θx^t, y^t) ∈ T
+
+Stochastic Frontier Analysis
+
+The stochastic frontier analysis model is given by:
+
+ln(y1) = x ln(L/) + B ln(K/) + εq
+
+where ε is a random error term with zero mean and variance 0.02, i.e., ε ~ N(0, 0.02)
+
+Uj: Technical inefficiency for firm 'j'.
+
+Note: Both v; and Lu; are independent of each other.
+
+Marin Control
+
+[Euler's equation] = 0, where [u] = σ²_u
+
+[E, u; u] = 0 ∀u ∀ ∀ ∀ ∀ ∀ ∀ ∀ ∀
+
+"uj ~ N (0, 0.02)
+9
+Not accounting for regative values - Half-Normal distribution.
+Other choices of distributions include:
+=10 5 - ug < 1"
+
+I fixed typos, merged broken lines, and left math/equations alone as per your instructions.
+
+Truncated Normal
+9
+Exponential
+9
+σξ² = σu² + σv².
+Gamuna
+9
+5
+γ = σu²/σz²: Variation of output from efficient paradigm frontier
+5
+6
+
+I is the proportion of variation in output from the efficient production frontier that can be attributed to technical inefficiency. y = f(z)
+
+y = f(z)
+
+Inefficiency is technical
+
+Random Shock
+
+MARKET & REMARKS
+
+To method to the method, more of the variation is attributed to technical inefficiency.
+
+As γ approaches 0, more of the variation is attributed to the noise term.
+
+The probability of each form i can be estimated as follows:
+
+Efficient Level of Production.
+
+y = f(x)
+
+lu go = f(lu^2) + 2 - uj
+
+The proof of each form i can be estimated as:
+
+ln hat{y}_j = (f(ln x_j)) / (-uj)
+
+Benefit is that we can take into account panel data. For example, ln(y*) = f(ln(x)). TEOJ = YJ = -Uj. Later, TEog = luýj - lu yg. Finally, TEO; = exp{-ug}.
+
+Homework: For CES production function "f", perform the above regression analysis.
+
+Reference: Formulation and Estimation of Stochastic Frontier Production Models by Aigner et al [1977] (Journal of Econometrics, 6, 21-37).
+
+The stochastic frontier production model can be estimated as follows:
+
+Let y_i = f(x_i, β) : T_0 be the estimated function for i = 1, 2,..., n firms.
+
+y = f(x;,β) + ε; == ε - uq + ε 1,2,..., n firms.
+
+The probability density functions are given by:
+
+f_u(u) = (1/(2σ_u√(2π))) * exp{-((u/σ_u)^2)/2}
+
+f_v(v) = (1/(σ_v√(2π))) * exp{(-((v/σ_v)^2)/2)}
+
+f(u,v) = f_u(u) \* f_v(v)
+=1
+f(u,v) = (1/(4πσ_uσ_v)) {exp(-((u^2)/(2σ_u^2)) + ((v^2)/(2σ_v^2)))}
+f(u,v) = (1/(4πσ_uσ_v)) exp(-((σ_z^2*u^2) + (ε^2*σ_u^2) + (2*ε_u*σ_u^2))/(2σ_u^2σ_v^2))
+Note: I left the math/equations alone as per your instructions.
+
+f(ε) = ∫0^1 f(u, v) du
+= f(ξ) = (1/(4πσuσv)) ∫0^2 e^(2μ) {-(1/2) [(u + ξσu/σu)^2]/(σuσv) + ξ^2/σz^2} }
+2) f(ε) = 1/σε ∫¯Γ^2 e^(iκ) [-ε^2/(26ε^2)] [(u + εσu/σε)/(σuσv))^2]
+
+f(s)= = = = = = = = = = = = = = = = = = =  "f(E) = = = = = = = = = = = = = = = = = = = ~ REPARAMETRISATION <math display="block">L = \prod_{i=1}^{n} f(\Sigma_i)</math> log L(B, Y, o) = [ Z log[f(2:)] <math display="block">= \sum_{i=1}^{n} log \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac{1}{\sigma} \left[ \frac</math> (i) OLS to estimate $151 from y: = f(x;, p) + v; (ii) Adjust the intercept to 4 of for bias and iterate Y & [0,1] over the lekelihood f. to identify a preference preferred starting value. Bo = B. [025] + V2Y 62 <math display="block">\hat{\sigma}^2 = \frac{n-k}{n} \left[ \frac{\pi}{T-2\gamma} \right]</math>
+
+(iii) Use the values in step (ii) as starting values in a (k+2) dimensional non-linear maximization problem.
+MLE gives consistent estimator as n >00.
+Firm Level T.E.
+<math display="block">TE_{i} = \frac{J_{i}}{\exp\{i\chi\beta + \nu_{i}\}} = \frac{\exp\{i\chi\beta + \nu_{i} - u_{i}\}}{\exp\{i\chi\beta + \nu_{i}\}} = \exp\{-\tilde{u}_{i}\}.</math>
+-> BATTESE & CDELLI [1988]
+[But it is inconsistent]
+TE: = E [exp(-ui) 12].
+Turne

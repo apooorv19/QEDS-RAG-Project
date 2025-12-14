@@ -1,0 +1,310 @@
+Mod-5.<br>Welfare Analysis.
+- Consumer behaviour
+Preferences of consumer
+Hochanges in prèces. (XXX)
+-> introduction of new products in<br>the market.
+(Vaccine in case of malaria)
+Example.
+Impérical différence - Indifférence method
+Analysis
+Diffuence in diffo method
+Treatment pill of XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Treatment
+-t=1 > x
+
+2nd Individual.
+Choose y=3
+ordu
+2 0 19 19 19 19 19 19 19 19 19 19 19 19 19 
+PA -08 P (0.
+0.5 -0.5 TO
+long y = \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
+endent
+Price of B
+charges by
+one unt.
+Wide forgmat (y=)
+wiable
+Person B de
+prob changes
+et only one
+Multinomial density for for one observation <br>fly) = P, y x P2y2 x --- - Pm - Coefficient
+--------------------------------------
+goods its are
+= A P; yj
+e) characteristice
+Zmii Zmii Zmki
+Substitutes
+m -> afternatives
+Probability that individual?
+Z21: Z22i ---
+chooses the jth alterative.
+MULDOS
+Pigo = Pr[yi=j]= Fi (Xi, Zij, O).
+{ should be selected
+Fj(.)
+un a manner
+Zpi --- Zpki
+Limitional
+probabilities lies<br>between 021 and
+form
+freent .
+Sum over j' is 1
+
+Budis
+un ærder } laget model. order
+10
+2 001
+Multinomial logit model.
+-> nultinonial entrone dependent
+long gy
+variable
+
+-----------------------------------
+Wideforg
+Multine
+> choices/categories j=1,2,-- J.
+fly)
+blide format (Bral sheet) characteristic
+alturature y X1° X2° -- Xm° Zm° Zm² Zm² Zm² Zm² Zm² Zm² Zm² Zm² Zm² Zm²
+Prob
+10=1 1
+transpires doors took of
+Choo!
+<math>2i^{\circ} = 2 3</math>
+Υġ
+hong format
+ID y Xi X2i -- Xmi Zpi Zpi Zpki
+1 1/9-1)=1
+robsernation of I't Individual Isleent
+
+mis specification e mos
+JESS YO
+function
+I g we externate the worong functional form.
+form and
+y = do td, x, + d2 x22 + d3 1/33 + 60
+But estimating it without the <br>
+<math>\chi_2^2 > 1/3^2</math> } polynomial form.
+hanges for g
+> 1st problem.
+mis specification -> erroneaus conclusion
+oss sectional
+ebservation.
+Depend upon the final form.
+=1,--, J.
+> Idealification of welfare distributions<br>very heardy en functional form.
+72i, -- Zji)
+---,Z3)
+measure draw back of parametrie
+multinomial logit model x
+n and
+- Kuri Zpi Zp
+to done -
+functional form?)
+
+mis specificat
+→ V (xi, Zji, O) - is a function
+L) of we en
+with known functional form and
+unknown parameters 0.
+y = do to
+4000
+Dijestine to estimate.
+-> B
+en prices of j' commodity changes for j'
+-> 1st
+commo dely
+mis specific
+1=1, --, n --> n cross sectional observation.
+wella
+i -, is choosing j=1, -, J.
+depend
+Pr [ ] Xi = x, (Zi, Zi, -Zi)
+> Idealy!
+= (Z', ---, Z') |.
+orely
+= exp (V(x, Zj,0))
+Measure
+I V (x, zk, 0)
+approac
+nul
+Use MIE to estimate O's
+Can form a likelihood for and extimate a using MIE.
+Home to specify the functional form?)
+
+- Discrete choice models.
+_ own characteristics
+characteristics we face to a specific
+-Parameteric methods for welfare analysis.
+multinomial logit.
+La model of muttinomial choice
+, I mutually exclusive afternatives
+- Vtitty of consumor i from choosing alfunative j
+Uj° = V (Xi, Zji, 0) + & j°
+lly:
+Xi - obsernable characteristère of undividual i j=1,--, J
+-> obsernable characteristies of
+Zic 
+I faced by i.
+Eje -> This is unobsernable part of vility
+→ (Ei, £i2, ---, £ij) lids_acrossi.
+
+<math display="block">CV = m(p^{\circ}, u^{\circ}) - m(p', u^{\circ}) = \int_{P_{i}}^{P_{i}^{\circ}} \frac{\partial m}{\partial P_{i}} dP_{i}</math>
+<math display="block">= \int_{P_{i}^{\circ}}^{P_{i}^{\circ}} H_{i}(p, u^{\circ}) dP_{i}</math>
+u
+1/2
+Quasi luicar<br>preferences
+x,* x,'
+À.
+U=JXI + Xe
+U=f(x1)+x2
+Hlyo
+11
+No
+X2
+Income
+effect
+P
+Nm)<br>H(40).
+Marshallian
+>x1
+demand
+0
+7.*
+2"
+Hicksian de
+
+U° (p°, m°) = U° (p', m°-cv)
+
+Compensating Varienties measure &
+find
+re. (00)
+ch must
+X21
+to ) the
+er increases)
+2 oguivalent
+fixed
+(p', u°)
+mo.
+= <math>m(p^{\circ}, u^{\circ}) - m(p', u^{\circ})</math><br>
+= <math>\int_{P^{\circ}} \frac{\partial m'}{\partial P_{1}} dP_{1} \frac{\partial m}{\partial p_{1}}</math><br>
+= <math>\int_{P^{\circ}} H(p, u^{\circ}) dP_{1} \frac{\partial m}{\partial p_{1}}</math>
+d have fo
+price,
+2m = x1x = H1 (p,40).
+nece
+l'income,
+EV).
+
+1. Compensating Variation measure (80)
+u° (p°, n
+The amount of money which must
+X2A
+be taken awely (or given to ) the
+in order to make him as well off as he were he the initial situation that us (. before price change).
+DE PROPERTY
+2. Equivalent Variation (V1) fixed
+Amount of money which would have to be given A to the consumer when he faces the initial price,
++ (se) + -
+to make him as well off as he new prices (reduced price) with his miteal hours.
+Lucare
+Jus 1/2
+(m°, p°) 39 milially.
+Ellection a
+-) I nome does not change
+demand
+u'(p',mo) = u'(po, mo+EV).
+
+yet = do + d, Freafment + de Post
+Post treatment
+(x3) Treatment x Post
++ y Xit + Eit
+Varuable of Interest
+Impéricul Analysis
+with both Welfare Analysis!
+DEA
+with both
+degit probit
+mutti nomial.
+JA JOINA
+Phod
+changes in Peuce 3 Hicksian de gr
+721
+B
+tx,
+91
+x;
+Pet 2
+12,*
+
+Disoute ch
+Ja anno II a State 12
+EV= m/po, u1)-m(p',u').
+mitually
+= J P8 H. ( P., u') dp1
+own chair
+Charact
+options
+Pi
+the state
+tal
+Parameteric
+-) multi
+H(00)
+- a model
+EV =AP° CBP°
+J mu
+Utitt
+Consumer Burkers
+choosin
+How to capeulate it Empirically.
+Assumption about otherty fr.
+Renealed preference othery.
+一
+727
+6
+
+Pi dm dpi
+= Substitution + Income effect x.
+20
+2P
+Equivalent Variation
+u' (po, mo+Ev) = u' (p', mo).
+Budget line of initial
+prices but with
+additional income
+to Keep Consumer
+hasi luncar
+at vi
+0111:01
+preferences-
+_ Vo
+Budget line
+× > ×1
+U=JXI + Xe
+Dutial Juitial price change price change statio I line
+U=f(x1)+x2
+T
+No
+-> vtility at after price
+VI
+Income
+duop of x, i.e. p. J.
+effect.
+= m-mo.
+additional income you need to
+
+give to more consumes from
+
+you to you with initial
+
+prices.
+
+[Ev = m(p<sup>q</sup>, u') - m(p', u').]
+Marshallian
+demand
+fr =
+Hicksian de
+function

@@ -1,0 +1,336 @@
+Pate 23 Sequencis & socies of this is Pointwise: {fn} -> f; it the sequence nos: {fn (x)} -> f(x) + x. fn(N) -> f(N) unitormly if + E>0 }<br>Such that | fn(N) - f(N) | < E + N>N: Unitom: Fo (x) N is ind. of Limit Theorem It fing: A- Theorem: Continuous my to f & each f is also continuous fn_ ceritormly to then <math>\mathcal{E}_{i}</math> <math>f_{n}(x) = x^{n}</math> ; <math>\chi \in [0,1]</math> <math display="block">\lim_{N\to\infty} f_{N}(x) = \begin{cases} 0 & ; & \text{if } E = [0,1) \end{cases}</math> = F(x) not unisormly. fn(n) -> f Pointwise but fn(w) = x2+ /2 fn(n) -> f(n) = |n| as non fn(x) - F(x) = \( x^2 + 1/2 - |x| \) (\(\frac{1}{2} + \frac{1}{2} - |\chi|\) \(\times \left(\frac{1}{2} + \frac{1}{2} + |\chi|\right) = \frac{1}{2} + \frac{1}{2} - \frac{1}{2} Jn2 + /n2 + |x1 Jx2+ 1/2 + X <math display="block">= \frac{1}{\sqrt{n^2 + 1/n^2}} + \frac{1}{\sqrt{n^2}} = \frac{1}{\sqrt{n^2 + 1/n^2}} = \frac{1}{\sqrt{n^2 + 1/n^2}} = \frac{1}{\sqrt{n^2 + 1/n^2}} = \frac{1}{\sqrt{n^2 + 1/n^2}} = \frac{1}{\sqrt{n^2 + 1/n^2}} = \frac{1}{\sqrt{n^2 + 1/n^2}} = \frac{1}{\sqrt{n^2 + 1/n^2}} = \frac{1}{\sqrt{n^2 + 1/n^2}</math> > |fn(n)-f(n)| < E + n>N; N>
+
+Saathi) of fr (n) } -> f(n) anisomly. But the limit is not differable. Distrible limit theorem: Let [fuln)} be a seg. of frs; fr(n) -> f(n) pointwise but If (n) converge withouty to g(n) then s(n) is son ble and f'(n) = g(n). Expectation: Let X be a +ve x.v. with Support Sx then E(X) = { Sup E(Y) | Y is a v.v. with Y SX and support of y = Sx } Convergence of Random Variables: Convergence of in Distr :- (in Law) es a ret fix's w (i) Let ? Fn(n)} be a seq. of dist the Then ? Fn(x)} is said to conveye in distanto a distante F(n), denoted: <math>F_n(n) \stackrel{Q}{\rightarrow} F(n)</math> it <math>\lim_{n \to \infty} F_n(n) = F(n)</math> for each <math>n</math>. ii) We say that a seq. a r.v. <math>\{X_n\}</math> converges in dist to <math>X_n</math> functed by <math>\{X_n\} \xrightarrow{p} X</math> <math>\{X_n\} \xrightarrow{p} X</math> it <math>\{X_n\} \xrightarrow{p} \{X_n\} \xrightarrow{p} X</math> it <math>\{X_n\} \xrightarrow{p} \{X_n\} \xrightarrow{p} \{X_n\} \xrightarrow{p} \{X_n\} \xrightarrow{p} \{X_n\} \xrightarrow{p} \{X_n\} \xrightarrow{p} \{X_n\} \xrightarrow{p} \{X_n\}</math> Convergence in Probability: - A seq. Xn of TVs. is said to converge to x in probability, denoted:
+
+\[
+\text{Xn P \times X it \times \in P (|\times \times \times \in \text{Nn \times \times \times \times \times \times \times \times \times \times \times \times \times \times \times
+177 10
+BY W
+Page No.
+
+VM (f #g) = 0; F=g almost everywhere
+" u-measure: u(UNi) = EMAi; Air Air Saathi
+Date
+Almost suce convergence: A sof. of r.v. $ Xn } is said
+3
+A P/n= Xn(w) # X(w) = 0
+P({\omega: 100 Xn(\omega) + X(\omega)})
+denoted as X 2.3.> X
+Eg. 1 Let Yn be xvs such that Fy(x) is the CDF or x
+; oc <0 1d
+2 pequerate
+0
+Fn(n) = ...
+1-1/n : 0 < n < n.
+Dist
+14
+Sor
+xシh.
+; X CO
+lim Fn(n) =
+7
+han
+; n > 1
+Eq.2. Let {Xn} be a say of v.v. with unit. dist 4(0,0)
+Does man { xi} converges in law? Hear, { Xi} are iid. rv.
+Heare, / Xi/ are
+Fn(x1) = DF of man {xi}.
+Fn(n) = P
+{ /n < j} = P[x, < y, x, < y, ..., xn < y
+= [G, (y)]"
+P[Xisy]
+) ( 1 du) h ; x 50
+XSO
+;
+100
+; x f (0,0).
+; n = (0,0)
+> =
+.
+X > 0
+;
+X>0
+0
+X < 8
+Z
+X20
+1
+Page No.
+
+10/10/2
+Saathi
+Date ___ /__ /.
+Convergence of Moments: - A seq. of xvs. {Xn}
+Said to converge in <math>\delta</math>-th moment it <math>E[|X_n^{\tau}-X^{\tau}|]=0</math>; <math>E(X_n^{\tau})\to E(X^{\tau})</math>.
+lim
+<math>\chi < 0</math>
+0;
+<math>F_n(n) =</math>
+1-1 julo < x < n , the
+Eq.
+11 23 2×24 16 (10)11 - 12
+Consider a seq. of rvs. [xn] with CDF3 Fn (n)
+Show that Fn(n) > F(n) or Xn -> X in dist
+<math>\not\ni</math> <math>x_n \rightarrow x</math> in moments.
+25 14 WI
+8010
+<math>F_n(n) \rightarrow F(n)</math> pointwise
+n covi
+/n 1
+0
+F(n)
+2
+13: 4 20
+$ E(X) = 0. P(X=0) = 0.
+as fx(n) = } ;
+Xn 7 X E(Xn) = 0xp(Xn =0) + nxp(xn=n)
+Xn
+in moments.
+<math display="block">E(x_n) = 0 \times \left(1 - \frac{1}{n}\right) + n \times \frac{1}{n} = 1.</math>
+-<br>-<br>-<br>-<br>-<br>-<br>-
+> E(Xn) = 1 + n .: E(Xn) → 1 + E(X)
+5.1- /h : N =0
+h: fx(n) =
+/n : 2 n
+0 , x + 2/w.
+7 Xn /> x in moments.
+Page No.
+
+Saat
+Eg. 2. Let X ~ N(0,1) and
+<math>x_n = \begin{cases} x & \text{if } n \text{ is odd} \\ -x & \text{il } n \text{ is even} \end{cases}</math>
+Show that <math>\times n \xrightarrow{O} \times but \times n \xrightarrow{P} \times</math>
+Sim
+Xn ~ N(0,1) +n . x & -x both have same dist
+-X~N(0,1)
+Fn (n) = 0 (n)
+[ Slow: P [ | Xn-X | < E] → 1
+) <math>\Rightarrow P[12 \times 1 < \varepsilon]</math>; <math>n \rightarrow even</math>
+<math display="block">p[\times \langle \varepsilon|_2] + p[\times \rangle</math>
+<math display="block">\Rightarrow P[1 \times 1 < \varepsilon|_2]</math>
+<math display="block">\Rightarrow P \left[ \frac{|x| < \varepsilon_{12}}{2} \right] = \Phi\left(\frac{\varepsilon}{2}\right) - \Phi\left(\frac{-\varepsilon_{12}}{2}\right)</math>
+7 1
+11) P[(Xn-X | < E] = P[0 < E] = 1 3, n => odd.
+P[|Xn-X|<E] -> 1 for subsequence {2m}
+> P[|Xn-x|<E] +> 1 > |Xn >> X
+convergence in dist" (Law)
+- Almost Sure Convergence
+Fage No.
+
+Gaathi
+G. 8. Xn -> X xn -> X
+Led { xn} be a sequence of RVs and X be a x.v.; joint pmf. of (xn, X) 15 given by:
+<math>\frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}{1} \frac{1}</math>
+fxnix = 0
+1/2
+Sola
+> Fn(11) = Fx (11)
+<math>
+\Rightarrow F_n(x) \longrightarrow F_x(n) \text{ or } \times n \xrightarrow{L} \times
+</math>
+However, P[|Xn-X| > 1/2] = P[|Xn-X|=1]
+= P[(Xn,x) E { (0,1), (1,0) }]
+= P[Xn=0, X=1] + P[Xn=1, X=0]
+= 1 + 1 = 1 -> 1 70 as h - 0
+> Xn xx in prob.
+Page No.
+
+Chelyshins
+Saath
+Weak law of large Nos.:- Let <math>\{Xn\}</math> be a soft variables, and let <math>5n = \sum X_i</math>.
+
+We say that <math>\{Xn\}</math> obeys WLLN it <math>E(Xn) = 4</math>,
+
+Var <math>(Xn) = 6n^2 < \infty</math> then
+<math display="block">\frac{1}{h^2} \ge 6^2 \longrightarrow 0 \quad as \quad n \longrightarrow \infty</math>
+<math>\Rightarrow \overline{X}_n - \mu_n \xrightarrow{P} \ddot{0}'</math> where <math>\overline{X}_n = \frac{1}{n} \overline{\Sigma} X_i</math>
+-> How do you decide it a coin is unbiased?
+Examine whether WLIN holds for the following:
+
+(i) <math>P[X_n = -2^n] = 2^{-2n-1} = P[X_n = 2^n], P[X_n = 0] = Fi</math>
+(ii) <math>P[x_n = -\frac{1}{h}] = \frac{1}{4} = P[x_n = \frac{1}{h}] \cdot [x_n]/E(x_n)</math>
+501
+(i) <math>E(X_n) = -2^n P[X_n = -2^n] + 0 \times P[X_n = 0] + 2^n</math><br>
+<math>P[X_n = 2^n]</math>
+<math>\Rightarrow E(x_n) = -2^n \cdot (2^{-2n-1}) + 2^n \cdot (2^{-2n-1}) = 0</math>
+<math>\Rightarrow E(\chi_n^2) = \frac{2^n \cdot (2^{-2n-1})}{1} + \frac{2^n \cdot (2^{-2n-1})}{1} = 2 \cdot 2^{-1} = 1</math>
+> Var (Xn) = 1.
+<math display="block">\frac{1}{2} = \frac{1}{2} \rightarrow 0 \text{ as } n \rightarrow \infty</math>
+Page No.
+
+Saath
+Markov's WLLN: - Let {xn} be a seq. of xv. with
+
+E(xx) = un & van (xn) = 6n² < 0.
+it in [van ( 5 xi)] > 0 as how Men
+Xn-un Po go n > a
+* Chebyshev's WHN is a consequence of Mankov's
+
+WILD OX CW > MW.
+
+Lindebeng. Legy
+Central Limit Theorem: Let {Xn} be an iid. seq. or
+yvs. with E(Xn) = 4 & Vaes(Xn) = 62ca
+0
+Then for any NER,
+<math display="block">P\left|\left\{\frac{\overline{X}-M}{\sqrt{G^2}}\right\}\right| \leq X \longrightarrow \overline{\Phi}(X) \quad \text{as } N \to \infty</math>
+where p(n) is the COF of N(0.1)
+<math display="block">\overline{\phi}(x) = \frac{1}{\sqrt{2\pi}} \left( e^{-\frac{t^2}{2}} dt \right)</math>
+Eq. Let [Xn] be a seq. of r.v.
+Using CLT, evaluate the limit of lim \( \frac{1}{k} = \frac{n^k}{k!} \)
+
+Let \( \times \frac{1}{k} \sim \frac{1}{k!} = 1, 2, \ldots
+\)
+<math>3n = \sum_{i=1}^{n} X_i \sim Pois(n)</math>
+CLT: <math>P \left[ \frac{1}{n} \frac{(3n-4)}{6/\sqrt{5}} \right] \leq \times \longrightarrow \Phi(n)</math>
+Page No. T
+
+(Saathi)
+<math display="block">
+\Rightarrow P \left[ \frac{S_n - n\mu}{\sqrt{n} \in X} \right] \longrightarrow \Phi(n)
+</math>
+where <math>3n - \text{Pois}(n)</math><br>or <math>P[Sn \leq n] = \sum_{k=0}^{\infty} e^{-n} \cdot n^{k}</math>
+<math display="block">\Rightarrow P\left[\frac{1}{\sqrt{n}}\left(S_{n}-n\right)\leq\varkappa\right]\longrightarrow\overline{\Phi}(\varkappa)</math>
+<math display="block">\exists x = 0 : P\left[\frac{i}{\sqrt{n}}\left(5n - x\right) \leq 0\right] \rightarrow \overline{\Phi}(0) = \frac{1}{2}</math>
+8.2 Using CLT, Evaluate <math>\int \frac{1}{\ln e^{-x}} x^{n-1} dx</math>.
+<math>\chi_i \sim \exp(i) \Rightarrow S_n = \frac{h}{2} \chi_i - Gamma(n)</math>
+<math display="block">P \left[ \frac{3n - nu}{n} \leq x \right] \longrightarrow \Phi(n)</math>
+<math display="block">P\left[\frac{3n-n}{\sqrt{n}} \leqslant x\right] \to \Phi(x)</math>
+y P[Sn ≤ nevn +n] → ₫(n)
+Take N=0: =) P[ -] = lim ) = e-n n dx = (0)
+Page No.
+
+Saati CLT is a Generaliza of WLLN: - (CLT > WLLN) # Lindeburg-Levy CLT > tor iid. seq. {Xn} <math display="block">P\left[\begin{array}{c} \overline{X}_{n} - 4 < \overline{x} \\ \hline \end{array}\right] \longrightarrow \overline{\Phi}(n) \text{ as } n \rightarrow \infty \quad \forall \in > 0</math> For Win, ansider P[|\xn-u|<\ell=P[|\xn-u|<\ell=\ell=P[|\xn-u|<\ell=\ell=\ell=\ell=\ell=\ell=\ell=\ell Since O holds & larger n. <u>Xn-4</u> < χ > Z ~ N(0,1) P[|Xn-u| <E] = P[|Z| < E] + in large 1 as n > 0 + E>0 Lyapunov's CIT: Let <math>X_1, X_2, \dots</math> be ind. Seq. of <math>YVS</math>; with mean <math>F(x_i) = u_i</math> and variation <math>VAH(X_i) = 5^2</math> Let <math>F[|X_i - u|^{2+\delta}] < \infty + i</math> to Some S>0 then Si2+8 = E[[Xi-4]2+8], 62 = = = 6,2, and P2+8= = 5, and <math>\lim_{N\to\infty}\frac{1}{6}=0</math> > \( \frac{\sigma}{1} \) \( \frac{\sigma}{1} \) \( \frac{\sigma}{1} \) \( \frac{\sigma}{1} \) \( \frac{\sigma}{1} \) \( \frac{\sigma}{1} \) \( \frac{\sigma}{1} \) \( \frac{\sigma}{1} \) \( \frac{\sigma}{1} \) \( \frac{\sig °> Z ~ N(0,1) V = 02 Page No.
+
+Caathi
+Date ..... / ____ /
+# Inequalities :-
+Markov Inequality: - Let X be 8v. with Intinite
+expectation, i.e., <math>E(x) < \infty</math> then for any seed no. a
+<math display="block">P[x \neq a] = \frac{E(x)}{a}.</math>
+Proof: - petine <math>a \times v</math>. <math>y = \begin{cases} 9 \\ 0 \end{cases}</math> it <math>x \ge a</math>
+> X≥y
+1 - 4.
+1 - 3 1 4 -17 cm
+> E(X) > E(Y)
+No 12,
+E(Y) = a P[x>a] + 0. P[x<a] ∈ E(x)
+<math>\Rightarrow P[x \geqslant q] \leq \underline{E(x)}</math>
+In general for any oreal valued thing
+14
+<math>P[g(n) \geq a] \leq \frac{E[g(n)]}{a}</math>
+eg. Find the man' no. of a fair die DU such Bor that probability of at least one 6 is <math>\geq \frac{1}{2}</math>.
+24
+- 5
+Let the die is rolled n-times. [x=#6]
+X ~ Bin (n, 1/6).
+> P[x = 1] < E(x), = 1/6 (a = 1)
+x = 1-P[x<1] = h<br>
+= 1-1=2 n = h>5
+Page No.
+
+Saath
+P[x >1] > 1
+(a=1)
+<math display="block">\frac{1}{2} \leq \frac{n}{2} \neq \left( n \geq 3 \right)</math>
+Cheby shev's Inequality '-
+* #
+For a r.v. X having finite mean & vasuance; i.e. <math>E(x) < \infty</math> and <math>V(x) = 6^2 < \infty</math>. Then
+P[|X-u| > to] = 1/2. + +>0
+Proof: <math>P[|X-\mu| \ge t_{\epsilon}]</math><br>= <math>P[(X-\mu)^2 \ge t^2_{\epsilon}]</math>, <math>P[X \ge a] \le E(X)</math>
+<math>X = (x-u)^2</math> , <math>q = t^2 6^2</math>
+<math display="block">\Rightarrow P[(X-u)^2 \ge t^2 6^2] \le \frac{E[(X-u)^2]}{t^2 6^2} = \frac{1}{t^2 6^2} = \frac{1}{t^2}</math>
+« P[|X-u| ≥ 6+] < 1/2.
+4 Chernott's Bounds: - For any r.v. X, with MGF
+> P[x = a] \( \) e^{-a_3} M_{\chi}(s) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \) \( \
+Proof :-
+<math>P(x \ge a) = P[e^{2x} \ge e^{2i}] \le E(e^{8x})</math>
+= e-89 Mx
+089
+Page No.
+
+Saathi)
+· Cauchy - Schwarz Inequality: - For any 2 m. X
+E(XY) = [EUSEU2], where equality holds when X = 2Y, box some anstant a.
+Prot: Let Z = (x - xy)2 for an arbitrary ~ ER
+Z > Non-negative x.v.; E(Z) > 0.
+> E(z) = E(x²) + ~² E(y²) - 2~E(xy) > 0 + ~€R
+Let <math>f(x) = E(z)</math>, Then <math>f(x) \ge 0</math> <math>\forall a</math>.
+Let <math>\alpha = \frac{E(xy)}{E(y^2)}</math>; given <math>E(y^2) \neq 0</math>.
+<math display="block">E(Z) = E(X^{2}) + 2 E(XY)^{2} + E(XY)^{2} + E(XY) + E(XY)</math>
+<math display="block">E(Y^{2}) = E(X^{2}) + 2 E(XY) + E(XY)</math>
+<math display="block">E(Y^{2}) = E(XY) + 2 E(XY) + E(XY)</math>
+<math display="block">E(Y^{2}) = E(XY) + 2 E(XY) + 2 E(XY) + 2 E(XY)</math>
+<math display="block">
+\frac{1}{E(x^2)} = \frac{E(xy)^2}{E(y^2)} > 0 \Rightarrow E(xy) \leq \sqrt{E(x^2)} \cdot \frac{E(y^2)}{E(y^2)}
+</math>
+Using Cauchy-Schwarz inequality, show that <math>|f(x,y)| \leq 1</math>.
+
+For any pair of <math>yy</math>, <math>x \in y</math>.
+<math display="block">S(x,\lambda) = \frac{e^{x} \cdot e^{y}}{e^{x} \cdot e^{y}} = \frac{e^{(x-x)}(y-x^{y})}{e^{(x-x)}}</math>
+<math display="block">= E\left[ \left( \frac{x-u_{y}}{6y} \right) \cdot \left( \frac{y-u_{y}}{6y} \right) \right]</math>
+<math display="block">\exists |S(x,y)| = |E(vy)| ; y = \underbrace{x - ux}_{G_X}, y = \underbrace{y - uy}_{G_Y}</math>
+<math display="block">\exists |S(x,y)| = |E(vy)| ; y = \underbrace{x - ux}_{G_X}, y = \underbrace{y - uy}_{G_Y}</math>
+Page No.
+
+Saathi
+Date
+<math display="block">\frac{E(X-u_x)^2}{6x^2} \cdot \frac{E(Y-u_y)^2}{6y^2} = \sqrt{\frac{5x^2}{5x^2}} \cdot \frac{5}{8}</math>
+¥ 69.
+Let X~ Bin(n,p). Using Chercost's bounds find an lower upper bound for probability P[X > an];
+Evaluate the bound for <math>p = \frac{1}{2}</math> & <math>\alpha = \frac{3}{4}</math>.
+
+Then compare this bound with markov & Chebyshev.
+X~Bin(n,p); Mx(t) = (1-p+pet) n
+> P[x > a] < e-ta [x-p(Mx(t).)
+> P[x > a] = e-ta[1-p+pe+]" , + >0
+Cheunott's Bounds ( ) 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+P[x >a] & e-at Mx(t) + +>0
+(1). [x ≥ a] \ min e-at Mx(t). (1). (1).
+> P[x > a] < min e-at (1-p+pet) n
+1918 1916
+d [e-at (1-p+pe+)"] 10 = 0 mg
+= -4 e-st (1-p+ pet) + ne-st (1-p+pet) n-1 =0
+= q(1-p+ pet) = n(1-p+ pet) x-1 x(pet)
+<math display="block">\frac{1-p+pe^{+}=n}{\sqrt{na}}(pe^{+})</math>
+o the at
+1 + 1 et = n (et)
+5 1
+<math display="block">\frac{1}{\sqrt{2}} = 2\left(\frac{n}{\sqrt{n}} - \frac{1}{\sqrt{n}}\right) \Rightarrow e^{+}\left(\frac{n}{\sqrt{n}}\right) = \frac{1}{\sqrt{n}}</math>
+
+Saathi
+1
+p et = 2n -1 = and h-a = and
+<math display="block">e^{\pm} = \frac{\alpha}{1-\alpha} = \frac{3/\pi}{1-\alpha} = 3.</math>
+<math display="block">e^{-4\pi}/\pi (1-p + pe^{\pm})^{n}</math>
+<math display="block">P[X \ge \alpha n] \in \alpha(\frac{1}{3})^{n}(\frac{1}{2} + \frac{3}{2})(e^{\pm})</math>
+<math>\leq \left(\frac{1}{3}\right)^{\frac{3}{4}} \left(\frac{2}{2}\right)^{\frac{1}{4}} \leq \left(\frac{16}{81}\right)^{\frac{1}{4}}</math>
+her
+- Markov's Bound:
+P[X > 3 n] & E(X) = xp =
+<math>\frac{1}{2} = \frac{3}{13}</math>
+Chebyshev's Inequality:-
+
+<math>|f| \times - \frac{n}{2}| > t \sqrt{n} \le \frac{1}{t^2}; t > 0</math>
+<math display="block">\frac{1}{2} \left| \left| \left| \left| \left| \left| \left| \left| \left| \left| \left| \left| \left| </math>
+= <math>2P\left[X - \frac{n}{2} \ge \frac{n}{4}\right] = 2P\left[X \ge \frac{3n}{4}\right]</math>
+<math display="block">\frac{1}{2} \left[ \left[ X > \frac{3}{4} \right] = \frac{1}{2} P \left[ \left[ X - \frac{N}{4} \right] > \frac{N}{4} \right] \leq \frac{1}{4^2} \leq \frac{1}{2} \left( \frac{X}{4} \right)</math>
+<math display="block">
+\begin{array}{cccccccccccccccccccccccccccccccccccc</math>
+=0
+3
+
+Saat
+* Borel - Cantelli Lemmas :--
+First lemma: let {An} be a seq. ot events,
+where an individual event. An hoppens with propability P(An). It the sum of probability is tinite i.e. <math>\Xi</math> P(An) < <math>\varepsilon</math>0 their probability that intinitely many of them occur is 0.
+P[lim sup An] = 0.
+Second Lemma: Suppose it EAn3 are independent and sum of prob. 18 Intinite he = P(An) = = then P[1im Sup An] = 1; or prob. that intinitely
+many of Anis Occur is I
+Eq. Consider an to be a seq. ob games, where prob. of winning <math>\approx 2^h</math> is <math>\frac{1}{2^h+1}</math>.
+
+E (suppces) = <math>\frac{2^h}{2^h+1} + \frac{(-2^h)}{2^h+1} = 0</math>
+Let An = losing in hth-game:
+P(AM) = 1 > = P(Am) = = = 1 < 00
+· P[lim Sup(An)] = 0 *
+Page No.

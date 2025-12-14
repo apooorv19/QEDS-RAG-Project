@@ -1,0 +1,32 @@
+# --- Core ---
+python-dotenv
+numpy
+scikit-learn
+
+# --- Streamlit UI ---
+streamlit
+
+# --- LangChain core & integrations ---
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-ollama
+langchain-chroma
+
+# --- Vector DB ---
+chromadb
+
+# --- LLM & embeddings ---
+transformers
+sentencepiece
+accelerate
+safetensors
+huggingface-hub
+
+# --- Cross-Encoder (Reranker) ---
+sentence-transformers
+
+# --- Optional but recommended ---
+tqdm
+requests

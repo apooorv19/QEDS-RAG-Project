@@ -1,0 +1,446 @@
+26/09/2024
+
+y; = δ0 + δ1 Z; + η; : Reduced Form Equation.
+Slow = Cor(21, y2)
+Var(Z;)
+
+Now,
+β<sub>11</sub>ν = cov(ξ;, y;) / var(ξ;) = δ<sub>10LS</sub> = 
+Cov(ξ;, x;) / var(ξ;) = θ<sub>1</sub>
+
+Local Average Treatment Effect (LOCAL LATE) Estimator
+Explains only some part of X.
+
+Jill here in Mid-Semester
+
+PCI = Bo + BIPR + OC + Ei
+PR = $ + $ log Mortality &C + 20th Stage
+Also run Robert S. E.
+
+Two-Stage Least Squares (2SLS) can help better understand the intersection of instrumental variables.
+
+The 2SLS estimator used only the fitted values of the endogenous regressors for estimation. These fitted values were based on all variables used in the model, including the excludable instrument. And as all of those instruments are exogenous in the structural model, what this means is that the fitted values themselves have become endogenous too.
+
+IV reduces the variation in the data, so there is less information available for identification, and what little variation we have left comes from only those units who responded to the instrument in the first place. This will be critical later when we relax the homogeneous treatment effects assumption and allow for heterogeneity.
+
+18 = $ + $ white 2 86 x 2
+13.5 in the state of
+
+26/09/2024
+Measurement Error
+
+PRF: Y = x + B * X + v; - (1)
+Xi = Xi + ni ; Xi: True Value - (ii)
+
+But we estimate X, which involves ever
+You are XIII
+
+1 = 7 + 8 * X; + v; -(iii)
+Regressing Yo on X9 instead of equation (9) when
+Collar The
+equation (ii) holds.
+
+EXAMPLE:
+Exp. on education = α + β(Family Income) + νi - (i)
+Exp. on education = 7 + 8(Reported income) + 2; -(iii)
+Reported Income = Family Income + N; — (ii)
+
+ASSUMPTIONS:
+
+(ii) cov(xi, vi)=0
+(i) cov(v;, n;)=0
+(i) Classical errors in variables
+cov(X2, n; )=0
+
+OLS on equalities)
+
+S = cov(Yo, Xo)
+vaz(Xi)
+= Cov(x + βX; + v; , X; +n; )
+var(X; + ) + cov (X; n; ) + var(n;)
+= β \frac{var(X_i^*)}{var(X_i^*) + var(N_i)} = βλ ; 0 < λ < 1
+
+چ د=
+(cov(xi, ni)=0
+in the investment of
+cov(Xi, n;) = cov(Xi+ni, ni)
+= var(n;) = σ_n^2 > 0
+
+2: Attenvation Bias : By what fraction, we are under or over-estimating β.
+2: (N, N) 200 (III)
+Cer (X, 18)=0
+
+How is Instrumental Variable Helpful?
+
+Instrumental variable Zi is helpful when:
+
+Zi = Xi + 8
+- Cov(X, *) = 0
+- Cov(M, sq) = 0
+
+Measurement over an instrument Zi (E:) is uncorrelated with the measurement error observed in X (n;).
+
+Regression Equation: Y ± V + βZ + ε
+
+Reduced Form:
+
+<math>\hat{s} = cov(Y_i, Z_i)</math>
+
+Var(Z) - Cov(α+βx, x + ε)
+
+Let me know if you need any further assistance!
+
+The equation is:
+
+= β ⋅ ∂(X_i^*) ∂(X_i^*) + ∂(ξ_i^*)
+
+First-stage: X1 = 0 + 0, Zi + e;
+
+The estimated parameter is:
+
+ˆθi = cov(Xi, Zi) / vn(Zi) = vor(Xi*) / vnr(Zi)
+
+Note: Con (21, 77) = 0.
+
+SIMULTANEOUS EQUATION
+ln 9 = ~ + Bo ln pp + Vi
+E[v:] = E[n:] = 0
+lu 9: = xs + ps lu p; + n:
+βD, βs: Elasticity of Demand & Supply
+
+In equilibrium,
+ln q_i = (β_0 α_s - β_s α_0 + β_0 η_i - β_s ν_i) / 2
+BD - Bs
+lu p: = α_s - α_b + η_i - χ;
+BD - BS
+
+If interested in estimating SS curve, we need an instrument that changes dd curve.
+For identifying BD,
+cov(Zi, n;) + 0
+127 141
+cov(Z:, v:) = 0.
+
+Consistency of IV Estimators
+
+ln q_i = (β_D α_S - β_S α_D) / (β_D - β_S) + (β_D η_i - β_S ν_i) / (β_D - β_S)
+
+ln p_i = (α_s - α_D) / (β_D - β_s) + (n_i - ν_i) / (β_D - β_s)
+
+» ln q; = TI1 + θ1
+
+Z' x eg^ 62,
+
+Z'Y = ETRA + Z'S
+=1 ln p; = TT2 + θ2
+
+The equation βous = (x'x)(x'y) represents a linear regression model. The residual term plin (βols - β) can be expressed as plin (∑(X^TX)/n) plin (∑(X^T)x/n). Since the covariance between X and E is non-zero, we have plin (∑(X^TEXE)/n) ≠ 0.
+
+The pli of (X^T*X)/n equals the inverse of X^T*X divided by n, which is a sum over all possible values of x, where each term is non-singular.
+
+The plim of $\left(\frac{z^{7}x}{n}\right)$ is not equal to 0.
+
+Z satisfies the following conditions:
+
+cov(z, x) is not equal to 0
+cov(z, z) is equal to 0
+
+The plim of $\left(\frac{z^{T}\xi}{n}\right)$ is equal to 0.
+
+Z and X are related by the equation "(i)" which can be written as:
+
+ZTY = ZT(XB+E)
+= ZTXB + ZTE
+
+Taking expectations on both sides, we get:
+
+E[ZTY] = E[ XB ] + E[ZTE]
+= E[(ZTX)]
+= E[(ZTX)-1(ZTXB + ZTE)]
+= E[(Z'X)-1(Z'X)B+(Z'X)-ZTE]
+= E[(ZTX)-1ZTE]
+
+Since the expectation of the product is equal to the product of the expectations, we have:
+
+E[\beta_{IV}] = E[(ZTX)]
+
+Substituting this back into the original equation, we get:
+
+EBIV]=B.
+
+Therefore, IV estimates are unbiased.
+
+βIV - β = (ZT X)-1(ZT E)
+- E = Dukoly
+
+The state of theme on Later 2003
+plin (∩(∩(∩(∩(∩(∩(∩(∩ the state of theme)
+
+Therefore, (∩βIV - β) → 0 as n → ∞
+i shows that
+Therefore, ∩βIV is CONSISTENT.
+
+FRE: YP =
+・九丁、、、、、 はかきも
+[Bog: 5] (1 '1-) = 6
+
+-2 10) 14 : prior 90 | 90 = 92 | 2000000000000000000000000000000
+
+CH( St. Etrs) #0
+(1) Autoconstance
+(ii) Autocorrelation Coefficient
+
+Module 3: Time Series Analysis - Random variables across periods of time (ordered in time and uni-directional)
+
+PRF: Y = β0 + β1 × t + β2 × t + β1 × t^4
+
+t = {1, 2, ..., T}
+
+i = India
+
+The equation is:
+
+∑(νt) from t=0 to ∞
+
+Note: I left the math/equations alone as per your instruction. The autocovariance of a stationary process {Et} on (-∞, ∞) # 0 (9) is defined as cov(Et, Et+s), S ∈ Z. When S = 0, Y0 = E[Et, Et] = E[Et^2] = σE^2.
+
+ii) Autocorrelation Coefficient:
+
+ρS = cov(ξt, ξt-s) / var(ξt)
+= YS / Y0
+
+ASSUMPTION:
+
+(Ar(2))
+
+E[Σt, Σt-2] = E[Σt, Σt+2]
+
+Ys and Is are symmetrical in S. It does not depend on the direction of lag(S), but only on its value.
+
+u ~ N(0, -2)
+
+Et = 9Et-1 + at
+= p(Et-2 + ut-1) + ut
+= g2Et-2 + gut-1 + ut
+= p2(p2t-3 + ut-2) + fut-1 + ut
+= p3t-3 + p2ut-2 + fut-1 + ut
+
+Et = Zprut-r
+
+E[Σt^2] = E[ut^2] + ∫0^2 E[ut-1^2] + ∫0^4 E[ut-2^2] + ...
+
+= ou + p2ou + fou + ...
+
+E[ξ^2] = σu^2 / (1 - ρ^2) = σξ^2.
+
+E[Σt, Σt-1] = E[∫0∞ fuτ-r] = DE[(ut + gEt-1), Et-1] = 1
+E[2t, 2t-1] = 10-2
+
+[
+var & E & E1 & E & E1, E1 \\
+E & E1, E1
+]
+[
+E & E & E1, E1 \\
+E & E & E1, E1
+]
+[
+E & E & E & E1, E1
+]
+
+Σξ ∫ξ² ∫ξ² ∫ξ² The integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2, of the integral from xi to 2 is...
+
+The sum equals sigma xi squared.
+
+Ordinary Least Squares (OLS) estimation from n observations.
+
+<math>\hat{\beta}_{ols} = (X'X)^{-1} X' Y</math>
+
+The expected value of the difference between the Poisson estimate and the true value, E[pois - B], is 0. This indicates that the OLS estimator is unbiased.
+
+The variance of the Poisson estimate, Var(pois), is equal to:
+
+E[(pois - p) (pois - p)] = (X'TX)^{-1} X' T E(EET) X (XTX)^{-1}
+
+However, this variance is not equal to σ²∞(XTX)^{-1}. Therefore, the Poisson estimator is inefficient.
+
+"For large n, f is sample autocorrelation"
+
+"For large n, coefficients from residuals (iii) The t-statistic and F-value give misleading results nearly."
+
+Durbin-Watson Test: Consequences of Ordinary Least Squares (OLS) under Autocorrelation
+
+d = τiX
+
+(i) High R²
+
+(ii) The probability of committing a Type I error increases as ξ (et-et-1)² et = yt - βous xt.
+
+Ho: β = 0 => εt = 4t (lack of further information)
+
+Ha: β ≠ 0 => εt = βεt-1 + 4t
+
+There is no out-of-correlation in the data.
+
+7 = 8x + Et
+τ-2 t=2
+Σet εt-1
+Σet ετ-1
+
+1881 You Have
+
+Durbin-Watson calculated two statistics,
+dealing with such that data and duration,
+Test is inconclusive
+Ho: μ=0
+REJECT Ho
+RETAIN HO
+Nature of Ha
+Ha: σ>0
+Since a difference in data and duration,
+data > duration
+Ha: PCO
+data > (4 - duration)
+data < (4 - duration)
+data < di
+data > duration
+Ha: 1.70
+(Two-Tailed)
+data > (4 - duration)
+data < (4 - duration)
+
+Critical values were calculated based on (d, σ) obtained by D-W based on different X's.
+
+Let me know if you need any further assistance!
+
+Estimation of Autocorrelation
+
+PRF: Yt = Po + P1 Xt + Et
+Et = 1 Et-11 + Ut
+
+Cochran-Orcutt Procedure
+
+[Iterative Process]
+
+(6) Apply OLS on PRF and obtain residual vector E.
+Estimate f by hatf1 = Σt=2∞ E_t E_{t-1} / Σt=2∞ E_{t-1}
+in which hatf1 is a consistent estimator of f.
+
+hatf12Yt-1 = hatf122β0 + hatf121βX Yt-1 + hatf12Yt-1
+
+(i) (Yt- Î, Yt-1) = Po(1- Î,) + P1(Xt- Î, Xt-1) + Ut-
+
+Apply OLS on equation (i), to get estimates of β0 + β1 → hatβ01 + hatβ11.
+Calculate hatf2 = Σt=2 E_t E_{t-1} / Σt=2 E_{t-1}
+
+Note: I left the math/equations alone as per your instruction.
+
+Apply OLS on equation (ii) to get estimates of β0 and β1. This process is repeated until convergence is achieved, i.e., iterate the process till two successive estimates are nearly the same. So stability of the estimator is achieved.
+
+A time series is a sequence of random variables, ordered in time. For example, GDP of a country across periods of time. Realization of an outcome from a set of data points that vary over time.
+
+Inflation = α0 + α1 Unemployment + μ1.
+
+It is a Static Model; dependent and independent variables are contemporaneous. Therefore, the response is instantaneous.
+
+Yt = α0 + α1 × t-1 + α2 × t-2 + γ Zt + εt
+
+It is a Lag Model.
+
+Under Stationary Time Series, the time series has a tendency to oscillate back to its mean.
+
+White Noise [purely random process]
+A stochastic process is purely random (or W.N.) if it has zero mean, constant variance (√2) and Strially uncorrelated.
+
+<math>U_t \stackrel{\text{i.i.d.}}{\sim} N(0, σ_u^2)</math>
+E[ut]=0
++ var[Ut] = 0 (1) +1314 = 00 The 12 10 The 12
+cov(ut, ut=s) = 0
+
+COMPONENTS OF TIME SERIES
+17/10/2024
+
+(i) Trend Component (Tt)
+Long run movement of time-series data
+
+(ii) Seasonal Component (St)
+Repetitive upward or downward movement (or fluctuation) from the trend that occurs within a calendar year.
+
+(iii) Cyclical Component (Ct)
+Fluctuation around the trend line that happened due to macro-economic changes such as Recession, Unemployment, etc.
+- repetitive pattern in the data
+- but time series reveals longer-term rehalitions more than a year
+
+Random Component (It)
+
+* White Noise: Random uncorrelated changes
+* ADDITIVE METHODS
+Yt = Tt + St + Ct + It
+(Yt-Tt): Detrended Series
+
+# MULTIPLICATIVE METHOD
+Yt = Tt * St × Ct × It
+(T+ ): Multiplicative Detrended Series
+
+- Stationary Stochastic Process
+
+A stochastic process is said to be stationary if its mean and variance are constant, and the value of covariance between two time periods depends on the distance or gap or lag between the two time periods, and is not the actual time at which the covariance is computed. & WEAK STATIONARITY
+S=1: Cov(yt, yt-1) = cov(yt-1, yt-2)=...
+· E[yt] = p
+· var[y+] = 0.5²
+
+Commence Summing
+
+A state of the art. They matter.
+
+Auto-covariance of Y_k = E[(y_t - μ)(y_{t+k} - μ)]
+
+Climate Change and Remote Sensing
+
+- Auto-Regressive Process
+[AR(1)] PROCESS
+y_t = α_1 y_{t-1} + ε_t; ε_t ∼ ωN(0, σ_ε^2)
+[AR(p)] PROCESS
+y_t = α_1 y_{t-1} + α_2 y_{t-2} + … + α_p y_{t-p} + ε_t
+
+Random Walk without Drift
+α_1 = 1
+
+= t:1: y_1 = y_0 + ξ_1, y_2 = y_1 + ξ_2 = y_0 + ξ_1 + ξ_2
+{y_T = y_{T-1} + ξ_T = y_0 + ξ_1}
+{y_0 : already realized} not random
+E[Y_T] = E[Y_0] + Z E[ε_t] = Y_0
+
+Var[y,] = E[(y,-E(y,))2] = E[y,2] = E[(y,+)= [7/2]^2]
+E^(+3) = = (+3) + (+8) + (+1) = (+1)^=
+
+Differenced to, d-1=3,
+
+Zt = yt-yt-1 = Et ∼ WN(0, 02)
+
+First difference
+· Difference Stationary Process (DSP)
+
+If a non-stationary time series can be made stationary by differencing d times, we say the series is integrated to order 'd' and write I(d).
+
+y_t ∼ I(1) = y_t - y_(t-1) ∼ I(0)
+→ I(0): Stationary Time Series
+
+y_t ∼ I(a) = i(y_t - y_(t-1)) - (y_(t-1) - y_(t-2)) ∼ I(0)
+
+Kandom
+Walk With Drift is non-stationary.
+
+t=1:
+y = ~ + y + -1 + E+
+J1 = 00 + 40 + 21
+
+92 = do + y1 + 20 = do + do + y0 + E1+ E2
+= 2 do + yo + E1 + E2
+
+Y == 2 tx0 + y0 + 2 &+
+E[y_T] = αο Z ξ(t) + ξ(y_o) + ξ(ξ_t) = Tαο + ξ_o
+
+Deterministic Trend
+
+Yt = x0 + x1 * 2t
+y = x0 + x1*t + y^(-1) + 2t

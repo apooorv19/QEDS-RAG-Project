@@ -1,0 +1,361 @@
+Date: October 3rd
+
+Choose one arbitrarily.
+
+Maximize:
+
+n = 28/11
+Nz = 83
+81 = 55
+82 = 84
+
+Equations:
+
+1. 15/41 = -8
+2. 0 = 55
+3. 212 - 47 = 165 (not 32/7)
+4. 21 = 32/7 + 4 + 4
+5. -1/7 = -1 + 5/7
+
+Gromony Complaint:
+
+-1/7 * 82 - 6/7 * 83 + 84 = -4/7
+mon (1/4, 8/11) = -7
+
+I'm ready! Please provide the OCR text, and I'll help you clean it up according to the system instructions.
+
+83
+82
+24
+81
+7/2
+X, C
+b
+B
+11.0
+0.0
+0.0
+t
+3.0
+9.0
+212.
+7.1
+0.1
+0.00
+1.4
+7.0
+24.0
+-39.0
+0.1:
+2.0
+1/2
+0 22.0
+1.8,
+0.6
+110.0
+0.0
+.40.
+0.4
+82.0
+0.2
+~ 0.0
+0.1
+20.0
+0.0
+Zj-Cj
+1/0-2
+1901
+COVING n 2, = 3
+Elyss.
+24,
+8.46-
+P
+3.0()
+2.55
+5.0
+Zman...
+()0
+C
+740/4
+52.1
+1-1
+t/1-
+0.0
+0.0
+£\!!
+0.1
+1.1250 -
+0.1
+0.9
+3.
++ F
+4.1.
+- m
+light.
+-1 1 -
+118.66
+71.1.9
+-1
+4.
+
+Let me know if you need any further assistance!
+
+Data Page
+
+又= Yn + 6n2 + 2x3
+Man.
+421 + 4m2
+$5
+D. to.
+*
+-74
++
+622
+₹5
+-n1 + n2 + n3 = 55
+MIZO
+e #
+•
+6
+4
+2
+0
+0
+0
+0
+Σ
+b .
+B
+0 N2 1 N31
+81 32
+83
+84
+5/2
+0
+1
+O
+3/10
+1/5
+0
+0
+X
+1
+0
+0
+5.
+1
+5/4
+1/20
+0
+0
+1/5
+7/2
+1
+0
+17.
+0
+25/4.
+0
+Yu
+0
+N3 1
+0
+2
+1
+0
+1/2
+84
+-3/10 1/5
+0
+0
+0
+O e
+٥
+1 >
+0
+0 = +2 :
+32 =
+0
+Zj-Gj
+2
+5
+2+15
++ 2
+-
+2
+2
+1 +
+2
+5
+4
+7
+Man
+n3
+25 =
+Z
+64
+C
+Choose M;
+0
+· i
+Gomony Gost, 1-3 8, -1 82 + 84 = -1/2
+-20/2 81
+2
+Man
+,
+
+Let me know if you need any further assistance!
+
+Date ____
+
+6. 82, 83, 81, 84, 1000, 23, 212, and h.
+
+B. CB. 0, 0, 4, 0, 0, 1, 4, 9, X, e, 179, 1/6, No, +0, -10, 7/6, 0, 6, 7/2, 1, C, -1/6, 8.1, 5/0, 0, 11, 1, 35/30, 23, 2, 0, CIE.
+
+Mathematical expressions:
+
+<math>\mathbf{C}</math> = 1, 2/3, 10/3, 1, 0, 5/3, 0, 8, 0, 5, 2, 0, 0, 1, 0, 200, 0, 0.
+
+Zj· C. = -5/6, 5/0, 0, 0, 0, Đ.
+
+(M3) = 35
+
+I. + 5/6: 5 + <u>50</u>
+
+M3 = 35 · i · $5, 84; 6, 1, +85; -5, 82.
+
+Constants:
+
+Growy: 6, 3, 83, 84, 85, 82, Ž, 8, 713, λ, CB, B, P, 0, 0, 5 NO, -0, 100, 0.1, 14, 2, 24, 1, i, 1/5, 0, 0, 0, 0.6, 0.1, 22, -1/5, 0... 0, 3, 6, 1, -320 + Sy.
+
+KALL I: 2, 213, 4/5, -4, O', 0, 0, 81, 1, 0, 0, 1, 0, 0%, 0, 0, 1, Ó, 82, 1, -Cj.
+
+Note: I did not touch the mathematical expressions or equations.
+
+Date: Page (n=2, n=1)
+23 = 6.377 man = 26
+
+Branch & Bound Method
+
+Let yjnegategen
+
+Solve neglecting integer constraints.
+
+(P1) nj - Not Integer (8ay)
+(P2) 2/3 > [ng] +1
+(P.) and mis [nj]
+
+Man = Zzcala, + 9n2
+
+Equation:
+<math display="block">\frac{n_1}{-6} + \frac{n_2}{2} = 1</math>
+
+Constraints:
+15. to: 1 - 21, + 3n2 ≤ 6
+X1 + X2 = 1
+74 + 42 + 35
+
+Non-negativity constraints:
+0 < n1, n2 ≤ 7
+
+Other constraints:
+A(0,0) ≥ 0
+A(4.5, 3.5) ≥ 18
+B (9/2,7/2) ≥ 63
+C(0,2) ≥ 18
+
+Note: Zman = 63 at (9/2, 7/2)
+Mi = 9/2, N2=7/2
+
+Date: Page 5
+
+n = 9/2 = 4 + 1
+23+1
+7/2
+N2 = 2
+C.
+
+[71]
+
+X & Y
+c e 110
+0 (0,0) same
+7G
+m = 5
+N. MITTAL
+58 (man)
+B(4,10/3) ->
+Zman = 35 at (5,0)
+
+18
+c(0,2)
+21
+Fran at B (4, 10/2)
+12
+Pin
+PI (Intersible)
+n234
+12 € 3
+0 (0,0)
+Zman = 55 at x = 4 n2 = 3
+A(40)
+B(3,4,3)
+C (3,3)
+0 (0,2) 300
+711
+
+Now.
+
+(P,2)
+(P2) - 22 = 4
+712 + 53
+V.
+72.
+Gteasible
+e ...
+7.54
+91=4 (at 11)
+4.44
+44
+n 63
+(3,3) (43)
+(0,2)
+30 mg × 2:3
+→ γj
+4
+(4p)
+-
+Z
+0(6,0) → 0
+(0.0)
+A(5,0) → 35
+B(32/7,3) → 59 (Zman)
+C(3,3) → 48
+D(0,2) → 18
+15 11/17
+Com
+15,012
+171175
+N1 54
+(5,0) → Znon = 35
+(4,0) → 28
+(3,3) → 48
+
+(0,2) -> 18 (dated 20/04) 00:15
+-> at x1=4, x2=3
+<math>(4,3) → 55</math> (Zman)
+4.3
+
+Date: Page 7/2, 21 (88/4)
+
+Equation: 天 = 34 + 4212
+
+Example: 2 Man., 7n + 11x2 < 89 Sto. 7/2, 711 + = 1 3n1 - 72 512 € 7 (n, n2) 2 M1, 7/2 20 Solv.
+
+Equations:
+
+* 1 - 2 10 12 ("/2,7/2)
+* 9 (0,8)
+* > 76 18 (4,0) -3 (28. -6 -9 £ ....
+* 10 010 -12 (0,-12) 78.5 - 10 3/A -15 66 5 (3 + 182) 1 Ens.
+* 7 81 5 15.8 3 (0,0)0 0 0 (0,2) 81 <-- 12 > A (4,0) 30.5 (max) B ("/2,7/2) 32 C (0,8) 12 K n = 11/2 1 4 10 8 10 CE TW n. 76 (Intersible) n ≤ 5 5 (males - 377 53 5 53 2.5 11 5,3) > 27

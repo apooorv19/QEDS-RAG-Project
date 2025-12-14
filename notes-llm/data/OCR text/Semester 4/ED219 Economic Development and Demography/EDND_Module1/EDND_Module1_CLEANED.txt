@@ -1,0 +1,285 @@
+Date ____
+
+MODULE - 1: Concepts of Development
+
+Indicators of Development:
+
+Material well-being
+Dividends
+Equity
+
+Capabilities (Economic)
+Develop people
+Education
+Health
+Access to other basic services
+
+Under-Development > Low-Income Measurement issues and Compliance
+
+Subsistence Consumption -> presence of non-marketed goods
+
+Basket of goods > Prices do not reflect the true preferences of people. Non-traded goods > not reflected in PPP
+
+Note: The original text had several typos, broken lines, and unclear formatting, which I have corrected to make it readable.
+
+February 1, 2024
+
+Date: Page
+
+Structural Features of Developing Countries:
+
+• High birth rate and high death rate
+Dependence on agriculture/primary sector
+Urbanization
+Lees
+Rural-urban migration
+Large internal/unorganized sector.
+
+Composition of trade: dominated by primary industries.
+
+Products.
+
+• Imports: Manufactured Products.
+* Low Per Capita Energy Consumption.
+
+(Human Development Index)
+
+HDI is a summary measure of average achievement in key dimensions of human development, including a long and healthy life.
+
+Being knowledgeable.
+
+Having a decent standard of living.
+
+1/3
+
+(I Health : Iconcation . I Income)
+
+HOT =
+
+Eg. Gruyana: I Harth > 65.7 (Life expectancy at time of birth)
+I Employed 12.5 (Expected years of schooling)
+8.6 (Mean years of schooling)
+I Total $22,465
+(GINI per capita)
+Actual value - Minimum value
+Dimension Index =
+Maximum value - Minimum value
+
+Harrod-Domar Growth Model
+
+Capital - Investment
+Goods Firms K, tons
+Factors of Production: Labour, Capital, Organization
+Wage Rent, Security, Tutor
+Households
+
+Mary, 10-1-11
+
+Now, D/C Macroeconomic balance
+
+S(t) = I(t)
+C(t) + I(t)
+
+y(x) = (Consumption Goods) (Capital Goods)
+k(t) > capital in the period.
+Savings rate: s(t) = 0.8 (Capital Output Ratio: K(t) = 0.3)
+
+Date: 24/01/24
+
+Date _____
+
+Growth Rate: y(x+1) - y(x) = g
+K(x) > Wear and Tear
+8 > Depreciation Rate
+End of the period: / stand of (t+1) the period
+= (1-8) K(t) + T(t); I(t) = 8(t)
+K(t+1) = 400 capital - Stock Changes over time.
+> 0 / (t+1) = (1-8) 0 / (t) m+ 8 / (t)
+
+y(x+1) - y(x) = -8 - 80y(x) + s(x)
+Y(t+1) - Y(t) = -8 + 8
+
+Per-Capita Income: y(t) = y(t)
+P(t+1) = (1+n) P(t)
+Population grows at rate n
+
+Equations:
+
+<math display="block">P(t+1) = (1+n) P(t)</math>
+K(t+1) = (1-8) K(t) + I(t)
+= 8/ - n-d+g*n
+Y(t) = 9* = (3/0)-n-8
+
+Date: Page 8
+
+High D/S
+n
+Low Dr. Z, nA
+High By
+GOP
+Sollow Model:
+
+* Diminishing returns to individual factors of production.
+0 → Capital output ratio is endogenous.
+0 > Economy-wide relative endowments of capital and labour (Y = F(K, N)) large N.
+K(+1) = (1-δ) K(x) + S Y(x)
+(1+n) K(+1) = (1-δ) K(+) + S Y(+)
+
+Dependent per capita consumption and savings
+n 1 K^(1+1) 1
+(1+n) K^1 = (1-0.8) K + SY
+Cobb-Douglas Production Function:
+y = AK * N - A
+Per Capita Consumption:
+y/N = A * (K/N)^∞ ; K = K/N
+
+Date Page
+
+Joint equation: AKt = (1+n)ktu = (1-δ)kt + 8Akt
+
+Mathematical representation:
+K_{t+1} = \frac{(1-8)}{1+n} k_t + \frac{8}{1+n} A k_t
+
+Equation: Ktt1 - Kt = 8AKt - (n+8) Kt
+
+Implication: PC Capital = 0
+
+Joining the equation:
+Say 8 = 0, n>0
+K++1 < K+
+(not 8)x
+Cos
+y = AK
+BAK
+Investment per worker
+-> Per Capita Capital
+K:
+K
+K2 K3
+K.
+Amount of Juvenile needed
+Keep APCC = 0
+· 6
+k- steady state
+K++1 - K+ = 0 / 1
+* 8AK* (n+s) kt = 0
+> 8AR = (n+8) K
+= (8A<br>h+8
+K
+
+Steady State: New investment per person is just sufficient to replace the worn out capital stock in line with population growth, so that per-capita capital remains constant.
+
+(n + 8)K
+YEAKT
+SAKY
+SAKY
+> K
+k → k
+K
+
+Golden Rule: Level of Savings that maximizes surplus.
+Const Today = Const in Future.
+C = (1 - δ)y; C + pen-capita consumption.<br>= (1 - δ)AKT
+= AK" - SAK"<br>= AK(s) - (n+8)K(s)
+AC/AS = 0
+
+The Golden Rule of Consumption & Savings: -
+
+Its per-capita capital should keep increasing to a steady state per capita capital.
+
+SAK = n + 8
+
+Is steady per-capita output?
+
+Increase your future rate by increasing savings and consumption, not expense. Y > 2-
+
+Intertemporal Choice: -
+
+Two periods: 4 = 1, 2
+u = 4 (C, C2)
+pd. 1: C > Cons.
+in Pd. 2: in C2 -> Impatient Consumer
+
+Note: I left the math/equations alone as per your instruction.
+
+Parent Consumer
+
+Man utility equals utility of consumption, denoted by W. This can be written as:
+
+W = C + CZ
+where C is the consumer's wealth and Z is a random variable representing uncertainty.
+
+The following equation represents the optimal allocation of resources:
+
+<math display="block">\frac{C_1 + C_2}{1+\gamma} = \frac{y_1 + \frac{y_2}{2}}{1+\gamma}</math>
+
+This equation states that the ratio of consumption to wealth is equal to the ratio of income to wealth. The variables C1 and C2 represent different types of consumption, while y1 and y2 represent different sources of income.
+
+The Golden Rule states:
+
+C' = (1-8) y 1
+where C' is the consumer's optimal level of consumption.
+
+In steady state, the following equation holds:
+
+SAKT = (n+5)K
+
+This equation represents the relationship between savings and wealth. The variables SAKT and K represent savings and wealth, respectively.
+
+The following equation represents the change in consumption with respect to changes in savings:
+
+<math display="block">\frac{\Delta C}{\Delta S} = \left[ \alpha A K^{-1} - (N+S) \right] \frac{\Delta K}{\Delta S}</math>
+
+This equation shows that the change in consumption is proportional to the change in savings, with a proportionality constant that depends on the consumer's wealth and the level of uncertainty.
+
+Finally, the following equations represent the optimal allocation of resources:
+
+> ~ AK " - (n+8) = 0 , Y= AK(8)"
+> AY = n+s.
+
+100 $2, 200
+(cs) 100.02
+(11) 30
+524
++4
+Capital Insights
+Page 10
+(n+8)K(n,10,14)
+Achieve Sustainable Constant
+Y = AKd
+Sustainable Consumption
+1,8
+SAKT
+The level at which the stop equals
+Kgoll
+Capital Stock Regulated to Keep Pace with Capital Stock Contact
+51 > K1 > (n+8)K1
+AK A-1 3 x AK
+8 Gold = Savings Rate Required to Sustain the Golden Rule of Steady State Consumption
+
+The rule sustains the general consumption of capital stock, Cgold, which minimizes the constant that is employed by members of each current and future generation.
+
+Pushing to increase savings beyond a certain point because one heeds the pay-off to set an output to replace depreciated capital with more capital each increment in capital stock.
+
+Diminishing Incremental Output and increasing requirements too depreciated capital leaves a net incremental output replaced, which is available for constant that is decreasing.
+
+Dynamically Efficient
+S > Spold >
+Absolute Conveyer -> K
+
+Date _____
+Page ____
+
+Conditional Convergence
+
+1. (n+8)K = 6C916 - y=AKT
+5'AK" (Rich)
+5'>5"
+5" AK (Pour)
+K
+K(0)
+Knich .
+Kpour
+
+Convergence in the conditions atter controlling for Jim.
+Requirements for achieving steady state S

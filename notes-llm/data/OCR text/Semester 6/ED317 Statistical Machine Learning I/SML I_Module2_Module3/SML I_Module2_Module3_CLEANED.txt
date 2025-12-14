@@ -1,0 +1,358 @@
+09/04/2025
+BAYES' THEOREM
+Prior Lakelihood
+P(A) P[BiA]
+P[AIB] =
+P(B)
+Posterior
+
+Marginal likelihood
+(Evidence)
+* Mapped to Target fn.
+P(HIX) = P(X|H)P(H)
+P(x) (3)
+M: hypothesis
+
+X: évidence
+
+X: évidence
+Advertiges:
+Discountages:
+* Different hypotheses: Learning
+. Superdentes
+* New Scenario
+: Performance
+E
+: 14/4
+July I mal
+
+6
+Related to<br>Bayes'
+Naive Bayes Classifier
+15
+6
+·> attributes are conditionally independent
+
+(Survival analysis)
+
+(it occurrences of classes tuples (classes)
+(11) For each data points, check for classification
+P[Age | Buy]
+- for each input feature.
+(iii) Since independent, calculate P[X/Ci].
+() P[XICi] * P[Ci]
+Advantages:
+. ) good results obtained in most of the cases
+reasy to implement
+Disadvantages:
+.> dependencies
+-> For learning a classifying text
+6th May: 10 am - 1pm : Lab Question
+
+Bayesian Belief Networks
+'Y allow class conditional independencies b/w subsets of variables.
+'> Acyclic graphic model
+- Causal event
+- Conditional Probability Test Table
+P(x1,...,xn) = TT P[x; | Parents (Yi)].
+Latent Variables problem
+(9) Avoiding the zero-probability problem
+Evidence does not exist.
+CORRECTION
+- LAPLACIAN
+It has the
+was to deside
+(ii) Choosing Hypotheses
+· Brute Force MAP Hypothesis Learner
+
+Mother of the entree of the first of a
+
+10/04/2025
+666
+Linear Discriminant Analysis
+(Normal Discriminant)
+bles subsidies of vertilles.
+6
+6
+2
+. Auglie graphic midel ! Sigler
+
+S lines
+Golg from two axes to one axis
+3
+A Tour
+AT TO
+THE THE
+711
+7
+
+Latert Vixal
+17
+The distance of mean.
+
+5 L.D. A. is utilised as both dimension reduction
+
+711
+as well as supervised classification problem.
+M
+The same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the same of the sa
+
+it It is used to project the features in higher dimensional space into a lower dimensional space is It is utilised in problems where linear separable boundary is not possible.
+
+I LDA "used to create a new axis, and projects the data onto that axis in such a way that
+9
+
+the () separation of 2 categories maninises,
+(ii) reduces a 2-D graph into a 1-D graph
+Criteria to create new axis
+It is done through
+(i) maximise the distance b/w means
+of the two classes.
+(ii) mininise the variance within each
+classes.
+STEP:1
+Compute the class means of dependent variable.
+μ1 = 1 Σ χο<br>Ν χεω,
+STEP :2
+Derive the covariance matrix of the class
+vouable.
+<math>S_1 = Z (x - \mu_1)(x - \mu_1)^T</math>
+: 131
+STEP : 3
+Compute the within class scatter matrix.
+Sw = S1 + S2
+
+STEP
+トイトイトイ
+Compute the so between class scatter matrix.
+SB = ( M1 - M2) ( M1 - M2) T
+STEP:
+Compute the eigenvalues a vectors from
+the eq" (3) & (4).
+Sw SBW = AW
+STEP: 6
+Solving the values of eigen value and select the top 'k' values.
+STEP
+Find the eigenvectors corresponding to the
+top k-values
+<math display="block">\left(S_{\omega}^{-1}S_{B}-\lambda T\right)\left(\frac{\omega_{1}}{\omega_{2}}\right)=0</math>
+STEP:8
+Obtain the LDA by taking the dot product of eigenvectors and original data.
+
+Q.1 Compute the LD projection for the following & <math>W_1: X_1 = (x_1, x_2) = \{(4,2), (2,4), (2,3), (3,6), (4,4)\}</math> W2: X2 = (x1, x2) = {(9,10), (6,8), (9,5), (8,7), (10,8)} Sample: Human Brush's <math display="block">\overline{X}_{1} = (\overline{x}_{1}, \overline{x}_{2})^{T} = (3, 3.8)^{T}</math> <math display="block">\overline{X}_{2} = (\overline{x}_{1}, \overline{x}_{2})^{T} = (8.4, 7.6)^{T}</math> <math>S_1 = \begin{bmatrix} 1 & -0.25 \\ -0.25 & 2.2 \end{bmatrix}</math> <math>S_2 = \begin{bmatrix} 2.3 & -0.05 \\ -0.05 & 3.3 \end{bmatrix}</math> <math>S_{B} = \begin{bmatrix} 29.16 & 20.52 \\ 20.52 & 14.44 \end{bmatrix}</math> Sm = [-0.3 5.5] (w* = 5 w (\mu_1-\mu_2) <math>|S_{\omega}^{-1}S_{B} - \lambda I| = 0</math><br><math>\lambda = 0, 12.201</math> hant Prescent A P <math>\omega_1 = \begin{pmatrix} -0.5755 \\ 0.8178 \end{pmatrix}</math>; <math>\omega_2 = \begin{pmatrix} 0.9088 \\ 0.4173 \end{pmatrix} = \omega^*</math> <math>X_1 \cdot \omega^* = S\begin{pmatrix} x_1 \\ x_2 \end{pmatrix} \cdot \begin{pmatrix} \omega_1 \\ \omega_2 \end{pmatrix}</math> → Write code and make visualizations.<br>Increase value of k.
+
+11/04/2025
+NEURAL NETWORK
+- Multi-modality Aspect
+: X = (x, 1x) = X :
+- LIDAR
+Example: Human brain's analysis of a person
+- Similar to biological neurons.
+* Perceptron
+Perceptron Rule (=> Delta Rule
+- Hyper. Parameter Tuning
+W: = W: + 1W;
+Sw: - n (t - 0) x;
+learning
+- Gradient Descent a Delta Rule
+Gradient descent -> BACK PROPAGATION
+W3 W1 W6
+W4 Q W8 Q
+
+← Input → | ← Hidden → | ← Output →
+Layer
+
+In gradient descent, in every weight vector
+we are capturing the error.
+I ssues in converging at hyper-local level.
+Stochastic Approximation to Gradient Descent
+DE 23 STE STE 140 = d = 1 = 24.0 = d = 5
+Buckeyed to payation of corner:
+Multilager Perceptron
+→ to refine the decisions
+
+→ filteraled
+<math display="block">\frac{1}{1+e^{-\alpha}}: Sqgmoqd</math>
+o(x)=
+the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of t
+· · · · · · · · · · · · · · · · · · · 
+Backpropagation Algorithm
+
+2014 Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlotte de la Carlott
+
+8.>
+W1 = 0.15
+ws = 0.40 {01 = 0.01 }
+{x1= 0.05}
+F0.20 (h2) Wy = 0.55 {02 : 0.99}
+{x2. 0.10}
+b_= 0.35 → | ← b_= 0.60 →: Biases
+I - H - O
+Backward Propagation of ever:
+STEP
+Calculate hi (I/O) for forward propagation ever,
+<math>h_1(I) = \omega_1 x_1 + \omega_2 x_2 + b_1 = 0.377</math>
+<math>h_1(0) = 1 = 0.593</math>
+(a)
+1+exp{-h1(I)}
+h2(I) = W321 + W422 0-3925 +b1 = 0.3925
+<b>(b)</b>
+<math>h_2(0) = \frac{1}{(1 - 1)^2} = 0.5968</math>
+Calculate O: (3/0),
+01(I) = wsh1(0) + w6 h2(0) + b2 = 1-105
+0
+<math>o_1(0) = \frac{1}{1 + exp\{-o_1(x)\}} = 0.7513</math>
+<math>0_{2}(I) = \omega_{7}h_{2}(0) + \omega_{8}h_{2}(0) + b_{2} = 1.225</math>
+(d)
+1<br>2+ exp{-02(I)}
+0, (0)
+
+€ Calculate E<sub>Total</sub> = <math>\frac{1}{2} \sum (t-0)^2 = E_{01} + E_{02}</math>
+<math display="block">= \frac{1}{2} (0.01 - 0.7513)^2 + \frac{1}{2} (0.99 - 0.7721)^2</math>
+=1 E Total
+9.2984
+STEP 2:
+<math>H \leftarrow 0</math>
+7=0.6
+W5 = W5 - 7 DETotal
+<math display="block">\frac{\partial E_{Total}}{\partial \omega_{r}} = \frac{\partial E_{Total}}{\partial O_{1}(0)} * \frac{\partial O_{1}(0)}{\partial ned(O_{1})} * \frac{\partial net(O_{1})}{\partial \omega_{s}}</math>
+2 E Total
+= 01(0) - t1(0) = 0.7513 - 0.01 = 0.7413
+20100
+2 01(0)
+= 01(0) { 1-01(0) } = 0.7513 * (1-0-7513) = 0.187
+dnet (O1)
+2 net (01)
+- = h1(0) = 0.5933 *
+2 WS
+2 Etotal =
+; Ws = 0.4 - 0.6 * 0.082 = 0.351
+0.082
+dws
+Calculate With, With L Wig.
+
+STEP 3:
+- H
+Wi = WI - 7 DE Total
+<math display="block">\frac{\partial E_{Total}}{\partial w_1} = \frac{\partial E_{Total}}{\partial h_1(0)} \times \frac{\partial h_1(0)}{\partial net(h_1)} \times \frac{\partial net(h_1)}{\partial w_1}</math>
+DEOL + DEOL
+2 h, (0) 2 m (6)
+<math>\partial E_{02}</math> × <math>\partial net(0_2)</math>
+d Eos dnet(Os)
+Inet (02) 2 h1 (0)
+Inet(O1) I h1(0)
+2 E02 x 202(0)
+2 EOI 2 h1(0)
+20,(0) Inet(02)
+2 h1(0) 2 net(01)
+<math>\frac{\partial E_{01}}{\partial E_{01}} = 0_2(0) - t(0_1) = -0.2171</math>
+202 (0)
+= 02(0){1-02(0)} = 0.175
+2 not (02 20)
+2 net (02)
+
+2 net (02)
+FISHER'S LDA
+= w7 = 0.50
+2 h, (0)
+2 ED2
+-0.2171 * 0.175 * 0.5 = -0.0192
+2 h, (0)
+Aralgsis
+2 Eos
+01(0)- +(01) = 0.7413
+201(0)
+0,(0) { 1-0,(0)} = 0.1868
+2016)
+d net (01)
+Inet (01)
+Data Representation of DATO = Dewiffs
+2 h1(0)
+FRA [ being thousantonal spice]
+d Eos
+- Marinum seggaption de cofferent +2200
+2 h,(0)
+TWO CLASS: LDA
+2 ET
+Junoval 2000 = 0.0361<br>Junoval with multophy to the (0) 146.
+2 h, (0)
+DET =
+0.00436
+Optimal projection distline
+sofunction.
+
+15/04/2025
+FISHER'S LDA
+- When linear separable boundary is not
+achievable then we choose quadratic Discriminant
+Analysis.
+- Support Vector Machine creates a hyperplane.
+TIP
+- Take projection on the newest axis.
+- PROJECTION PURSUIT
+- Data Representation v/s Data Classification
+·> PCA [lower dimensional space]
+- Maximum seggregation of different data points
+CLASS : LDA
+Two
+
+(Numerical with multi-class problem.) END-SEM (5)
+- Optimal projection direction for maximum separation.
+
+MAHALANABOLIS
+DISTANCE
+<math>D_{M}(x,\mu) = \sqrt{(x-\mu)^{7}} Z^{-1}(x-\mu)</math>
+da Kold
+data point
+Ne = (2,2)
+SUPPORT VECTOR MACHINES
+X2: (4,5)
+- Minimal distance b/w the contrasting classes
+and find the margin
+_support Vector
+Maggin
+>X .
+- maximum margin is the hyperplane
+
+- both linear a nonlinear data
+W·X + b = 0 : Separating hyperplane
+N=3
+data point
+<math>x_1 = (2,2)</math>
+y1 = -1
+SUPPORT VECTOR MACHEN
+<math>n_2 = (4,5)</math>
+07)
+y<sub>2</sub> = 1
+23 = (7,4)
+y3 = 1
+
+STEP 1: <math>\vec{\alpha} = (\alpha_1, \alpha_2, \alpha_3)</math><br>
+subject to <math>\sum_{i=1}^{N} \alpha_i y_i = 0</math>
+<math display="block">-\alpha_1 + \alpha_2 + \alpha_3 = 0.</math>
+<math display="block">\phi(\alpha) = \sum_{i=1}^{N} \alpha_i - \frac{1}{2} \sum_{i=1}^{N} \sum_{j=1}^{N} \alpha_i \alpha_j y_i y_i (\vec{\lambda}_i \cdot \vec{\lambda}_j)</math>
+STEP 2:
+<math>\vec{\lambda}_1 \cdot \vec{\lambda}_1 = 8</math>
+72.71 = 18
+<math>\overrightarrow{\lambda}_3 \cdot \overrightarrow{\lambda}_1 = 22</math>
+21.2 :18
+元 元= 48
+<math>\vec{z}_1 \cdot \vec{z}_2 = 41</math>
+文元 = 22
+成元 3:65
+7 - 7 = 49
+φ(α) = (α1+α2+α3) - 1/2 (8α1+41α2+65α3+36α,α2+44α,α3
++ 96 ×2 ×3 )
+<math display="block">=1\phi(\alpha)=2(\alpha_2+\alpha_3)-\frac{1}{2}(13\alpha_2^2+32\alpha_2\alpha_3+29\alpha_3^2).</math>
+
+For a to maximize,
+<math display="block">\frac{\partial \phi}{\partial \alpha_2} = 0 \quad \text{a} \quad \frac{\partial \phi}{\partial \alpha_2} = 0.</math>
+<math>2-13\alpha_2-16\alpha_3=0</math> & <math>2-16\alpha_2-29\alpha_3=0</math>
+=1 <math>\alpha_2 = \frac{26}{121}</math>, <math>\alpha_3 = \frac{-6}{121}</math>, <math>\alpha_1 = \frac{20}{121}</math>
+STEP 3: Find weight vector
+<math>\vec{\omega} : \vec{z} \propto_i y_i \vec{x}_i = \left(\frac{2}{11}, \frac{6}{11}\right)</math>
+STEP 4: Fland 69as (6)
+<math>b = \frac{1}{2} \{ \min_{x \in X_1} (\vec{\omega}_1, \vec{x}_1) + \max_{x \in X_2} (\vec{\omega}_1, \vec{x}_2) \}</math>
+=) <math>b = \frac{1}{2} \left\{ m \ln \left( \frac{38}{11}, \frac{38}{11} \right) + max \left( \frac{16}{11} \right) \right\} = \frac{27}{11}</math>.
+f(ズ)= ロ·ズ-b
+<math display="block">= \frac{2}{11} \chi_1 + \frac{6}{11} \chi_2 - \frac{27}{11}.</math>

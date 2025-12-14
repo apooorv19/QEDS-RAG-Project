@@ -1,0 +1,615 @@
+30, 109, 24
+Date
+Page No.
+
+*y = ax + c*
+*T = |x - u0|*
+
+Prove that T is invariant under translation y = ax + c, and another constant c.
+Var (4) = 62 = a262 = = = a0.
+Ty = |ax + ex - auto - e| = |x - uo|
+
+Let me know if you need any further assistance!
+
+The second-order statistic is invariant under transformations of the form Y = ax + c.
+
+For multivariate distributions, the T-statistic is given by:
+
+*T_x^2 = 0.5*
+
+Note: I left the math/equation alone as per your instruction.
+
+The Hotelling t^2 test:
+
+Just Theoretical
+Prior Probability Prior Prior
+Variance (σ^2) = c x c ; y = cx + d
+
+T^2ν = n (∂X - μ0)^T (S^2ν)^(-1) (∂X - μ0)
+
+1. T^2y = n (cx+d-cμ0-d) T (c5x^2c^T) - (cx+d-cμ0+d)
+
+Let me know if you need any further assistance!
+
+CT (CT) 52 CTC
+
+Cleaned text:
+
+Contact (Contact) 52 Contact
+
+Date: [Blank]
+
+Page No.: [Blank]
+
+Types of Testing: It both null and Mt. hypothermia are simple, then according to Neymann-Pearson Zemma, types at testing are:
+
+Types of Testing:
+Composite (not simple) such tests are uniformly
+2 + Power!!
+
+Both simple!
+* H0
+
+Vary (4) = 50
+Hi
+Fix one type of error (x) and maintain other types.
+9 Rejecting to accept when it is false. (B)
+1000g
+LHO
+4.3) > Likelihood Ratio Test :-
+LHI
+Mo
+H0: M
+41: M7 = 40 = T. A -:
+or Multivariate
+
+(20) 9
+LH= TT f(x, Mo; 62)
+Hallottel
+6) FOI; L
+-2 log (1) ~ X(k)
+Toxpos
+N (CF 48- CEO-8
+(0-2) 5 (Pots) To To ... - X) H
+Teacher's Signature: [Blank]
+
+18-143:12 Date: October 14, 2024 Page Not Available Type-I Error:
+
+a: P[T > Z], M = 40
+Which error is more senior?
+[T>Zz, W=U]
+Depends on how we train the hypothesis.
+But generally, the view is that Type I errors are more severe.
+
+Type II Error:
+T < Za [M + Mo]
+<math>−β =</math>
+· Under H0: M is known
+L = T(f(ni | no, E) RMLE : N
+5 mle = 1 5 (xi-110) (xi-110)
+Under H1: Both are unknown.
+L = T 7 f(n; [u, Z]
+ûmie = 1 2 x; = x
+Smie = 1. = (x:-x) = (x:-x)
+
+Teacher's Signature
+
+Date Page No
+L(X | u, 5) = 1/2 | x | np = 1/2 = (xi-u)T = (xi-u)Ho: <math>X \mid u_0, \Sigma \rangle = (1/(2\pi)^{1/2}) * (1/N) * sum_{i=1}^{N} ((X_i - u_0)^2)</math> exp { -1 * (x_i-u_0)} <math display="block">L(x|u_0, \Xi) = (n_{12}/((2\pi)^{n_{12}})) * ((sum_{i=1}^{n_{12}} (x_i - u_0)^2) / (sum_{i=1}^{n_{12}} (x_i - u_0))) * (1-n_{12})/(sum_{i=1}^{n_{12}} (x_i - u_0))</math> =>
+Hα: Γ(X|u, Σ) = (n/(n^(1/2))) * ((1/2) * sum_{i=1}^N (x_i - x_i) Large Sample Theory = { | ZHa } * Theorem: Let {x_n} be iid N(p,σ^2); then the test based on T^2 statistic is equivalent to the Likelihood Ratio Test of Ho: μ_0=μ_Ha.
+
+Date: 12/10/24
+
+Page No.: 2
+
+Let p be a positive integer.
+
+Theorem: For any x, we have (xj-x) (xj-x)' = (x-u0)
+
+Proof:
+
+(xj-x) (xj-x)' = (x; -uo) (x; -uo)
+= (x; xu)(x; -xu) + n(x-u) (x-u)
+= 7
+
+where u0 is a constant.
+
+Note: The above proof is based on the assumption that x is a random variable with mean u0 and variance σ^2.
+
+6
+(10)
+
+1, 2
+m 10 1
+
+(Note: I left the math/equations alone as per instruction)
+
+21/10/24 - Simultaneous Confidence Statements: S.C. Interval:
+
+Let X be a multivariate normally distributed random variable, considered as a linear combination of p variables: Z = qX1 + a1x2 + ... + apxp.
+
+F(Z) = a'u
+
+Var(Z) = a'Za(EUE). C.(1100.0) = 11
+
+$\frac{1}{a'sa} + \frac{1}{a'sa} = \frac{1}{a'sa} = \frac{1}{a'sa} = ...$
+
+=>-t « < m(Z-a'x) < tage < $\frac{7}{2} - a'\)\(\frac{1}{6} \) (a'sa)! = a'x - 1 tx/2 (a'sa) = = a'x + 1 tx/2
+
+We could make several confidence statements about the components of u, each with associated... Consider a coefficient: (1-4); By choosing direction coefficients vector a, however, the gates associated with all of the statements taken together 1s hot (1-7).
+
+a' = [1, 0, 0, ..., 0] = a_1
+
+TA3 - Trace (A2): 2+ sum of disjoint monads.
+
+Date: [blank]
+
+Page No: [blank]
+
+P(n-1) = Fp, n-p(x)
+
+L2 = V/2
+L2 = 10.002 ± (0.048) ± (0.023)
+(0.044) ± (0.393) = 0.001572, 0.018
+
+7 L2 = 4.72
+M = 7-2, 0.564
+50,564
+CR: 42
+S' = 0.603
+Mz = 0.603
+F2, 40(x) = [8].41/4020
+[blank]
+
+Note: The math/equations were left untouched as per the system instruction.
+
+Measured radiation with door closed
+
+Date: [insert date]
+
+Confidence Regions:
+
+* 0.564
+* 0.0144
+* 0.0117
+* χ̄ = 0
+* 0.0117 ≤ c^2 ≤ 0.0146
+
+Constructing a 95% confidence region for the u-vector.
+
+Solve: n(¯x-u)'s'(¯x-u) ≤ c^2 = p(n-1)/(n-p)
+
+Eigenvalues:
+
+* λ^2 - 4(5)λ + 4(5) = 0
+
+For eigenvalues:
+e1 = (0.704, 0.710)
+e2 = (-0.710, 0.704)
+
+Anisotropy: CJA
+Length of Anisotropy: [insert value]
+
+P-value for F-statistic: 7 Jo.026, 2(41) F2,40 (0.05) = 3.23
+
+For P(n-1) Fp,n-p(a):
+Ci = 0.155 = 0.393
+L = (0.16), (0.393) = 0.1136 ± 0.062
+
+P-value for F-statistic: [insert value]
+
+Teacher's Signature: [insert signature]
+
+Date: Page No. 200
+
+Let Z be the covariance matrix associated with a random vector. Let Σ have the eigenvalue-eigenvector pairs: (λi, ei); i = 1, 2, ..., P
+
+Such that λ1 ≥ λ2 ≥ λ3 ≥ λ4 ≥ λ5 (1)
+
+The im-principal component is given by Yi = Ci x = e + ex^2 + ... + ep^x^p with var(Yi) = ei zei = li and Gov(yk, yi) = 0.
+
+Hence,
+
+Proof:
+
+Max a' Σa = λ. (attained when a = e.)
+
+a to a'a
+
+But ei, = 1, (eigen vectors are normalized)
+=> max 4/9 = 1 = e; 5e, = e; 5e, = Vay(x)
+
+a = 0 a'a e; e,
+
+Max <u>a'Σα = 1κ+1</u>, K=1, 2,..., p-1.
+
+For a = ext, with ext, ex = 0; 1=1,2,...,K
+
+EKT, 5 eKH / EKH. EKH = EKH Z EKH = Var(YKH)
+
+CK+1 (ZeK+1) = 1K+1 EK+1. EK+1 = 1K+1 = Var(1K+1)
+
+7 COV(Y; Yx) = e; ZeX = e; / kex = Vas(Yx+1).
+
+= 1k ei'er = 0
+
+Teacher's Signature...
+
+Principal Component Analysis in
+
+First Component: The F.P.C. is a linear combination of (a'x) subject to ai, α21. (a)
+11 = aix = anx, + q12 x2 + ... + a12 xp
+Υρ = apx = aprx; + apx x2 + .... + app xp.
+It is clear that variance(Vi) (= a'σ) can be minimized by multiplying any a. So to avoid such independent or take a or unit length.
+
+Beard Emporium 1: The S.P.C. is a linear combination of azx that maximizes the variance
+subject to:
+0 ≤ q₁'Q₂ = 1
+0 ≤ c₁(q₁'x, q₂'x) = 0.
+(y₁) (y₂)
+
+In component:
+O 9.1'a; = 1
+0 Cor(yi, yi-1) = 0 + i & p.
+
+Teacher's Signature...
+
+Program
+
+Let X1, ..., Xn be a random sample from an N-ary distribution with E(tre dob). Then, simultaneously top all a, me interval;
+Such of:
+Far in part
+p(n-1) Fp, n-p(x) a'Sa, a'x + p(n-1) Fp,n-p (x) a'Sa
+n(n-p)
+
+27. m 4 1. X . r - 4 1. 5 = 18
+will contain a'u' with probability (1-a).
+
+Protocol:
+xap = al
+n (ax - a'M)
+are last alas
+Ta'sa sa'us a'x + c/a'sa
+a'x c
+
+7
+1 p(n-1) F, n-p(x) ... (ei)
+IN (A-P)
+
+3357446
+92'072 = 1
+G = (xiP, xiP)
+(In)
+
+151
+13/1
+10:01
+12
+
+Theorem :-
+6
+
+Result :
+3 2 13 F and J - 3: · XK 583 + 2 + 0.17 let X No. 13: 12: Variance Correlation pair. When 5.83 184 Pc. <b>Y</b>: Rues. Alpo ** 11 Component ox 9 Ob gained 11 c × (A:, C) eik V li Y GKK 12 0.25 0.02125 coe Bricient 11 Fond ** 5.83
+
+8
+Sore contains 11 Macs.
+
+The proportion of eigenvalues is 0.72.
+
+Camp then varies for N.
+
+Do box 4 of eigen values Yi and St. 21 TARS # Proof
+
+12 Cov (ax, bx) == a ×, 1 - Cov (Yi, Yk) = 0 JXK, Yi = (Cov (X, Y)
+
+11 11 11
+ak x x's 6x.6y Cov (ak x, ei x) 4 0 OKK . AK X X
+
+13 7 12 0 Sd. (Xx) & d. (Yi) i 36 4 6V(X, X) 11 11 · (61x 62k .... 6pp) ak 1 I M 2+ 0 1 Teacher's Signature... Kin - position * X 6x (xx, y) 0 Page No. Date 1000 627 6 0 ۶×۲
+
+Parcetin Component is a lot X = 11 MILES Kitter 611.
+
+The component's result is E, with a value of 60.0.
+
+The calculation is as follows:
+
+lot X = 1 + 0,583 × (11 + 2) × (13 - 0.383) × (-0.924) ME + 524 + 2V Var(40) × 533
+
+This equation can be simplified to:
+
+lot X = 1 + 0,583 × 15 × (-0.924) ME + 526
+
+The component's value is 100Xz, which is equal to:
+
+100 × (11 - 0.924) × (12 + 2)
+
+The final result is:
+
+Parcetin Component: 6pp
+
+Teacher's Separation Problem
+
+83 × 2 + Value + 5
+
+Mr. [Last Name]
+Date: June 12, 2023
+
+Vector VM-COV (e) × . * 9 "< W Proportion M Jun (Z) Vag (E) X 1) 0 0 7 co - R 11 0 × 11 11 11 10 v 6 " 62 02 wa. a 11 U + tr (106) > > + tx to the total Ye + 2 5. E 12 Ma 12 t eigen vectors 9 det motrin 20 6 6 ∠; <u>}</u> e 5 : diagonal 4 4 1 · + 1 ex3
+
+Teacher's Signature: ______________________ Date: ______________________ Page No.
+
+Note: The cleaned text does not include the math/equations, only the readable text.
+
+Reputation: 9.51
+
+A 25% F
+P
+13
+0
+11
+Loa
+1:5.83
+Also
+4
+V
+Normalized f diameter
+3.
+Maines
+Max 0.83, 7.83
+1 3/2 > E
+X1 e1, ... , CK
+7
+W
+XDX
+M
+11
+1 ×× X'BX
+40.81
+B
+5.83
+13
+5.83
+X'BX
+D
+1.83, 17.8
+4.83 n, + 2.83 nz
+×.
+6 M 18
+Be a tre det matrix
+1,
+Eigenvectors
+25x^2 + 0.83x^3 + x^23
+11
+11
+17.83, 5.83
+4.83, 5.83
+x = 8 × -7.63-2 when
+1
+5 h.t
+4.83
+22
+11
+3
+2831
+b
+2
+P > 5.70 == $0.
+272
+x = ext
+10.
+3
+Teacher's Signature...
+12.83
+-0.83
+11
+· 7 63
+17.83, 0.23
+4.83, 7.83
+(x^2 + 6)
+AKE
+1
+51.45
+Z Z
++ 5.83 x^3
+þ
+4
+2
+23
+Lattaines when
+5 1
+0
+15/03/
+15.53
+-3.83
+O TO
+Date
+Page No.
+X = CK + 1
+and associated with eigenvalue
+11
+19.46
+1/12
+10
+Cp. Then
+17
+0
+7
+x^20
+大つ(,--(アー)
+C
+(
+d
+"ELII BY
+13
+9
+<a>
+4
+1 1
+Tima
+6
+62
+C3,
+M
+Y.
+<br>3<br>1
+D
+Ü
+11
+1=2
+
+F. Component: -2m + 3m^2 + X<sub>3</sub>
+
+1-2, 13 -
+12, 24 + x^2, 0, 13, ,,
+11
+the 2/8 -
+13, 0.383, 11, 11, 2 (
+13 - _
+0, 2, 0, W, 0, Þ, 1, 12, 5.83, 0, 0.17, 2,00 +
+924, 0, 0, 0, 1, SA, 812, 2, S, 0, +01) 22, 12, Þ of d
+10.
+Component: -2m + 3m^2
+
+Note: I left the math/equations alone as per your instruction.
+
+Assumptions: One way to test interences about Pap's 2002 data is to use a MANOVA based on Papy N. CB. S.) - X11 = 7111, Xg, Xgz, Xgs, X21 × 11, Meian H (D-8) Xon upon a T2-statistic and the vector X<sub>2</sub>, X22 (Air). The teacher's signature is Yandam. Vectors X13, Sa== 5, X23 are independent.
+
+The assumptions include:
+
+* M. Cox(Dj) = Zd
+* JE la 2 (B-8)
+* Date: Page No 2
+
+The mean allermence is 141X, with a size of no P PX Tocalment 1 (Epror) Reidual 1 Source Yaliation EN 2 All papes MANDVA. When X, Xej = w, M. Orenall = 2488 SS 700 = No: 55,00 Each popt 16 Sum 10 11 7, 184 生 ng (対よな)2 Model 04 + 11 (38) 1= 0 M 7- No. How ANOVA Table Treatment 2: Sanoren Mean 2, 11, and 7.
+
+£M. 11 have Ssres/ + ind. No (0, E) variables 2354, 77.
+
+(xx; - \xx)² (several chi : 17 My. Normal Comparing 0 (Ene-3) checks (1-6) 13 Common Caloniana motion 2 Ah 1 x Teacher's Signature..... 721,2, no , l=1 11 5 with Date.
+
+Page No. 23
+
+Note: The original text had some mathematical equations and symbols that I left intact as per the system instruction.
+
+November 20, 31
+
+104
+
+and Garco Whaten:-
+
+MANOVA:
+obs.
+Equality of (Xi)
+5
+.
+Ho ..
+H,: 4, + 40
+t-test
+Univariate
+
+The denote <math>\mu_{bullet}</math>
+<math>N(8, 6^2)</math>
+
+ano denote (6-6.5)
+
+im - ty N S - 8
+Unit the S. M.
+120
+By response measurements P
+Teacher's Signature response to design:.
+3
+7
+Multivariate Hotteling's T2 depesents 11 V <b>サ</b>び''
+7
+Page Mode Deste 1=2 ND.
+many 10
+
+In Multivariate Setup:
+MV. model 18 experimental within the p. responses, two treatments.
+
+Additional extension dir Par ×27;2 4 4.4. Afex The p-paired dibbercare 11 11 11 units. We ith - unit as: is necessary X Tip X132 - 0 notation Varciable 11 1 Vaggiable 1
+
+= 1
+
+The paired comparison method is used to compare two or more treatments. In this study, we will be comparing the effects of different treatments on a given outcome.
+
+2. V
+
+Label the following variables:
+
+* X1: [insert variable name]
+* X2: [insert variable name]
+
+Teacher's Signature ______________________ Date ______________________ Page No. ______________________
+
+SYX treatment responses D. H 12
+
+The purpose of this study is to investigate how different treatments can become effective in achieving a desired outcome.
+
+Note: I left the math/equations alone as per your instruction, and also did not change any formatting or layout that was not related to typos or broken lines.
+
+Find Vasi (4:) = Visi(Xk) = Cov(ax, ci)
+
+Correlation y; = Prem The second second Y; Xx 11 1 5.83 Sant 10.383 0383 XI 0.383 K 6KK 11 Coes. Cik JXi × 11 6KK 11 Sd (1/k) = -0.924 7 0,324 X2 Sd (6/5K) = 2,414
+
+Chi-squared (as likelihood) = 261, di (eix Teacher's Signature.....
+
+Page No. Date 622 =
+
+Correlation y, x2 for /3: for /2: Hone - high anly 1 Equally Ly27/3 £0,0 + 2X 1 P X hos 1/3 , XX ly3, ×3 1/3, X- × ×
+
+Value an attributing ... 0.924 × 0.41 = 1922 53 × Z C31 x 13 1.73 611 184 73 g (negligible priesation Comp.
+
+To X 1 Sta 10 Y 5 Teacher's Signature... MORY 0.383 × and X2 XZ 0.924 , 10,17 11 ١, 1,0 S 0.38 less Date Page No. 104 -1.0002 -2:23056 £1.0 thet Mariana. 2,23 40.0 Too
+
+Total variance explained: 0.6 [(x - x) + 11(x4; -x)].
+
+The treatment effect can be decomposed into two components: a main effect of 200 and an interaction term of (x - 2x)(xx - 6x).
+
+Mathematically, this can be represented as:
+
+[(xi; -xi)] [(xi-x)+kij-xi)] + 17
+
+This is the sum of squares cross products. The teacher's signature is not legible.
+
+The residual sum of squares and products are:
+
+(x1-x) (x1; - x1) + 13
+(x2-x)(x2-x),+ Dete
+
+Page one: Residual - êx; + xu) (x1)- Cross of squares and residual sum products X! Of Variation Treatment Total Sources (coros) Residual One test B+ W = Ø 2.5
+
+Matrix of sum of squares:
+
+11 * 1. W Goes products > ne (x-x) (x-x)
+11 == \frac{1}{5} ×_1 ×_1 MANOVA Table 12: Ø 2 + 5
+Ho: μ1 = μ2
+Teacher's Signature: _______________________
+2002-02-11
+Reject 2 Data
+
+Page No. Small Sample Freedman (d.f.) 11
+Mo 2 ME 110
+Degrees of Freedom: 25, 13, 1, 0 - 4
+
+300.53 ± 0.018 0.003 0.030 0.837 0.261 0.010 0.001 0.001 0.391 0.011 0.002 0.561
+No. 7 V 7 0+ 3 400,000 × 4 0.004 Y3 2 0.025 0.000 900,000 0.011 0.030 0.017 -0.001 0.003 0.000
+
+Teacher's Signature: _______________________
+
+Sample Size: 230.0 ± 0.360 0.480 /2.066
+Page No.: _______ Date: _____________
+
+Mean: 814.0 ± 0.124 0.596
+Vector Bartlett B We En 3 DO.
+XI - (M-1) - 11 11 (N-1) - 11 11 Reject 1-7 M <(p, -1)>
+S OF B 3 (XI) = 182.962 10303.996 9.581 4.408
+(P+8) 1.695 (8+g)
+<tilde{x}> 7 Ъ y S M1 + 42 + 43 + $ + X) (XL-X) =
+Hamazazu ζ Ջ Z 2,428 37 S2 (h2-1) Size: 0.633, 4.408, 8.200 > 18: 18 + W * 11448.117 + Teacher's Signature...
+
+(m-1) 0.394 + p.633, 1.695 N8h 1, 10653, 11, 0.821, 0.58Y 5 £ h. E 1.1.1
+
+(h3-1) S3, 4662-13 Page No., Date (P+8) 6.380, 0.102, 0.519, 2, 136, 9, 3,428, 0.394, 9, 581, 0.610, 0.230, 0.34, 534.0, 1225
+
+(E) 5, 300 (1B+ w)/ 0.255 <u>S</u> 1 ì

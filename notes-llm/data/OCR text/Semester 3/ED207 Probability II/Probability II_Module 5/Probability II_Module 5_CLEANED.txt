@@ -1,0 +1,335 @@
+Lecture 5: The multivariate normal
+distribution
+4 D > 4 D > 4 E > 4 E > E 990
+
+The bivariate normal distribution
+Suppose <math>\mu_X</math>, <math>\mu_V</math>, <math>\sigma_X \ge 0</math>, <math>\sigma_V \ge 0</math> and <math>-1 \le \rho \le 1</math> are constants.
+Define the <math>2 \times 2</math> matrix <math>\Sigma</math> by
+<math display="block">\Sigma = \begin{pmatrix} \sigma_{\mathsf{x}}^{\mathsf{z}} & \rho \sigma_{\mathsf{x}} \sigma_{\mathsf{y}} \\ \rho \sigma_{\mathsf{y}} \sigma_{\mathsf{y}} & \sigma_{\mathsf{y}}^{\mathsf{z}} \end{pmatrix}.</math>
+Then define a joint probability density function by
+<math>f_{X,Y}(x,y) = \frac{1}{2\pi\sqrt{\det \Sigma}} \exp\left(-\frac{1}{2}Q(x,y)\right)</math>
+where
+<math display="block">Q(x,y) = (\underline{x} - \mu)^T \Sigma^{-1} (x - \mu)</math>
+and
+<math>\underline{x} = \begin{pmatrix} x \\ y \end{pmatrix}, \quad \underline{\mu} = \begin{pmatrix} \mu_x \\ \mu_y \end{pmatrix}.</math>
+4 D > 4 B > 4 B > 4 B > 9 0 0
+
+If random variables <math>(X, Y)</math> have joint probability density given by
+<math>f_{X,Y}</math> above, then we say that <math>(X,Y)</math> have a bivariate normal
+distribution and write
+<math>(X,Y)^T \sim N_2(\mu,\Sigma).</math>
+It can be proved that the function <math>f_{X,Y}(x,y)</math> integrates to 1 and
+therefore defines a valid joint pdf.
+The notes contain expansions of <math>Q(x, y)</math> and det <math>\Sigma</math>.
+4 D > 4 P > 4 E > 4 E > 9 Q P
+
+Remarks
+1 The vector <math>\mu = (\mu_x, \mu_y)^T</math> is called the mean vector and the
+matrix <math>\Sigma</math> is called the covariance matrix (or sometimes
+variance-covariance matrix).
+2 Functions of the form <math>F(\underline{x}) = \underline{x}^T \Sigma^{-1} \underline{x}</math> are called quadratic
+forms. Quadratic forms are functions <math>\mathbb{R}^n \to \mathbb{R}</math> which satisfy
+certain properties. They crop up in several areas of
+mathematics and statistics.
+3 The matrix <math>\Sigma</math> and its inverse <math>\Sigma^{-1}</math> are positive definite. A
+matrix A is positive definite if
+<math>x^T A x > 0</math>
+for all non-zero vectors x.
+4 It follows that when <math>\mu_x = \mu_y = 0</math>, <math>Q(x, y)</math> is a positive
+definite quadratic form.
+4日 4 日 4 日 4 日 4 日 4 日 4 日 4 日 4 日 4 日
+
+<b>Pictures</b>
+<math display="block">\sigma_x = \sigma_y, \;\; \rho = 0</math>
+3 -
+2 -
+1 -
+>
+0
+-1
+-2
+-3 -
+99%
+-3
+3
+-2
+2
+0
+1
+-1
+Х
+990
+
+<b>Pictures</b>
+<math display="block">\sigma_x = 2\sigma_y, \;\; \rho = 0</math>
+3 -
+2
+1
+>
+0
+-1
+-2
+-3 -
+3
+-2
+-3
+2
+-1
+0
+1
+990
+<math>\equiv</math>
+《日》《圖》《意》《意》
+
+<b>Pictures</b>
+<math display="block">2\sigma_x=\sigma_y,~\rho=0</math>
+3
+aa
+2 -
+1 -
+0
+>
+-1
+-2
+-3
+-3
+3
+-2 -1
+2
+1
+0
+х
+990
+《日》《圖》《意》《意》
+=
+
+<b>Pictures</b>
+<math display="block">\sigma_x = \sigma_y, \;\; \rho = 0.75</math>
+3 -
+2 -
+1
+0
+>
+-1
+-2
+-3 -
+-3
+3
+-2 -1
+2
+i
+0
+Х
+990
+< □ > < □ > < \( \overline{1} \) < \( \overline{2} \) < \( \overline{2} \) < \( \overline{2} \) < \( \overline{2} \) < \( \overline{2} \) < \( \overline{2} \) < \( \overline{2} \) < \( \overline{2} \) < \( \overline{2} \)
+=
+
+<b>Pictures</b>
+<math display="block">\sigma_x\!=\!\sigma_y,~\rho\!=\!-0.75</math>
+3 -
+aa
+2
+1
+0
+>
+-1
+-2
+-3 -
+-2
+-3
+2
+3
+0
+-1
+1
+990
+ベロト 不配 ト 不定 ト 不定 ト
+=
+
+<b>Pictures</b>
+<math display="block">2\sigma_x=\sigma_y,~\rho=0.75</math>
+3
+2 -
+1
+0
+>
+-1
+-2
+-3
+-3
+-2 -1
+3
+2
+1
+0
+х
+990
+
+<math>\equiv</math>
+
+Comments
+1 <math>Q(x,y) \ge 0</math> with equality only when <math>\underline{x} = \mu</math>. It follows that
+the density function has its mode at <math>\underline{x} = \mu</math>.
+2 Changing the values of <math>\mu_{x}, \mu_{y}</math> does not change the shape of
+the plots, but corresponds to a translation of the xy-plane
+i.e. changing <math>\mu_x, \mu_y</math> just shifts the contours / surface to a
+new mode position.
+3 The contours of equal density are circular when <math>\sigma_x = \sigma_y</math> and
+<math>\rho = 0</math> and elliptical when <math>\sigma_x \neq \sigma_v</math> or <math>\rho \neq 0</math>.
+4 <math>\sigma_X</math> and <math>\sigma_V</math> control the extent to which the distribution is
+dispersed.
+5 The parameter <math>\rho</math> is the correlation of X, Y
+i.e. <math>Cor(X, Y) = \rho</math>. Thus for non-zero <math>\rho</math>, the contours are at
+an angle to the axes.
+4D > 4A > 4B > 4B > B 990
+
+Marginals and conditionals
+Suppose <math>(X,Y)^T \sim N_2(\mu,\Sigma)</math>. Then:-
+1 The marginal distributions are normal:
+<math>X \sim N(\mu_{\times}, \sigma_{\times}^2)</math> and
+<math>Y \sim N(\mu_{\rm V}, \sigma_{\rm V}^2)</math>.
+The conditional distributions are normal:
+2
+<math>X|Y = y \sim N(\mu_x + \rho \frac{\sigma_x}{\sigma_y}(y - \mu_y), \sigma_x^2(1 - \rho^2))</math>
+and
+<math>Y|X = x \sim N(\mu_y + \rho \frac{\sigma_y}{\sigma_y}(x - \mu_x), \sigma_y^2(1 - \rho^2)).</math>
+3 When <math>\rho = 0</math>, X and Y are independent.
+Linear combinations of X and Y are also normally distributed:
+<math>aX + bY \sim N(a\mu_x + b\mu_y, a^2\sigma_y^2 + b^2\sigma_y^2 + 2ab\rho\sigma_x\sigma_y)</math>
+where a, b are constants.
+4D > 4A > 4E > 4E > 4 A 9 A 9 A
+
+Example 5.1
+Suppose <math>(X, Y)^T \sim N_2(\mu, \Sigma)</math> where <math>\mu_X = 2</math>, <math>\mu_Y = 3</math>, <math>\sigma_X = 1</math>,
+<math>\sigma_{\rm v}=1</math> and <math>\rho=0.5</math>.
+Simulate a sample of size 500 from this distribution and draw a
+scatter plot.
+Use simulation to find <math>Pr(X^2 + Y^2 < 9)</math>.
+Solution
+The marginal distribution of X is <math>X \sim N(2, 1^2)</math>.
+Using the formula for the conditional
+<math>Y|X = x \sim N(\mu_y + \rho \frac{\sigma_y}{\sigma_y}(x - \mu_x), \sigma_y^2(1 - \rho^2))</math>
+<math>\sim N(3+0.5(x-2),0.75).</math>
+4 D > 4 P > 4 E > 4 E > 9 Q P
+
+Example 5.1
+Suppose <math>(X, Y)^T \sim N_2(\mu, \Sigma)</math> where <math>\mu_x = 2</math>, <math>\mu_y = 3</math>, <math>\sigma_x = 1</math>,
+<math>\sigma_{\rm v}=1</math> and <math>\rho=0.5</math>.
+Simulate a sample of size 500 from this distribution and draw a
+scatter plot.
+Use simulation to find <math>Pr(X^2 + Y^2 < 9)</math>.
+Solution
+The marginal distribution of X is <math>X \sim N(2, 1^2)</math>.
+Using the formula for the conditional
+<math>Y|X = x \sim N(\mu_y + \rho \frac{\sigma_y}{\sigma_x}(x - \mu_x), \sigma_y^2(1 - \rho^2))</math>
+<math>\sim N(3+0.5(x-2),0.75).</math>
+4 D > 4 D > 4 E > 4 E > E 900
+
+Simulation results
+<math>npts = 500</math>
+<math>x = rnorm(npts, mean=2, sd = 1)</math>
+2
+<math>y = rnorm(npts, mean=3+0.5*(x-2), sd=sqrt(0.75))</math>
+0
+9
+0
+0
+2
+2
+2
+O
+990
+Х
+
+Probability calculation
+To find <math>Pr(X^2 + Y^2 < 9)</math> approximately, count the number of
+points in the region:
+<math>_{1}</math> npts = 10000
+<math>|x| = rnorm(npts, mean=2, sd = 1)</math>
+<math>y = rnorm(npts, mean=3+0.5*(x-2), sd=sqrt(0.75))</math>
+<math display="block">
+\begin{array}{c|ccccccccccccccccccccccccccccccccccc</math>
+Answer <math>\sim 0.2776</math>
+4日 > 4月 > 4 三 > 4 三 > 三 900で
+
+Extra example
+Suppose
+<math display="block">\left(\begin{array}{c}X\\Y\end{array}\right)\sim N_2\left[\left(\begin{array}{c}4\\1\end{array}\right),\left(\begin{array}{c}8&2\\2&5\end{array}\right)\right].</math>
+The random variable Z is defined by <math>Z = X + 3Y</math>. What is the
+distribution of 7?
+40 + 40 + 45 + 45 + 5 990
+
+Extra example
+We have <math>Z = X + 3Y</math>. Using result 4 on page 31, we have
+<math>E[Z] = 1 \times \mu_x + 3 \times \mu_y = 1 \times 4 + 3 \times 1 = 7.</math>
+Now from the variance-covariance matrix, we have <math>\rho \sigma_x \sigma_v = 2</math>.
+Thus
+<math>Var(Z) = 1^2 \times \sigma_x^2 + 3^2 \times \sigma_y^2 + 2 \times 1 \times 3 \times (\rho \sigma_x \sigma_y)</math>
+<math>= 1 \times 8 + 9 \times 5 + 2 \times 1 \times 3 \times 2</math>
+<math>= 65</math>
+Therefore <math>Z \sim N(7,65)</math>.
+4 D > 4 P > 4 E > 4 E > 9 Q P
+
+Extra example
+We have <math>Z = X + 3Y</math>. Using result 4 on page 31, we have
+<math>E[Z] = 1 \times \mu_x + 3 \times \mu_y = 1 \times 4 + 3 \times 1 = 7.</math>
+Now from the variance-covariance matrix, we have <math>\rho \sigma_x \sigma_y = 2</math>.
+Thus
+<math>Var(Z) = 1^2 \times \sigma_x^2 + 3^2 \times \sigma_v^2 + 2 \times 1 \times 3 \times (\rho \sigma_x \sigma_v)</math>
+<math>= 1 \times 8 + 9 \times 5 + 2 \times 1 \times 3 \times 2</math>
+<math>= 65</math>
+Therefore <math>Z \sim N(7,65)</math>.
+4 D > 4 P > 4 E > 4 E > 9 Q P
+
+Extra example
+We have <math>Z = X + 3Y</math>. Using result 4 on page 31, we have
+<math>E[Z] = 1 \times \mu_x + 3 \times \mu_v = 1 \times 4 + 3 \times 1 = 7.</math>
+Now from the variance-covariance matrix, we have <math>\rho \sigma_x \sigma_y = 2</math>.
+Thus
+<math>Var(Z) = 1^2 \times \sigma_v^2 + 3^2 \times \sigma_v^2 + 2 \times 1 \times 3 \times (\rho \sigma_x \sigma_v)</math>
+<math>= 1 \times 8 + 9 \times 5 + 2 \times 1 \times 3 \times 2</math>
+<math>= 65</math>
+Therefore <math>Z \sim N(7,65)</math>.
+4 D > 4 A > 4 B > 4 B > B 9 9 0
+
+Extra example
+We have <math>Z = X + 3Y</math>. Using result 4 on page 31, we have
+<math>E[Z] = 1 \times \mu_x + 3 \times \mu_v = 1 \times 4 + 3 \times 1 = 7.</math>
+Now from the variance-covariance matrix, we have <math>\rho \sigma_x \sigma_y = 2</math>.
+Thus
+<math>Var(Z) = 1^2 \times \sigma_v^2 + 3^2 \times \sigma_v^2 + 2 \times 1 \times 3 \times (\rho \sigma_x \sigma_v)</math>
+<math>= 1 \times 8 + 9 \times 5 + 2 \times 1 \times 3 \times 2</math>
+<math>= 65.</math>
+Therefore <math>Z \sim N(7,65)</math>.
+4 D > 4 A > 4 B > 4 B > B 9 9 0
+
+Extra example
+20
+0
+-20
+40
+4 D > 4 B > 4 E > 4 E > E 990
+
+The multivariate normal distribution
+The multivariate normal distribution is defined on vectors in <math>\mathbb{R}^n</math>
+Suppose that X is a random vector with n entries, i.e.
+<math>X = (X_1, \ldots, X_n)^T</math>.
+Then
+<math>X \sim N_n(\mu, \Sigma)</math>
+if <math>X_1, \ldots, X_n</math> have joint PDF given by
+<math>f_{\underline{X}}(\underline{x}) = \frac{1}{2\pi\sqrt{\det \Sigma}} \exp\left(-\frac{1}{2}Q(\underline{x})\right)</math>
+where
+<math>Q(x) = (x - \mu)^T \Sigma^{-1} (x - \mu).</math>
+This definition makes sense for any column vector <math>\mu \in \mathbb{R}^n</math> and any
+positive definite <math>n \times n</math> matrix <math>\Sigma</math>.
+4D > 4A > 4E > 4E > 4 A 9 A 9 A
+
+Remarks
+1 The vector <math>\mu</math> is the mean of the distribution and <math>\Sigma</math> is called
+the covariance matrix.
+2 All the marginal distributions of X are normal. (We do not
+specify their parameters here, however).
+3 Similarly, all the conditional distributions of X are normal.
+(Again, we do not specify the parameters of these
+distributions here).
+4 D > 4 P > 4 E > 4 E > 9 Q P

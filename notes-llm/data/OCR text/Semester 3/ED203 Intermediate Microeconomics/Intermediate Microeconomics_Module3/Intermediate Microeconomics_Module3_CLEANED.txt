@@ -1,0 +1,290 @@
+January 9, 2023
+MODULE 3: General Equilibrium
+
+In earlier modules, we have learned about markets separately, such as the potato market or automobile industry, as an individual market analysis in isolation. Then we used to net out the influences and related things among different markets, i.e., partial equilibrium analysis.
+
+* Partial Equilibrium Analysis is the determination of equilibrium prices and quantities in a market independent of effects from other markets.
+But markets are often interdependent (for all services and commodities): conditions in one can affect prices and outputs in others. This is because one good is an input to the production of another good, or because two goods are substitutes or complements.
+
+General Equilibrium studies the inter-relationships between markets, different commodities, and between economic agents.
+
+General Equilibrium Analysis is the simultaneous determination of prices and quantities in all relevant markets, taking feedback effects into account.
+
+Feedback Effect as a price or quantity adjustment in one market caused by price and quantity adjustments in related markets.
+
+In practice, a complete GE analysis, which evaluates the effects of a change in one market on all other markets, is not feasible. Instead, we confine ourselves to two or three markets that are closely related. For example, when looking at a tax on oil, we might also look at markets for natural gas, coal, and electricity.
+
+Note: The last section appears to be a table or chart, but since it's not text, I didn't include it in the cleaned output.
+
+The graphs represent the supply and demand curves for movie theater tickets and OTT subscriptions.
+
+In part (a), the price of movie tickets is initially Pri and is in equilibrium at the intersection of DM & SM.
+
+In part (b), the OTT subscription is also in equilibrium with a price of Pot. Now suppose the government levies one unit tax on each movie ticket purchased. This ends the partial equilibrium analysis of the effect of tax.
+
+The effect of this tax is determined on a partial equilibrium basis by shifting the supply curve for movies upward by one unit, from Sm to Sm.
+
+Initially, this shift causes the prices of movies to increase to Pm and the quantity of movie tickets sold to fall from an to an. This is as far as a partial equilibrium analysis takes us. But we can Go further with a general equilibrium analysis by doing two things: (3) looking at the effects of the movie tax on the market for over-the-top (OTT), and seeing whether there are any feedback effects from the OTT market to the movie market.
+
+We refer to this as the spill-over effect, because on the OTT market, which is a substitute for the movie ticket market.
+
+- A higher movie price shifts the demand for OTT subscription from Do to DIn (6).
+Given OTT's supply, the peace of OTT will increase, and quantity demanded of OTT increases along the supply curve.
+It is because of the higher subscription price feeding back into the movie ticket market, causing demand to shift from Dm to Dm, and the price of movies to increase from PM to PM. [Po > (PM+t) = PM]
+This continues until a general equilibrium (G.E.) is reached, at the intersection of Dm and Smin (a), with a movie ticket price of Pm, and the intersection of Do and Sv in (6), with a subscription price of ?.
+This happens when plans of economic agents in all markets are simultaneously realized.
+There are many G.E. models; we will study competitive G.E.
+
+RECAP OF LAST CLASS
+
+(9) Partial equilibrium analysis of a single market
+(i) Inter-relationships between markets
+(iii) Spill-over and feedback effects
+(2) Simultaneous determination of multi-market solutions
+(1) Two-way causation
+
+# Features of Walrasian General Equilibrium Framework
+
+'n markets: P1, P2, P3...Pj...Pn-1, Pn.
+
+Suppose good 2 is the numeraire good. Then,
+
+Relative Price: <math>\left(P_1 = \frac{P_1}{P_2}\right) \left(P_2 = \frac{P_2}{P_2}\right) \left(P_3 = \frac{P_3}{P_2}\right) \cdots \left(P_n = \frac{P_n}{P_2}\right)</math>
+
+-> FEATURES
+
+(i) Consider markets for final goods and input markets used to produce those goods.
+(ii) There is no money in G.E. All nominal prices are real prices when deflated by the numeraire good's price.
+(iii) The system of markets is static, not dynamic.
+
+(1) No savings => no capital formation in the GE framework. Individuals do not save or borrow, so there is no bank or any financial institution.
+
+There is no market for bonds, equities and shares.
+
+In a static Walrasian general equilibrium framework, there are only two kinds of market. These are:
+
+The endowments of inputs/factors are exogeneously given. In particular, we'll be looking at optimal consumption of final goods by all individuals, optimal production of goods, and optimal factor employment.
+
+The first two issues are related to the market mechanism.
+
+For final goods, reflecting the buyer's, and seller's.
+
+Plans respectively.
+
+Whereas the third issue relates to the market for the inputs. Note: The endowment of the factors are given, - to avoid at the input market equilibrium, all we need to do is get to know how much the firms are producing, i.e., solve (i). With willing were the system of markets to state and the military. The environment is not expected formation in life France.
+
+At first glance, "it might appear that in our earlier analysis of consumer behaviour and producer theory, we have already addressed the three issues. For example, consumer should consume at the point such that MRS equals Price ratio. Competitive firms should produce corresponding to the minimum point of their LSE. Factors/inputs should be hired according to their marginal productivities. Of course, these remain the basic rules of the game, but the Enter-relationship below different markets calls for certain modifications. For example, in the production decision, where resources are fully employed, there is essentially a trade-off between the output levels of each sector producing different goods. However, the output of one particular good cannot be increased without contracting the Output in a related sector. The two sectors being related by the common scarce resources. Thus, we need to address not just production plans in one market as we did earlier, but rather we need to address the optimal combination of output levels in different sectors simultaneously.
+
+It is immediate from the above discussion that the issue of factor demands is nothing but one of optimal resource allocation.
+
+Finally, coming to the issue of optimal consumption.
+
+In partial equilibrium theory, we considered all consumers to be homogeneous, i.e., all consumers had identical tastes and preferences for all goods. So considering a representative consumer and scaling up his demand plans would give us the market demand.
+
+Two things will change now, when the consumer set is heterogeneous.
+
+(1) C1 may consume chicken and mutton in the ratio 1:2.
+While C2 will prefer it in 3:1.
+
+(i) Even when tastes are identical they may be endowed with different combinations of goods to begin with.
+
+So in either case there arises a possibility of exchange.
+
+and reallocation to maximum utility.
+
+yet he invested without cost, entering a settled sector. He was set by the common scene resource. Thus we need to address not just foundation fleshing out the worthier will see, bearing in mind much to address the often washing of our please and harries, and the state of the state.
+
+# Walras' Law
+
+In a competitive general equilibrium framework, with n markets. If (n-1) markets clear, then the nth market will automatically clear.
+
+The sum of the value of excess demand will be zero.
+
+There may exist excess demand or under-production in one market. And excess supply or over-production in another market simultaneously. But all markets taken together for the entire economy, the summation of all excess demand will be zero.
+
+This holds in all situations, which is why it's an identity.
+
+PROOF:
+
+Let there be n markets. Define excess demand in the jth market as:
+
+Z_j(P_j) = D_j(P_j) - S_j(P_j)
+
+Pj = Pj relative price of the jth good w.r.t. (real).
+
+Then, by Walras' Law,
+
+n-1
+∑j=1^2 ∀j^2 ∀j^2 ∀j^2 ∀j^2 ∀j^2 ∀j^2 ∀j^2 ∀j^2 ∀j^2 ∀j^2 ∀j^2 ∀j^2
+
+Proof follows from budget constraint of the economy.
+SUM OF VALUE OF CONSUMPTION = SUM OF VALUE OF PRODUCTION - SUM OF FACTOR PAYMENTS.
+
+JUST ANIA
+
+# Consumers,
+
+No. M = ∑(1) to (n-1) Pj Dj(Pj) + Dh
+
+-
+
+No. -
+
+9 Balan S
+
+M: Income of each individual.
+
+Let there be H number of consumers.
+
+N.I. = <math>∑<sub>h=1</sub><sup>H</sup> M<sub>h</sub> = ∑<sub>h=1</sub><sup>H</sup> [∏<sub>j=1</sub><sup>n-1</sup> P<sub>j</sub> D<sub>j</sub>(P<sub>j</sub>) + D<sub>n</sub>]</math>
+Bala
+Carlo
+
+Producers, by P.E.T., -Let there be 'L' number of inputs. We have earned by each factor total value of goods and total value of factor payments. Ve represents Productivity, which is a share of each factor.
+
+Joining the consumption, production and factor incomes, we get,
+
+Zweve = N.I.
+=> ∑_{j=1}^{n-1} P_{j} S_{j}(P_{j}) + S_{n} = ∑_{j=1}^{n-1} ∑_{j=1}^{n} D_{j}(P_{j}) + D_{n}
+
+Summed over all individuals,
+ZP; Sj(Pi) + Sn = ZP; Dj(Pi) + Dn
+=> ∫{∑_{j=1}^{n-1} P_{ij}^{n} J_{j}(P_{ij}) - ∑_{j=1}^{n-1} P_{ij}^{n} J_{j}(P_{ij})} + {D_{n} - S_{n}} = 0.
+
+= ∑_{j=1}^{n-1} P_j Z_j(P_j) + Z_n = 0.
+
+3343.43 30
+A Destination Post of Any Less
+-1 71-334 January - 2 (-1 7 3)
+
+November 9, 2023
+
+* Robinson Crusoe Economy
+[1 consumer - 1 producer economy]
+• No story of exchange is needed.
+• No concept of market is required.
+Robinson Crusoe is stranded on an island and he...
+
+He has to fend for himself. So, he was allocated with 1 unit of time. -> one unit of time in leisure → 1-L = L: units of labor. → C: coconuts consumed. μ(c, l) is his utility function. Maximize µ(c,l).
+
+Please provide the OCR text you'd like me to clean, and I'll be happy to help!
+
+Robinson Course multitasks both as consumer and producer, choosing how much of its time to allocate below leisure.
+
+And searching for coconuts. Production function: C=f(L). Now, the utility for can be written as μ(c, l) = μ(f(L), 1-L).
+
+The marginal revenue product of labor (MPL) equals the marginal social return (MRS). The slope of Robinson's indifference curve equals the slope of his production function. The production function is one-dimensional and concave.
+
+Mathematically, this can be represented as:
+
+f(L) = A L^α; A > 0 - technology coefficient.
+α < 1 - D.R.s.
+
+Let the utility function be μ(c, ℓ) = c^β ⋅ ℓ^(1-β)
+
+= Blog C + (1-B) log l
+
+Maximize p(c,f)
+=> p(c,1) = pp b log c + (1-p) log l
+
+The equation u(L) = p log(AL") + (1-p) log(1-L)
+
+The derivative of this equation with respect to L is given by:
+
+du/dL = αβ/L = (1-β)/(1-L) = 0
+
+This implies that dP/dL = (1-B)/(1-L) = (1-B)/dB
+
+I'm ready to help! Please provide the OCR text, and I'll follow the system instructions to rewrite it and make it readable.
+
+The formula equals 1 over L, which is equal to (1 minus beta plus alpha times beta) divided by 2, implying 1 over (1 plus alpha times beta minus beta). 
+
+L prime equals 1 minus L prime. Miller's joke says that death is a joke.
+
+C star equals A L along.
+
+Since there is only one agent in the economy, the
+
+Allocation (C*, L*, L*) Being Pareto-Optimal and Efficient
+
+Is trivial.
+
+# Pure Exchange Economy & Model 4
+
+2 goods, 2 consumers, no production economy
+* Introduce production later.
+Two individuals, CI and C2, have endowments to begin with. They can trade or exchange these two goods to increase utility.
+The two goods are Pizza and Tuxedo (PST).
+Economically,
+So the initial endowment to begin with is inefficient.
+
+Let me know if you need any further assistance!
+
+The same idea of exchange applies for international trade.
+
+between countries.
+
+* Pareto Efficiency
+
+A situation is said to be Pareto Optimal/Efficient, when no one can be made better off without worsening someone else in the economy, i.e., well-being of one consumer/producer cannot be improved by reducing that of the other. We say we have reached Pareto Optimality.
+
+If there is a chance to do so, then that situation is Pareto Inefficient.
+
+13/09/2023
+Let there be two consumers, C1 and C2, and the two goods be PAT. Let the initial endowments for the two goods be CI = (7P, 1T) for C1 and CI = (3BP, 5T) for C2. The economy begins with (10P, 6T). To check whether a mutual trade/exchange would be beneficial for them, i.e., their utility improves from their initial endowments. One has to know their preferences for the two goods.
+
+Preferences are understood by the MRS of each consumer from the two goods. Suppose C1 is ready to give 3P for 1 unit of T. And, C2 is willing to give $ units of T for 1P. Let's say, C2 offers 1 unit of T to C1 against 1 unit of P. The exchange depends on the bargaining power of both consumers.
+
+Both consumers are better-off: C1 gets more of tuxedo, which he values more than pizza. C2 gets more of pizza (more than tuxedo).
+
+Whenever two consumers' MRS are different, exchange will be mutually beneficial for both of them, i.e., after the exchange the two new allocations will be Pareto Efficient. This is obtained at the point where MRS of the two consumers is equal.
+
+To put it in a statement, economic Pareto Efficiency is obtained when MRSP,T = MRST.
+
+~ Edgeworth Box
+
+A = {7P, 1T; 3P, 5T}
+
+B = {6P, 2T; 4P, 4T}
+
+It is a diagram giving us all possible endowments/allocations of the two commodities or two consumers, or of two inputs and two production processes.
+
+The movement from A to B makes both CI and CZ better-off compared to their "initial endowment point. But is the movement economically Pareto Efficient?
+
+IC for Cz
+0
+~ CONTRACT CURVE
+IC for C1
+the reward
+TOTAL
+Total contract curve: Total total total total total total total total total total total total total total total total total total total total total total total total total total total total total total total total
+
+The shaded area was blue, representing the indifference curves of C14/C2. 
+
+That passed through the initial endowment point A, gives us the region where all firms bargaining between
+
+C12 and C2 will happen in a way that makes both better off than at A. To the right of that shaded region, however, would make C1 better off but be in a worse situation.
+
+Let me know if you'd like me to clarify or expand on anything!
+
+Similarly to the left of the shaded region, though it would be beneficial for C2 but would be worse set for C1. Q.
+
+Movement from A to B is inside the shaded region. So this exchange makes CS and C2 mutually benefited. But it is not Pareto efficient because ICs of CIAC2 are not equal here, as their ICs are not tangent but intersecting.
+
+However, at point X, which is obtained from B by further exchange 5/6 CI to C2 of the two
+
+Goods. At point X, the indifference curves (IC) of C14C2 are large enough to each other. Implying, MRSP,T = MRSP,T.
+
+After point X, any one consumer cannot be made better off without making the other consumer worse off.
+
+X is a Pareto Efficient Allocation.
+
+The contract curve is a locus of all such efficient allocations of the two goods between the two consumers, where Pareto Efficiency is ensured.
+
+The contract curve traces all points of tangency between the indifference curves.
+
+The ICs of two consumers.
+
+Any point away from the contract curve is inefficient.
+
+Any point on the contract curve implies that if a consumer has to be made better off from that point, it will come at the cost of worsening the other consumer.

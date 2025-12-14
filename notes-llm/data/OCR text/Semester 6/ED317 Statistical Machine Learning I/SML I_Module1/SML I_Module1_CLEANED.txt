@@ -1,0 +1,347 @@
+<b>Outline</b>
+[read Chapter 2]
+[suggested exercises 2.2, 2.3, 2.4, 2.6]
+• Learning from examples
+• General-to-specific ordering over hypotheses
+• Version spaces and candidate elimination
+algorithm
+• Picking new examples
+• The need for inductive bias
+Note: simple approach assuming no noise,
+illustrates key concepts
+22
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Training Examples for EnjoySport
+Humid
+Wind
+Water Forecst
+Temp
+Sky
+EnjoySpt
+Normal
+Warm
+Same
+Warm
+Strong
+Yes
+Sunny
+Warm
+High
+Strong Warm
+Same
+Yes
+Sunny
+Cold
+Rainy
+Strong Warm
+Change
+No
+High
+Sunny Warm
+Cool
+Change
+High
+Yes
+Strong
+What is the general concept?
+23
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Representing Hypotheses
+Many possible representations
+Here, <math>h</math> is conjunction of constraints on attributes
+Each constraint can be
+• a specific value (e.g., <math>Water = Warm</math>)
+• don't care (e.g., "<math>Water = ?</math>")
+• no value allowed (e.g., "Water=0")
+For example,
+Sky AirTemp Humid Wind Water Forecst
+<math>\langle Sunny</math>
+?
+?
+<math>Strong</math> ?
+<math>Same \rangle</math>
+24
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Prototypical Concept Learning Task
+• Given:
+- Instances <math>X</math>: Possible days, each described by
+the attributes Sky, AirTemp, Humidity,
+Wind, Water, Forecast
+- Target function <math>c: EnjoySport: X \rightarrow \{0, 1\}</math>
+- Hypotheses <math>H</math>: Conjunctions of literals. E.g.
+<math>\langle ?, Cold, High, ?, ?, ? \rangle</math>.
+- Training examples <math>D</math>: Positive and negative
+examples of the target function
+<math>\langle x_1, c(x_1) \rangle, \ldots \langle x_m, c(x_m) \rangle</math>
+• <b>Determine:</b> A hypothesis h in H such that
+<math>h(x) = c(x)</math> for all <math>x</math> in <math>D</math>.
+25
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+The inductive learning hypothesis: Any
+hypothesis found to approximate the target
+function well over a sufficiently large set of
+training examples will also approximate the
+target function well over other unobserved
+examples.
+26
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Instance, Hypotheses, and More-
+General-Than
+Instances X
+Hypotheses H
+Specific
+h,
+<math>x_{2}</math>
+General
+<math>h_1 = \langle Sunny, ?, ?, Strong, ?, ? \rangle</math><br>
+<math>h_2 = \langle Sunny, ?, ?, ?, ?, ? \rangle</math>
+<math>x_1 = \langle Sunny, Warm, High, Strong, Cool, Same \rangle</math>
+<math>x_2 = \langle Sunny, Warm, High, Light, Warm, Same \rangle</math>
+<math>h_3^2 = \langle Sunny, ?, ?, ?, Cool, ? \rangle</math>
+27
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Find-S Algorithm
+1. Initialize h to the most specific hypothesis in H
+2. For each positive training instance x
+• For each attribute constraint <math>a_i</math> in <math>h</math>
+If the constraint <math>a_i</math> in <math>h</math> is satisfied by <math>x</math>
+Then do nothing
+Else replace <math>a_i</math> in <math>h</math> by the next more
+general constraint that is satisfied by x
+3. Output hypothesis h
+28
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Hypothesis Space Search by Find-S
+Instances X
+Hypotheses H
+<math>h_0</math>
+Specific
+<math>x_3^{\odot}</math>
+General
+<math>h_0 = \langle \varnothing, \varnothing, \varnothing, \varnothing, \varnothing, \varnothing \rangle</math>
+<math>x_1 = \langle Sunny \ Warm \ Normal \ Strong \ Warm \ Same \rangle, \ +</math>
+<math>h_1 = \langle Sunny \ Warm \ Normal \ Strong \ Warm \ San</math>
+<math>x_2 = \langle Sunny \ Warm \ High \ Strong \ Warm \ Same \rangle</math>, +
+<math>h_2 = \langle Sunny \ Warm \ ? \ Strong \ Warm \ Same \rangle</math>
+<math>h_3 = \langle Sunny \ Warm \ ? \ Strong \ Warm \ Same \rangle</math>
+<math>x_3 = \langle Rainy \ Cold \ High \ Strong \ Warm \ Change \rangle</math>, -
+<math>h_4^{}=<Sunny\;Warm\;\;?\;\;Strong\;\;?\;\;?></math>
+<math>x_4 = \langle Sunny \ Warm \ High \ Strong \ Cool \ Change \rangle</math>, +
+29
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Complaints about Find-S
+• Can't tell whether it has learned concept
+• Can't tell when training data inconsistent
+• Picks a maximally specific h (why?)
+<math>\bullet</math> Depending on <math>H</math>, there might be several!
+30
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Version Spaces
+A hypothesis h is <b>consistent</b> with a set of
+training examples <math>D</math> of target concept <math>c</math> if and
+only if <math>h(x) = c(x)</math> for each training example
+<math>\langle x, c(x) \rangle</math> in D.
+<math>Consistent(h, D) \equiv (\forall \langle x, c(x) \rangle \in D) \ h(x) = c(x)</math>
+The version space, <math>VS_{H,D}</math>, with respect to
+hypothesis space <math>H</math> and training examples <math>D</math>,
+is the subset of hypotheses from H consistent
+with all training examples in <math>D</math>.
+<math>VS_{H,D} \equiv \{h \in H | Consistent(h, D)\}</math>
+31
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+The List-Then-Eliminate Algorithm:
+1. <math>VersionSpace \leftarrow</math> a list containing every
+hypothesis in <math>H</math>
+2. For each training example, <math>\langle x, c(x) \rangle</math>
+remove from <math>VersionSpace</math> any hypothesis <math>h</math> for
+which <math>h(x) \neq c(x)</math>
+3. Output the list of hypotheses in <math>VersionSpace</math>
+32
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Example Version Space
+S: { < Sunny, Warm, ?, Strong, ?, ?> }
+<Sunny, ?, ?, Strong, ?, ?>
+<Sunny, Warm, ?, ?, ?, ?>
+<?, Warm, ?, Strong, ?, ?>
+{ <Sunny, ?, ?, ?, ?, ?>, <?, Warm, ?, ?, ?, ?> }
+<i>G</i>:
+33
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Representing Version Spaces
+The <b>General boundary</b>, G, of version space
+<math>VS_{H,D}</math> is the set of its maximally general
+members
+The <b>Specific boundary</b>, S, of version space
+<math>VS_{H,D}</math> is the set of its maximally specific
+members
+Every member of the version space lies between
+these boundaries
+<math display="block">VS_{H,D} = \{ h \in H | (\exists s \in S)(\exists g \in G)(g \ge h \ge s) \}</math>
+where <math>x \geq y</math> means x is more general or equal to
+y
+34
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Candidate Elimination Algorithm
+<math>G \leftarrow \text{maximally general hypotheses in } H</math>
+<math>S \leftarrow \text{maximally specific hypotheses in } H</math>
+For each training example <math>d</math>, do
+• If <math>d</math> is a positive example
+- Remove from G any hypothesis inconsistent
+with <math>d</math>
+- For each hypothesis <math>s</math> in <math>S</math> that is not
+consistent with <math>d</math>
+* Remove <math>s</math> from <math>S</math>
+* Add to S all minimal generalizations h of s
+such that
+1. <math>h</math> is consistent with <math>d</math>, and
+2. some member of <math>G</math> is more general than <math>h</math>
+<math>*</math> Remove from <math>S</math> any hypothesis that is more
+general than another hypothesis in <math>S</math>
+• If d is a negative example
+35
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+<math>-</math> Remove from <math>S</math> any hypothesis inconsistent
+with <math>d</math>
+- For each hypothesis <math>g</math> in <math>G</math> that is not
+consistent with <math>d</math>
+* Remove <math>g</math> from <math>G</math>
+* Add to <math>G</math> all minimal specializations <math>h</math> of <math>g</math>
+such that
+1. <math>h</math> is consistent with <math>d</math>, and
+2. some member of <math>S</math> is more specific than <math>h</math>
+* Remove from <math>G</math> any hypothesis that is less
+general than another hypothesis in <math>G</math>
+36
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+<b>Example Trace</b>
+{<Ø, Ø, Ø, Ø, Ø, Ø>}
+<b>s</b><sub>0</sub>:
+<math>G_0</math>:
+{<?, ?, ?, ?, ?, ?>}
+37
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+What Next Training Example?
+S: { < Sunny, Warm, ?, Strong, ?, ?> }
+<Sunny, Warm, ?, ?, ?, ?>
+<?, Warm, ?, Strong, ?, ?>
+<Sunny, ?, ?, Strong, ?, ?>
+{ <Sunny, ?, ?, ?, ?, ?>, <?, Warm, ?, ?, ?, ?> }
+<i>G</i>:
+38
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+How Should These Be Classified?
+{ < Sunny, Warm, ?, Strong, ?, ?> }
+S:
+<Sunny, Warm, ?, ?, ?, ?>
+<Sunny, ?, ?, Strong, ?, ?>
+<?, Warm, ?, Strong, ?, ?>
+{ <Sunny, ?, ?, ?, ?, ?>, <?, Warm, ?, ?, ?, ?> }
+<i>G</i>:
+(Sunny Warm Normal Strong Cool Change)
+⟨Rainy Cool Normal Light Warm Same⟩
+⟨Sunny Warm Normal Light Warm Same⟩
+39
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+What Justifies this Inductive Leap?
++ <math>\langle Sunny \ Warm \ Normal \ Strong \ Cool \ Change \rangle</math>
++ <math>\langle Sunny \ Warm \ Normal \ Light \ Warm \ Same \rangle</math>
+<math>S: \langle Sunny \ Warm \ Normal ? ? ? \rangle</math>
+Why believe we can classify the unseen
+<math>\langle Sunny \ Warm \ Normal \ Strong \ Warm \ Same \rangle</math>
+40
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+An UNBiased Learner
+Idea: Choose H that expresses every teachable
+concept (i.e., <math>H</math> is the power set of <math>X</math>)
+Consider <math>H' = \text{disjunctions}</math>, conjunctions,
+negations over previous <math>H</math>. E.g.,
+<math>\langle Sunny \ Warm \ Normal \ ? \ ? \ ? \rangle \lor \neg \langle ? \ ? \ ? \ ? \ Change \rangle</math>
+What are <math>S</math>, <math>G</math> in this case?
+<math>S \leftarrow</math>
+<math>G \leftarrow</math>
+41
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Inductive Bias
+Consider
+<math>\bullet</math> concept learning algorithm <math>L</math>
+• instances X, target concept c
+• training examples <math>D_c = \{\langle x, c(x) \rangle\}</math>
+• let <math>L(x_i, D_c)</math> denote the classification assigned to
+the instance <math>x_i</math> by L after training on data <math>D_c</math>.
+<b>Definition:</b>
+The <b>inductive bias</b> of <math>L</math> is any minimal set
+of assertions B such that for any target
+concept <math>c</math> and corresponding training
+examples <math>D_c</math>
+<math>(\forall x_i \in X)[(B \land D_c \land x_i) \vdash L(x_i, D_c)]</math>
+where <math>A \vdash B</math> means A logically entails B
+42
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Inductive Systems and Equivalent
+<b>Deductive Systems</b>
+Inductive system
+Classification of
+Candidate
+new instance, or
+Training examples
+"don't know"
+Elimination
+Algorithm
+New instance
+Using Hypothesis
+Space <math>\hat{H}</math>
+Equivalent deductive system
+Classification of
+new instance, or
+Training examples
+"don't know"
+Theorem Prover
+New instance
+Assertion "H contains
+the target concept"
+<i>Inductive bias</i>
+made explicit
+43
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+Three Learners with Different Biases
+1. Rote learner: Store examples, Classify x iff it
+matches previously observed example.
+2. Version space candidate elimination algorithm
+3. <i>Find-S</i>
+44
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997
+
+<b>Summary Points</b>
+1. Concept learning as search through <math>H</math>
+2. General-to-specific ordering over <math>H</math>
+3. Version space candidate elimination algorithm
+4. S and G boundaries characterize learner's
+uncertainty
+5. Learner can generate useful queries
+6. Inductive leaps possible only if learner is biased
+7. Inductive learners can be modelled by equivalent
+deductive systems
+45
+lecture slides for textbook Machine Learning, T. Mitchell, McGraw Hill, 1997

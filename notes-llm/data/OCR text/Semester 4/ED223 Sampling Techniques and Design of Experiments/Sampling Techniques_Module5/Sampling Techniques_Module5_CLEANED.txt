@@ -1,0 +1,795 @@
+Please provide the OCR text, and I'll be happy to help you rewrite it to make it readable by fixing typos, merging broken lines, leaving math/equations alone, and outputting only the cleaned text.
+
+Basic Definitions and Principles
+
+Many experiments involve the study of the effects of two or more factors. In general, factorial designs are most efficient for this type of experiment.
+
+By a factorial design, we mean that in each complete trial or replicate of the experiment, all possible combinations of the levels of the factors are investigated. For example, if there are a levels of factor A and b levels of factor B, each replicate contains all ab treatment combinations. When factors are arranged in a factorial design, they are often said to be crossed.
+
+Basic Definitions and Principles
+
+• The effect of a factor is defined as the change in response produced by a change in the level of the factor. This is frequently referred to as a main effect, as it refers to the primary factors that have an impact on the outcome.
+
+Of interest in the experiment.
+
+A two-factor factorial experiment
+
+52
+30
+60
++
+B+ (High) 50
+Factor B Response 40
+B+ B- 30 (Low) 20 20 40
+B (Low)
+(High)
+Factor A +
+Factor A
+
+A two-factor factorial experiment
+The main effect of factor A in this two-level design can be thought of as the difference between the average response at the low level of A and the average response at the high level of A.
+
+Main effect of factor A:
+Low (20, 30)
+High (40, 52)
+
+The main effect of factor A is calculated as:
+
+A = (40 + 52) / 2 - (20 + 30) / 2 = 21
+
+Main effect of factor B:
+Low (20, 40)
+High (30, 52)
+
+The main effect of factor B is calculated as:
+
+B = (30 + 52) / 2 - (20 + 40) / 2 = 11
+
+A two-factor factorial experiment with interaction. The design consists of 12 runs.
+
+Factor A (High) + Factor B- (60)
+Response: Factor B+ (40)
+
+Factor A (Low) + Factor B- (30)
+Response: Factor B+ (20)
+
+Factor A (Low) + Factor B+ (50)
+Response: R+ (20)
+
+Factor A (High) + Factor B- (10)
+Response: _
+
+Factor A
+
+Note: I left the math/equations alone as per your instruction. Let me know if you need any further assistance!
+
+Advantages of a Factorial Design
+
+1. They are more efficient than one-factor-at-a-time experiments.
+2. A factorial design is necessary when interactions may be present to avoid misleading conclusions.
+3. Factorial designs allow the effects of a factor to be estimated at several levels of the other factors, yielding conclusions that are valid over a range of experimental conditions.
+
+Two-Factor Factorial Design
+
+The simplest types of factorial designs involve only two factors or sets of treatments. There are 'a' levels of factor A and 'b' levels of factor B, and these are arranged in a factorial design; that is, each replicate of the experiment contains all ab treatment combinations. In general, there are n replicates.
+
+An Example of Two-Factor Factorial Design
+
+An engineer is designing a battery for use in a device that will be subjected to some extreme variations in temperature. The only design parameter that he can select at this point is the plate material for the battery, and he has three possible choices.
+
+When the device is manufactured and is shipped to the field, the engineer has no control over the temperature extremes that the device will encounter, and he knows from experience that temperature will probably affect the effective battery life. However, temperature can be controlled in the product development laboratory for the purposes of a test.
+
+An Example of Two-Factor Factorial Design
+
+Life (in hours) Data for the Battery Design Example
+
+Material    Temperature (°F)
+70         15
+Type       125
+130        70
+155        130
+34         40
+20         20
+This is an example of a 3^2 factorial design.
+
+In this problem, the engineer wants to answer the following questions:
+
+1. What effects do material type and temperature have on the life of the battery?
+2. Is there a choice of material that would give uniformly long life regardless of temperature?
+
+The general case of a Two-Factor Factorial Design
+
+Let yijk be the observed response when factor A is at the ith level (i = 1, 2, ..., a) and factor B is at the jth level (j = 1, 2, ..., b) for the kth replicate (k = 1, 2, ..., n).
+
+Then,
+yijk = μ + τi + βj + (τβ)ij + εijk
+
+{i = 1, 2, …, a}
+{j = 1, 2, …, b}
+{k = 1, 2, …, n}
+
+The effects model is
+where μ is the overall mean effect
+τi is the effect of the ith level of the row factor A.
+βj is the effect of the jth level of column factor B
+(τβ)ij is the effect of the interaction between τi and βi
+εijk is a random error component
+
+Testing of Hypotheses in Two-Factor Factorial Design
+
+In the two-factor factorial, both row and column factors (or treatments), A and B, are of equal interest. Specifically, we are interested in testing hypotheses about the equality of row treatment effects, say H0: τ1 = τ2 = … = τa = 0 and H1: at least one τi ≠ 0.
+
+The treatment effects are defined as deviations from the overall mean, so ∑i=1a τi = 0, ∑j=1b βj = 0, and we test hypotheses about the equality of column treatment effects, say H0: β1 = β2 = … = βb = 0 and H1: at least one βi ≠ 0.
+
+Testing of Hypotheses in Two-Factor Factorial Design
+We are also interested in determining whether row and column treatments interact.
+
+The null hypothesis is H0: (τβ)ij = 0 for all i, j.
+The alternative hypothesis is H1: at least one (τβ)ii ≠ 0.
+
+The general case of a Two-Factor Factorial Design
+The total sum of squares is computed as SS_T = ∑i=1a ∑j=1b ∑k=1n yijk^2 - y_^2/abn
+
+The sums of squares for the main effects are
+SS_A = 1/bn ∑i=1a yi_^2 - y_^2/abn
+SS_B = 1/an ∑i=1b .j.^2 - y_^2/abn
+SS_AB = SS_Subtotals - SS_A - SS_B
+
+The Sum of Squares due to interaction effect of AB is given by: Where, SS_Subtotals = 1/n ∑i=1a ∑j=1b ij^2 - y_^2/abn
+
+The Analysis of Variance Table for the Two-Factor Factorial, Fixed Effects Model
+
+Source of Variation         Sum of Squares    Degrees of Freedom   Mean Square
+F0                          MS_A            MS_E
+MS_A = SS_A / (a-1)
+SS_A                         A treatments
+F0 = MS_B / MS_E
+MS_B = SS_B / (h-1)
+b-1                        SS_B             B treatments
+SS_AB                       (a-1)(b-1)     MS_AB = SS_AB / ((a-1)(b-1))
+F0 = MS_AB / MS_F
+Interaction
+
+MS_E = SS_E / (ab(n-1))
+ab(n-1)                    SS_E             Error
+SS_T                         Total
+abn-1
+
+Solving the Battery Life Problem: A 3^2 Factorial Design
+
+Life Data (in hours) for the Battery Design Experiment
+
+Temperature (°F)
+Material
+15
+70
+125
+Type
+y_i...
+155
+130
+34
+40
+20
+70
+539
+230
+229
+75
+58
+998
+74
+180
+80
+82
+122
+25
+150
+188
+136
+70
+623
+479
+198
+45
+2
+126
+115
+58
+159
+106
+1300
+138
+110
+174
+120
+96
+104
+576
+583
+342
+3
+82
+168
+160
+150
+139
+60
+1501
+3799 = v
+1291
+770
+1738
+y_.j.
+
+The engineer wants to answer the following questions:
+
+1. What effects do material type and temperature have on the life of the battery?
+2. Is there a choice of material that would give uniformly long life regardless of temperature?
+
+SS_Temperature = (1/an) * sum(y_i^2) - (y_^2)/(abn)
+
+SS_T = sum(sum(sum(y_ijk^2)) - y_^2/(abn)
+= (130)^2 + (155)^2 + (74)^2 + ...
+= (1/(3*4)) * [(1738)^2 + (1291)^2 + (770)^2]
++ (60)^2 - (3799)^2/36 = 77646.97
+
+- 39118.72 = 9613.78
+
+SS_Interaction = (1/n) * sum(sum(y_ij^2)) - y_^2/(abn) - SS_Material
+SS_Material = (1/bn) * sum(y_i..^2) - y_^2/(abn)
+- SS_Temperature
+= (1/4) * [(539)^2 + (229)^2 + ... + (342)^2]
+- 3799^2/26 = 10683.72
+- 39118.72 = 9613.78
+
+Analysis of Variance for Battery Life Data
+
+Degrees of Source of Sum of Mean F-tab P-Value Variation Freedom Squares Square
+3.354 2 7.91 0.0020 Material types 10,683.72 5,341.86 3.354 28.97 < 0.0001 Temperature 39,118.72 2.728 3.56 0.0186 Interaction 9,613.78 2,403.44 4 675.21 Error 18,230.75 27 77,646.97 Total
+
+Average Battery Life for Different Materials at Different Temperature Levels
+
+Temperature    180    •    190
+Material    15F    70F    125F    Average Battery Life
+Material1    134.75    57.25    57.5    120
+Material2    155.75    119.75    49.5    → Material2    80
+Material3    85.5    145.75    144    Material3    60    40    20    0
+
+Let me know if you need any further assistance!
+
+Multiple Comparisons in ANOVA
+
+When the ANOVA indicates that row or column means differ, it is usually of interest to make comparisons between the individual row or column means to discover the specific differences. Applying Tukey's test on the battery life data: 
+
+• When interaction is significant, comparisons between the means of one factor (e.g., A) may be obscured by the AB interaction.
+• One approach to this situation is to fix factor B at a specific level and apply Tukey's test to the means of factor A at that level.
+
+Multiple Comparisons in ANOVA
+
+Suppose we are interested in detecting differences among the means of the three material types. Because interaction is significant, we make this comparison at just one level of temperature, say level 2 (70°F).
+
+We assume that the best estimate of the error variance is the MSE from the ANOVA table, utilizing the assumption that the experimental error variance is the same over all treatment combinations.
+
+Tukey's Test: Pairwise Mean Comparisons
+
+Suppose that, following an ANOVA in which we have rejected the null hypothesis of equal treatment means, we wish to test all pairwise mean comparisons:
+
+For all i ≠ j,
+we want to test H0: μi = μj
+against H1: μi ≠ μj
+
+• Tukey (1953) proposed a procedure for testing hypotheses for which the overall significance level is exactly α when the sample sizes are equal and at most α when the sample sizes are unequal.
+
+Tukey's Test: Pairwise Mean Comparisons
+Tukey's procedure makes use of the distribution of the studentized range statistic, q = (y_max - y_min) / sqrt(MS_r/n).
+
+Tukey's test declares two means significantly different if the absolute value of their sample differences exceeds that obtained from table T_alpha = q_alpha(p, f) * sqrt(MS_E/n), where p is the number of sample means in the group and f is the error degrees of freedom.
+
+Tukey's test in Battery life problem
+The three material type averages at 70°F arranged in ascending order are: 
+$\bar{y}_{12} = 57.25$ (material type 1)
+$\bar{y}_{22} = 119.75$ (material type 2)
+$\bar{y}_{32} = 145.75$ (material type 3)
+$T_{0.05} = q_{0.05}(3, 27) \sqrt{\frac{MS_E}{n}}$
+$= 3.50\sqrt{\frac{675.21}{4}}$
+$= 45.47$
+
+Let me know if you need any further assistance!
+
+Tukey's test in Battery life problem, where we obtained q0.05(3, 27) ≈ 3.50 by interpolation from the Table. The pairwise comparisons yield:
+
+3 vs. 1: 145.75 - 57.25 = 88.50 > T0.05 = 45.47
+3 vs. 2: 145.75 - 119.75 = 26.00 < T0.05 = 45.47
+2 vs. 1: 119.75 - 57.25 = 62.50 > T0.05 = 45.47
+
+This analysis indicates that at the temperature level 70°F, the mean battery life is the same for material types 2 and 3. The mean battery life for material type 1 is significantly lower in comparison to both types 2 and 3.
+
+Multiple Comparisons in ANOVA
+
+If interaction is significant, the experimenter could compare all "ab" cell means to determine which ones differ significantly. In this analysis, differences between cell means include interaction effects as well as both main effects. So, this would give 36 comparisons between all possible pairs of the nine cell means.
+
+Exercises for Practice: Q. An experiment is conducted to study the influence of operating temperature and three types of faceplate glass in synthetic fiber. Four production machines, light output of an oscilloscope tube, are being studied. Three operators are chosen and a factorial experiment is run using fiber from the same production batch. The results are as follows:
+
+Temperature Glass Type
+100 125 150
+Machine 580 1090 1392 3 2 1 4
+Operator 1380 568 1087 109 110 108 110 570 1085 1386 115 109 108 110 550 1070 1328
+2 530 1035 1312 2 110 110 111 114
+579 1000 1299 112 111 109 112
+867 546 1045 3 116 112 114 120
+3 575 1053 904 114 115 119 117
+599 1066 889
+
+Analyze the data and draw Conclusions. Use α = 0.05. (a) Use α = 0.05 in the analysis. Is there a significant interaction effect? Does glass type or temperature affect the response? What conclusions can you draw? (b) Fit an appropriate model relating light output to glass type and temperature.
+
+Note: I left the math/equations alone as per your instruction, so the α = 0.05 remains unchanged.
+
+The General Factorial Design
+
+• The results for the two-factor factorial design may be extended to the general case where there are 'a' levels of factor A, 'b' levels of factor B, 'c' levels of factor C, and so on, arranged in a factorial experiment.
+• In general, there will be abc ... n total observations if there are n replicates of the complete experiment.
+Note that we must have at least two replicates (n ≥ 2) to determine a sum of squares due to error if all possible interactions are included in the model.
+• If all factors in the experiment are fixed, we may easily formulate and test hypotheses about the main effects and interactions using ANOVA.
+
+The General Factorial Design
+
+For a fixed effects model, test statistics for each main effect and interaction may be constructed by dividing the corresponding mean square for the effect or interaction by the mean square error. All of these F tests will be upper-tail, one-tail tests.
+
+The number of degrees of freedom for any main effect is the number of levels of the factor minus one. The number of degrees of freedom for an interaction is the product of the number of degrees of freedom associated with the individual components of the interaction.
+
+Three-factor analysis of variance model
+
+yijkl = μ + τi + βj + γk + (τβ)ij + (τγ)ik + (βγ)jk + (τβγ)i j k + εijkl
+
+{i = 1, 2, …, a}
+{j = 1, 2, …, b}
+{k = 1, 2, …, c}
+{l = 1, 2, …, n}
+
+The total sum of squares
+SST = Σi=1a Σj=1b Σk=1c Σl=1n yijkl^2 - (y...)^2/abcn
+
+Three-factor analysis of variance model
+The sums of squares for the main effects are found from the totals for factors A(yi...) , B(y.i..) , and C(y...k) as follows:
+
+SSA = (1/bcn) ∑(i=1)^a yi...^2 - (y...^2)/(abcn)
+SSB = (1/acn) ∑(j=1)^b y.j..^2 - (y....^2)/(abcn)
+SSC = (1/abn) ∑(k=1)^c y..k.^2 - (y...^2)/(abcn)
+
+Let me know if you need anything else!
+
+Three-factor analysis of variance model
+To compute the two-factor interaction sums of squares, the totals for the A × B, A × C, and B × C cells are needed.
+
+SSBC = (1/an) ∑(i=1 to b) ∑(k=1 to c) yjk.² - (y...²)/(abcn) - SS_B - SS_C
+
+SSAB = (1/cn) ∑(i=1 to a) ∑(j=1 to b) ij...² - (y...²)/(abcn) - SSA - SS_B
+
+= SSSubtotals(BC) - SS_B - SS_C
+
+= SSSubtotals(AB) - SSA - SS_B
+
+SSAC = (1/bn) ∑(i=1 to a) ∑(k=1 to c) i.k.² - (y....²)/(abcn) - SSA - SS_C
+
+= SSSubtotals(AC) - SSA - SS_C
+
+Three-factor analysis of variance model
+
+The three-factor interaction sum of squares is computed from the three-way cell totals {yiik} as
+
+SSABC = 1/n ∑i=1a ∑j=1b ∑k=1c yiik2 - y...2/abcn - SSA - SSAB - SSC - SSAC - SSB - SBC
+
+= SSSubtotals(ABC) - SSA - SSAB - SSC - SSAC - SSB - SBC
+
+The error sum of squares may be found by subtracting the sum of squares for each main effect and interaction from the total sum of squares or by
+
+SSF = SST - SSSubtotals(ABC)
+
+Note: I left the math/equations alone as per your instruction.
+
+The Analysis of Variance Table for the Three-Factor Fixed Effects Model
+Source of Sum of Mean Variation Degrees of Freedom Squares Square F0 = MS_A / MS_E MS_A SS_A A a - 1 F0 = MS_B / MS_E MS_B SS_B B b - 1 F0 = MS_C / MS_E C SS_C MS_C c-1 F0 = MS_AB / MS_E MS_AB SS_AB (a-1)(b-1) F0 = MS_AC / MS_E MS_AC SS_AC (a-1)(c-1)
+
+F0 = MSBC / MSE
+MSBC BC SSBCC (b-1)(c-1)
+F0 = MSAABC / MSE
+SSABC ABC
+(a-1)(b-1)(c-1) MSABC Error SSE MSE abc(n-1) SST abc(n - 1) Total
+
+The 2nd Factorial Design
+
+So far, the general methods for the analysis of factorial designs have been discussed. However, several special cases of the general factorial design are important because they are widely used in research work and also because they form the basis of other designs of considerable practical value.
+
+The most important of these special cases is that of k factors, each at only two levels. These levels may be quantitative, such as two values of temperature, pressure, or time. Or they may be qualitative, such as two machines, two operators, the "high" and "low" levels of a factor, or perhaps the presence and absence of a factor.
+
+A complete replicate of such a design requires 2^k observations and is called a 2^k factorial design.
+
+The 2^k Factorial Design
+
+We assume that (i) the factors are fixed, (ii) the designs are completely randomized, and (iii) the usual normality assumptions are satisfied.
+
+The 2^k design is particularly useful in the early stages of experimental work when many factors are likely to be investigated. It provides the smallest number of runs with which k factors can be studied in a complete factorial design. Consequently, these designs are widely used in factor screening experiments.
+
+Because there are only two levels for each factor, we assume that the response is approximately linear over the range of the factor levels chosen.
+
+The 2² Design
+The first design in the 2^k series is one with only two factors, say A and B, each run at two levels. This design is called a 2² factorial design.
+The levels of the factors may be arbitrarily called "low" and "high."
+
+As an example, consider an investigation into the effect of the concentration of the reactant and the amount of the catalyst on the conversion (yield) in a chemical process. The objective of the experiment was to determine if adjustments to either of these two factors would
+
+Increase the yield. Let the reactant concentration be factor A, and let the two levels of interest be 15 and 25 percent.
+
+The catalyst is factor B, with the high level denoting the use of 2 pounds of the catalyst and the low level denoting the use of 1 pound.
+
+Level denoting the use of only one pound. The experiment is replicated three times, so there are 12 runs.
+
+The order in which the runs are made is random, so this is a completely randomized experiment.
+
+The 2² Design: Example
+
+Replicate
+Factor
+Treatment
+B
+A
+Combination
+III
+Total
+II
+I
+28
+80
+A low, B low
+25
+27
+32
+A high, B low
+36
+32
+100
++ A low, B high
+18
+60
+19
+23
++ A high, B high
+31
+29
+90
+30
++
+
+By convention, we denote the effect of a factor by a capital Latin letter. Thus "A" refers to the effect of factor A, "B" refers to the effect of factor B, and "AB" refers to the AB interaction.
+
+Treatment Combinations in a 2^2 design
+
+Notations:
+
+b = 60
+ab = 90
+(18 + 19 + 23)
+(31 + 30 + 29)
+
+High (2 pounds)
+• "-": low levels (of factor A or B)
+• "+": high levels (of factor A or B)
+
+Amount of catalyst, B
+
+The four treatment combinations in the design are also represented by lowercase letters, such as:
+
+Low
+a: A at high level (or A+), B at low level (B-)
+• (1 pound)
+(1) = 80
+a = 100
+(28 + 25 + 27)
+(36 + 32 + 32)
+
+b: B at high level (or B+), A at low level (A-)
+•
+
+ab: both A and B at high levels (A+ B+)
+•
+
+Low
+High
+(15%)
+(25%)
+(1): both A and B at low levels (A- B-)
+
+Reactant concentration,
+A
+
+The effect of A can be found as the difference in the average response of the two treatment combinations, i.e.
+
+A = yA+ - yA-
+
+Algebraic Signs for Calculating Effects in
+
+= (ab + a) / 2n - (b + 1) / 2n
+
+the 22 Design
+
+Treatment
+Factorial Effect
+
+= (1 / 2n) [ab + a - b - 1]
+
+Combination
+B
+AB
+A
+(1)
++
++
++ + - - -
+a
+
+The effect of B can be calculated as:
+
+B = yR+ - yR-
+
+= (ab + b) / 2n - (a + 1) / 2n
+= (1 / 2n) [ab + b - a - 1]
+
+The interaction effect AB can be calculated as: AB = (ab + 1)/2n - (a+b)/2n = (1/2n)[ab + (1) - a - b]
+
+We may estimate the average effects as A = (1/(2*3))(90 + 100 - 60 - 80) = 8.33
+B = (1/(2*3))(90 + 60 - 100 - 80) = -5.00
+AB = (1/(2*3))(90 + 80 - 100 - 60) = 1.67
+
+Interpretation
+
+The effect of A (reactant concentration) is positive; this suggests that increasing A from the low level (15%) to the high level (25%) will increase the yield.
+The effect of B (catalyst) is negative, suggesting that increasing the amount of catalyst will decrease the yield.
+The interaction effect appears to be small relative to the two main effects.
+In experiments involving 2^k designs, it is always important to examine the magnitude and direction of the factor effects to determine which variables are likely to be important.
+
+The Sum of Squares are calculated as follows:
+
+SS_A = (50)^2 / (4 * 3) = 208.33
+SS_A = ([ab + a - b - 1])^2 / (4n)
+SS_B = (-30)^2 / (4 * 3) = 75.00
+SS_B = ([ab + b - a - 1])^2 / Δn
+SS_AB = ([ab + 1 - a - b])^2 / AB
+SS_AB = (10)^2 / (4 * 3) = 8.33
+
+The total sum of squares is found in the usual way, that is,
+
+SS_T = Σ(i=1 to 2) Σ(j=1 to 2) Σ(k=1 to n) yijk^2 - y_^2 / 4n
+SS_T = Σ(i=1 to 2) Σ(j=1 to 2) Σ(k=1 to 3) yijk^2 - y_^2 / (4 * 3)
+= 9398.00 - 9075.00 = 323.00
+
+The error sum of squares,
+
+SS_E = SS_T - SS_A - SS_B - SS_AB
+= 323.00 - 208.33 - 75.00 - 8.33
+= 31.34
+
+Analysis of Variance
+
+Source of         Sum of          Degrees of       Mean      Freedom    Variation     P-Value     Square   Squares
+------------------  ---------------  -------------  -------  ---------  ----------  --------  -------
+A                    208.33          53.15          208.33    0.0001      A            1
+B                    75.00           19.13          75.00     0.0024      B            8.33   2.13
+AB                   8.33            31.34          3.92      Error       Total
+323.00              11
+
+On the basis of the P-values, we conclude that the main effects are statistically significant and that there is no interaction between these factors. This confirms our initial interpretation of the data based on the magnitudes of the factor effects.
+
+2³ Factorial Design
+Algebraic Signs for Calculating Effects in the 2³ Design
+
+Factorial Effect
+Treatment
+Combination
+B
+C
+AC
+BC
+A
+AB
+ABC
+I
+
+(1)
++
+++
++
+++
+++
++
++
+a
+++
+b
++
+++
+++
+_ _
+++
++
++
+ab
+++
++
+c
+
+1 + 2 + 3 + 4 = ac
+5 <math>+</math> bc
+6 <math>+</math> <math>+</math> <math>+</math>
+7 _
+8 _
+9 + abc
+10 <math>+</math>
+11 +
+12 +
+13 +
+14 <math>+</math>
+15 <math>+</math>
+
+Let me know if you need any further assistance!
+
+A = ȳA+ - ȳA-
+= (a+a*b+a*c+a*b*c)/4n - ((1)+b+c+b*c)/4n
+= 1/4n [a + a*b + a*c + a*b*c - (1) - b - c - b*c]
+
+B = ȳB+ - ȳB-
+= 1/4π [b + a*b + b*c + a*b*c - (1) - a - c - a*c]
+
+C = ȳC+ - ȳC-
+= 1/4n [c + a*c + b*c + a*b*c - (1) - a - b - a*b]
+
+AB equals 1/4n times [abc minus bc plus ab minus b minus ac plus c minus a plus 1]. 
+AC equals 1/(4n) times [(1) minus a plus b minus ab minus c plus ac minus bc plus abc].
+BC equals 1/(4n) times [(1) plus a minus b minus ab minus c minus ac plus bc plus abc].
+ABC equals 1/(An) times [abc minus bc minus ac plus c minus ab plus b plus a minus 1].
+
+Example of 2³ Factorial Design
+
+A 2³ factorial design was used to develop a nitride etch process on a single-wafer plasma etching tool. The design factors are the gap between the electrodes, the gas flow (C2F6 is used as the reactant gas), and the RF power applied to the cathode. Each factor is run at two levels, and the design is replicated twice. The response variable is the etch rate for silicon nitride (Å/m). The etch rate data are shown in the Table.
+
+The Plasma Etch Experiment
+
+Etch Rate
+Factor Levels
+Coded Factors
+
+Replicate 1
+Replicate 2
+B
+C
+High (+1)
+Run
+A (Gap, cm)
+0.80
+1.20
+1 -1 -1
+2
+669
+1 -1 -1
+650
+a = 1319
+B (C2F6 flow, SCCM) 125
+200 -1
+3
+633
+601
+C (Power, W) 325 -1 1 -1
+b = 1234
+275
+642
+4
+1 1 -1
+635
+ab = 1277
+5
+-1
+1037
+1052
+c = 2089
+-1 1
+749
+868
+ac = 1617
+1
+6
+1
+7
+-1
+1
+1075
+1063
+bc = 2138
+1
+8
+729
+860
+abc = 1589
+1
+
+Solution:
+
+A = (1/4n)[a - 1 + ab - b + ac - c + abc - bc]
+= (1/8)[1319 - 1154 + 1277 - 1234]
++ 1617 - 2089 + 1589 - 2138
+= (1/8)[-813] = -101.625
+
+B = (1/4n)[b + ab + bc + abc - 1 - a - c - ac]
+= (1/8)[1234 + 1277 + 2138 + 1589 - 1154]
+- 1319 - 2089 - 1617
+= (1/8)[59] = 7.375
+
+C = (1/4n)[c + ac + bc + abc - 1 - a - b - ab]
+= (1/8)[2089 + 1617 + 2138 + 1589 - 1154]
+-1319 - 1234 - 1277
+= (1/8)[2449] = 306.125
+
+AB = (1/4n)[ab - a - b + 1 + abc - bc - ac + c]
+= (1/8)[1277 - 1319 - 1234 + 1154]
++ 1589 - 2138 - 1617 + 2089
+= (1/8)[-199] = -24.875
+
+The largest effects are for power (C = 306.125), gap (A = -101.625), and the power-gap interaction (AC = -153.625).
+
+The sums of squares are calculated as follows:
+
+SS_A = (−813)² / 16 = 41,310.5625
+SS_B = (59)² / 16 = 217.5625
+SS_C = (2449)² / 16 = 374,850.0625
+SS_AB = (−199)² / 16 = 2475.0625
+SS_AC = (−1229)² / 16 = 94,402.5625
+SS_BC = (−17)² / 16 = 18.0625
+
+The total sum of squares is SS_T = 531,420.9375 and by subtraction SS_E = 18,020.50.
+SS_ABC = (45)² / 16 = 126.5625
+
+Effect Estimate Summary
+
+Effect
+Sum of
+Percent
+Contribution
+Factor
+Estimate
+Squares
+41,310.5625
+7.7736
+A -101.625
+B 217.5625 0.0409 7.375
+C 306.125 374,850.0625 70.5373
+AB 2475.0625 0.4657 -24.875
+AC 94,402.5625 17.7642 -153.625
+BC 18.0625 -2.125 0.0034
+ABC 5.625 126.5625 0.0238
+
+Analysis of Variance for the Plasma Etching Experiment
+
+Source of          Sum of         Degrees of      Mean        Variation    Freedom     P-Value    Squares   Square
+F0                  18.34         Gap (A)       41,310.5625 41,310.5625 0.0027        Gas flow (B)  0.10          0.7639      217.5625 217.5625 0.0001
+Power (C)          374,850.0625 374,850.0625 166.41         AB            2475.0625 2475.0625 1.10        0.3252
+AC                  94,402.5625   94,402.5625 0.0002       41.91          BC           18.0625     18.0625    0.01      0.9308
+ABC                 126.5625      126.5625      0.06        0.8186         Error         18,020.5000 2252.5625   531,420.9375
+Total               15
+
+Fractional Factorial Design
+
+As the number of factors in a 2^k factorial design increases, the number of runs required for a complete replicate of the design rapidly outgrows the resources of most experimenters. For example, a complete replicate of the 2^6 design requires 64 runs.
+
+In this design, only 6 of the 63 degrees of freedom correspond to main effects, and only 15 degrees of freedom correspond to two-factor interactions. There are only 21 degrees of freedom associated with effects that are likely to be of major interest. The remaining 42 degrees of freedom are associated with three-factor and higher interactions.
+
+Fractional Factorial Design
+
+If the experimenter can reasonably assume that certain high-order interactions are negligible, information on the main effects and low-order interactions may be obtained by running only a fraction of the complete factorial experiment.
+These fractional factorial designs are among the most widely used types of designs for product and process design, process improvement, and industrial/business experimentation.
+
+Fractional Factorial Design
+
+Consider a situation in which three factors, each at two levels, are of interest, but the experimenters cannot afford to run all 2^3 = 8 treatment combinations. They can, however, afford four runs. This suggests a one-half fraction of a 2^3 design.
+
+Because the design contains 2^(3-1) = 4 treatment combinations, a one-half fraction of the 2^3 design is often called a 2^(3-1) design.
+
+I'm ready to help! Please provide the OCR text, and I'll follow the system instructions to rewrite it and make it readable.
