@@ -1,0 +1,10 @@
+streamlit
+groq
+chromadb
+langchain
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+huggingface-hub
+torch
+transformers
