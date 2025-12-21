@@ -17,6 +17,8 @@ It uses:
 
 Perfect for academic notes, handwritten documents, mathematical derivations, and noisy OCR text.
 
+---
+
 ## 📸 Demo
 
 **Asking about Gini Coefficient:**
@@ -30,30 +32,53 @@ Perfect for academic notes, handwritten documents, mathematical derivations, and
 
 ---
 
+## 🔍 What Problem Does This Solve?
+
+Students often struggle with:
+- Handwritten lecture notes
+- OCR errors in scanned material
+- Fragmented definitions and formulas
+- Losing context while asking follow-up questions
+
+**QEDS-GPT solves this by:**
+- Indexing cleaned OCR notes into a semantic vector database
+- Retrieving the most relevant modules and topics
+- Correcting equations and notations
+- Allowing multi-turn, memory-aware academic conversations
+
 ## 🚀 Features
 
-### **1️⃣ RAG Fusion**
-Generates paraphrased versions of the query using FLAN-T5 and retrieves documents using **multiple query variants**.
+### 🧠 Conversational RAG with Memory
+- Multi-turn chat interface
+- **Per-user persistent memory** using SQLite
+- Context retained across refreshes and sessions
+- No login required
 
-### **2️⃣ Hybrid Search**
-- BM25 lexical retrieval
-- BGE-M3 dense vector retrieval
-- Weighted ensemble
+### 📚 Semantic Retrieval over Notes
+- ChromaDB vector store
+- Hugging Face `bge-m3` embeddings
+- Module-aware retrieval with metadata:
+  - Semester
+  - Subject
+  - Module
 
-### **3️⃣ Cross-Encoder Reranking**
-Uses `ms-marco-MiniLM-L-6-v2` to re-rank retrieved chunks for maximum relevance.
+### ✍️ OCR Noise Correction (Silent)
+- Fixes broken equations and symbols
+- Rewrites math in clean **LaTeX**
+- Repairs fragmented sentences
+- Never exposes corrections to the user
 
-### **4️⃣ OCR Noise Handling**
-- MathML removal  
-- Page number/date stripping  
-- Duplicate removal  
-- Whitespace normalization  
+### 🚫 Hallucination Controls
+- Vague-query detection
+- Relevance filtering
+- Refuses to answer if content is not found in notes
+- Uses academic knowledge only to *reconstruct* missing context
 
-### **5️⃣ Intelligent Safety Layers**
-- Vague-query detection  
-- Relevance filtering  
-- Semester-based metadata filtering  
-- Chat history tracking  
+### 📦 Production Deployment
+- Dockerized application
+- Deployed on **Hugging Face Spaces**
+- Git LFS support for vector index files
+- Secure API key management
 
 ---
 
@@ -66,22 +91,21 @@ Uses `ms-marco-MiniLM-L-6-v2` to re-rank retrieved chunks for maximum relevance.
 ![Detailed Architecture](https://github.com/apooorv19/QEDS-RAG-Project/blob/master/assets/RAG-Pipeline.jpg)
 
 ```
-User Query
+User
 ↓
-FLAN-T5 Paraphraser → {q1, q2, q3, ...}
+Streamlit Chat UI
 ↓
-Hybrid Retrieval (BM25 + BGE-M3 for each qi)
+Per-User Memory (SQLite)
 ↓
-Merged + Deduplicated
+Semantic Retrieval (ChromaDB)
 ↓
-Cross-Encoder Reranker
+OCR Cleanup & Context Sanitization
 ↓
-Contextual Compression
+LLM Reasoning (Groq)
 ↓
-OCR Noise Sanitizer
-↓
-LLaMA3 Response (with LaTeX fixes)
+Answer + Updated Memory
 ```
+---
 ### 🧪 Example Capabilities
 Query: "Explain the Slutsky substitution effect."
 
@@ -93,29 +117,41 @@ System Action: Filters for "Semester 4 - Diff Eq", finds the specific raw formul
 
 ### 🔒 Notes
 
-This repo does not include handwritten text files (private).
+Handwritten notes are private and not included
 
-Vector DB is ignored (chroma_db_advanced/ not uploaded).
+Vector database is stored using Git LFS
+
+Memory is stored per user locally via SQLite
+
+---
 
 ### 📁 Project Structure
 ```
-QED-Scribe/
+QEDS-RAG-Project/
 │
-├── 📂 data/
-│   ├── 📂 raw_surya_json/      # Output from Surya OCR (Semesters 1-6)
-│   └── 📂 ocr_text/            # Cleaned .txt files
+├── chroma_db/              # Vector database
 │
-├── 📂 src/
-│   ├── 1_clean_advanced.py     # Regex + LLM Cleaning Pipeline
-│   ├── 2_ingest_advanced.py    # Hybrid Ingestion (BGE-M3 + BM25)
-│   └── 4_app_advanced.py       # Streamlit RAG Application
+├── src/
+│ ├── streamlit_app.py      # Main conversational RAG app
+│ └── memory.py             # Per-user persistent memory (SQLite)
 │
-├── 📂 vector_db/               # ChromaDB storage (GitIgnored)
-├── .gitignore                  # Ignores heavy DB files and venv
-├── requirements.txt            # Project dependencies
-└── README.md                   # Documentation
+├── Dockerfile
+├── requirements.txt
+└── README.md
 ```
+---
+### ⚙️ Tech Stack
 
+```
+- Language: Python
+- UI: Streamlit
+- Vector DB: ChromaDB
+- Embeddings: Hugging Face `BAAI/bge-m3`
+- LLM: Groq (LLaMA-3.1-8B-Instant)
+- Memory: SQLite (per-user)
+- Deployment: Docker + Hugging Face Spaces
+```
+---
 ### 🛠️ Installation & Usage
 
 #### 1. Prerequisites  
@@ -134,27 +170,39 @@ cd QEDS-RAG-Project
 pip install -r requirements.txt
 ```
 
-3. Run the Cleaning Pipeline
-Transforms raw Surya OCR JSON files into clean, readable text files.
+3. Set environment variable
 
 ```Bash
-
-python src/clean_data.py
+export GROQ_API_KEY=your_api_key_here
 ```
 
-4. Build the "Brain" (Ingestion)
-Generates the Vector Database and Sparse Index.
-
+4. Run the app
 ```Bash
-
-python src/ingest.py
+streamlit run src/streamlit_app.py
 ```
 
-5. Launch the Tutor
+### 🐳 Docker Deployment
 ```Bash
-
-streamlit run src/app.py
+docker build -t qeds-gpt .
+docker run -p 8501:8501 -e GROQ_API_KEY=your_api_key qeds-gpt
 ```
+
+### 🌐 Live Demo
+https://huggingface.co/spaces/Apooorv69/QEDS-RAG-Project
+
+---
+
+### 👤 Author
+
+Apurva Mishra <br>
+IMSc Quantitative Economics & Data Science <br>
+Birla Institute of Technology, Mesra <br>
+
+GitHub: https://github.com/apooorv19
+<br>
+LinkedIn: https://www.linkedin.com/in/apooorv/
+
+---
 
 ### 📜 Citations & Credits
 ```
