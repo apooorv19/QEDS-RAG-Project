@@ -50,7 +50,6 @@ Students often struggle with:
 
 ### 🧠 Conversational RAG with Memory
 - Multi-turn chat interface
-- **Per-user persistent memory** using SQLite
 - Context retained across refreshes and sessions
 - No login required
 
@@ -62,16 +61,14 @@ Students often struggle with:
   - Subject
   - Module
 
-### ✍️ OCR Noise Correction (Silent)
+### ✍️ OCR Noise Correction
 - Fixes broken equations and symbols
 - Rewrites math in clean **LaTeX**
 - Repairs fragmented sentences
-- Never exposes corrections to the user
 
 ### 🚫 Hallucination Controls
 - Vague-query detection
 - Relevance filtering
-- Refuses to answer if content is not found in notes
 - Uses academic knowledge only to *reconstruct* missing context
 
 ### 📦 Production Deployment
@@ -94,8 +91,6 @@ Students often struggle with:
 User
 ↓
 Streamlit Chat UI
-↓
-Per-User Memory (SQLite)
 ↓
 Semantic Retrieval (ChromaDB)
 ↓
@@ -132,8 +127,7 @@ QEDS-RAG-Project/
 ├── chroma_db/              # Vector database
 │
 ├── src/
-│ ├── streamlit_app.py      # Main conversational RAG app
-│ └── memory.py             # Per-user persistent memory (SQLite)
+│ ├── streamlit_app.py      # Main conversational RAG app   
 │
 ├── Dockerfile
 ├── requirements.txt
@@ -148,7 +142,6 @@ QEDS-RAG-Project/
 - Vector DB: ChromaDB
 - Embeddings: Hugging Face `BAAI/bge-m3`
 - LLM: Groq (LLaMA-3.1-8B-Instant)
-- Memory: SQLite (per-user)
 - Deployment: Docker + Hugging Face Spaces
 ```
 ---
