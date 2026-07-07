@@ -1,4 +1,4 @@
-# 🎓 QED-Scribe - Hybrid RAG
+# 🎓 QEDS-GPT - Hybrid RAG
 
 This project is a **production-grade Retrieval-Augmented Generation (RAG) Tutor** built to understand and explain **handwritten notes of QEDS**, even with OCR noise.
 
