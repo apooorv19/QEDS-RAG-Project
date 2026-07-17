@@ -245,74 +245,6 @@ The Dockerfile runs:
 ```bash
 streamlit run src/streamlit_app.py --server.port=7860 --server.address=0.0.0.0
 ```
-
----
-
-## Environment Variables
-
-| Variable | Required | Description |
-|---|---|---|
-| `GROQ_API_KEY` | Yes | API key for Groq LLM calls. |
-| `CHROMA_DB_PATH` | No | Optional custom path for the ChromaDB directory. Defaults to `chroma_db` locally or `/app/chroma_db` in Docker. |
-
----
-
-## GitHub Upload Instructions
-
-Upload these files and folders:
-
-```text
-Dockerfile
-README.md
-requirements.txt
-requirements-local.txt
-.gitattributes
-.gitignore
-src/
-chroma_db/
-```
-
-Do not upload:
-
-```text
-.streamlit/secrets.toml
-.env
-.venv/
-venv/
-__pycache__/
-*.pyc
-```
-
-### Recommended Git + Git LFS Workflow
-
-Use Git LFS because `chroma_db/` may contain large database files.
-
-```bash
-cd qeds-gpt-refactored-hf
-git init
-git lfs install
-git lfs track "chroma_db/**"
-git add .
-git commit -m "Initial commit: QEDS-GPT Hybrid RAG app"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME` with your actual GitHub details.
-
----
-
-## Important Notes
-
-- `chroma_db/` must exist at the project root for retrieval to work.
-- The Chroma collection name is configured as `semester_notes`.
-- The app uses Streamlit session state for chat memory, not SQLite memory.
-- The app uses Groq, not Ollama.
-- Retrieval uses BM25 + dense vector search + RRF.
-- The current implementation does not use FLAN-T5, cross-encoder reranking, or Surya OCR inside the app runtime.
-- Keep `GROQ_API_KEY` private.
-
 ---
 
 ## Troubleshooting
@@ -366,19 +298,8 @@ git lfs track "chroma_db/**"
 
 ---
 
-## Security
-
-- API keys are read from Streamlit secrets or environment variables.
-- `.streamlit/secrets.toml` should not be committed.
-- Prompt-injection style requests are classified and refused.
-- Sources are displayed only when retrieved notes are used.
-- Sources are hidden when the model falls back to general knowledge.
-
----
-
 ## Future Improvements
 
-- Add a document ingestion pipeline.
 - Add automated tests.
 - Add retrieval quality evaluation.
 - Add streaming LLM responses.
