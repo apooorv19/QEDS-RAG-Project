@@ -3,13 +3,10 @@
 import logging
 from typing import Optional
 
-from langchain_core.documents import Document
-
 import prompts
 from classifier import QueryClassifier
 from config import Config, QueryCategory
 from llm import LLMService
-from retriever import HybridRetriever
 from text_processor import clean_text, format_source
 
 logger = logging.getLogger(__name__)
@@ -20,14 +17,16 @@ class RAGService:
 
     def __init__(self) -> None:
         self.llm = LLMService()
-        self._retriever: Optional[HybridRetriever] = None
+        self._retriever = None
         self.classifier = QueryClassifier(self.llm)
 
     @property
-    def retriever(self) -> HybridRetriever:
+    def retriever(self):
         """Load the heavy retrieval stack only when an academic query needs it."""
 
         if self._retriever is None:
+            from retriever import HybridRetriever
+
             self._retriever = HybridRetriever()
         return self._retriever
 
@@ -42,7 +41,7 @@ class RAGService:
         chat_history = self._format_history_for_classifier(context_messages or [])
         return self.classifier.classify(query, chat_history)
 
-    def retrieve(self, query: str, semester_filter: Optional[int] = None) -> list[Document]:
+    def retrieve(self, query: str, semester_filter: Optional[int] = None) -> list:
         """Retrieve relevant course-note chunks."""
 
         try:
@@ -82,7 +81,7 @@ class RAGService:
             "hidden instructions, or internal configuration."
         )
 
-    def build_academic_answer(self, query: str, docs: list[Document], context_messages: list[dict]) -> str:
+    def build_academic_answer(self, query: str, docs: list, context_messages: list[dict]) -> str:
         """Build context from retrieved documents and generate an academic answer."""
 
         raw_context = "\n\n---\n\n".join(
