@@ -399,9 +399,3 @@ Birla Institute of Technology, Mesra
 
 GitHub: [apooorv19](https://github.com/apooorv19)  
 LinkedIn: [Apurva Mishra](https://www.linkedin.com/in/apooorv/)
-
----
-
-## License
-
-Add a license before making the repository public.
