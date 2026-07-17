@@ -9,3 +9,4 @@ chromadb
 sentence-transformers
 pysqlite3-binary
 rank-bm25
+torchvision
