@@ -1,209 +1,407 @@
-# 🎓 QEDS-GPT - Hybrid RAG
+# QEDS-GPT - Hybrid RAG Academic Assistant
 
-This project is a **production-grade Retrieval-Augmented Generation (RAG) Tutor** built to understand and explain **handwritten notes of QEDS**, even with OCR noise.
+QEDS-GPT is a modular Hybrid Retrieval-Augmented Generation application for answering questions from Economics, Statistics, Mathematics, Data Science, Machine Learning, and semester-note content.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Stack](https://img.shields.io/badge/Stack-LangChain_|_Streamlit_|_Ollama-orange.svg)
-![OCR](https://img.shields.io/badge/OCR-Surya-green.svg)
+The project combines Streamlit, ChromaDB, HuggingFace embeddings, BM25 keyword retrieval, Reciprocal Rank Fusion, conversation memory, and Groq LLM generation into a clean academic chatbot.
 
-It uses:
-
-- 🔍 **Hybrid Retrieval (BM25 + BGE-M3)**
-- 🔄 **RAG Fusion** using FLAN-T5 paraphraser
-- 🔥 **Cross-Encoder Reranking**
-- ✂️ **Contextual Compression**
-- 🧹 **OCR Noise Sanitization**
-- 🧠 **LLaMA3 (Ollama)** for answering
-
-Perfect for academic notes, handwritten documents, mathematical derivations, and noisy OCR text.
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-red.svg)
+![LangChain](https://img.shields.io/badge/RAG-LangChain-orange.svg)
+![ChromaDB](https://img.shields.io/badge/Vector_DB-ChromaDB-green.svg)
+![Groq](https://img.shields.io/badge/LLM-Groq-black.svg)
+![Docker](https://img.shields.io/badge/Deploy-Docker-blue.svg)
 
 ---
 
-## 📸 Demo
+## Overview
 
-**Asking about Gini Coefficient:**
+QEDS-GPT lets users ask natural-language academic questions and receive concise, structured answers. For academic queries, the app retrieves relevant note chunks from a persisted ChromaDB database, combines semantic and keyword search results, builds a grounded prompt, and generates an answer using Groq.
 
-![App Demo](https://github.com/apooorv19/QEDS-RAG-Project/blob/master/assets/Demo.png)
-
-**Asking questions about Homogenous Differential Equations:**
-
-![App Demo](https://github.com/apooorv19/QEDS-RAG-Project/blob/master/assets/Demo2.png)
-*(The AI retrieves the correct handwritten module, fixes the math symbols, and explains the concept)*
+The app also supports conversational follow-ups, semester filtering, retrieved source display, and general-knowledge fallback when the answer is not found in the notes.
 
 ---
 
-## 🔍 What Problem Does This Solve?
+## Key Features
 
-Students often struggle with:
-- Handwritten lecture notes
-- OCR errors in scanned material
-- Fragmented definitions and formulas
-- Losing context while asking follow-up questions
-
-**QEDS-GPT solves this by:**
-- Indexing cleaned OCR notes into a semantic vector database
-- Retrieving the most relevant modules and topics
-- Correcting equations and notations
-- Allowing multi-turn, memory-aware academic conversations
-
-## 🚀 Features
-
-### 🧠 Conversational RAG with Memory
-- Multi-turn chat interface
-- Context retained across refreshes and sessions
-- No login required
-
-### 📚 Semantic Retrieval over Notes
-- ChromaDB vector store
-- Hugging Face `bge-m3` embeddings
-- Module-aware retrieval with metadata:
-  - Semester
-  - Subject
-  - Module
-
-### ✍️ OCR Noise Correction
-- Fixes broken equations and symbols
-- Rewrites math in clean **LaTeX**
-- Repairs fragmented sentences
-
-### 🚫 Hallucination Controls
-- Vague-query detection
-- Relevance filtering
-- Uses academic knowledge only to *reconstruct* missing context
-
-### 📦 Production Deployment
-- Dockerized application
-- Deployed on **Hugging Face Spaces**
-- Git LFS support for vector index files
-- Secure API key management
+- **Hybrid Retrieval:** combines dense vector retrieval with BM25 keyword retrieval.
+- **Reciprocal Rank Fusion:** merges dense and BM25 rankings without comparing incompatible raw scores.
+- **ChromaDB Vector Store:** stores embedded academic note chunks and metadata.
+- **HuggingFace Embeddings:** uses `BAAI/bge-m3` for dense semantic search.
+- **Groq LLM:** uses `llama-3.1-8b-instant` for classification, summarization, and answer generation.
+- **Query Classification:** routes questions as academic, greeting, meta, general, or prompt-injection attempts.
+- **Conversation Memory:** stores recent chat turns using Streamlit session state.
+- **Conversation Summarization:** summarizes older context after a threshold.
+- **Semester Filtering:** allows retrieval filtering by semester.
+- **Source Display:** shows sources and retrieved chunks only when note context is used.
+- **General-Knowledge Fallback:** answers from model knowledge when notes do not contain the topic, without displaying false citations.
+- **Docker Support:** includes a Dockerfile for reproducible local/container runs.
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
-### **RAG Pipeline**
-![Basic RAG Pipeline](https://github.com/apooorv19/QEDS-RAG-Project/blob/master/assets/OCR-RAG%20Architecture.jpg)
-
-### **Detailed Retrieval & Embedding Flow**
-![Detailed Architecture](https://github.com/apooorv19/QEDS-RAG-Project/blob/master/assets/RAG-Pipeline.jpg)
-
-```
+```text
 User
-↓
+  |
+  v
 Streamlit Chat UI
-↓
-Semantic Retrieval (ChromaDB)
-↓
-OCR Cleanup & Context Sanitization
-↓
-LLM Reasoning (Groq)
-↓
-Answer + Updated Memory
+  |
+  v
+Chat Memory + Query Classifier
+  |
+  +--> Greeting / Meta / General / Injection response
+  |
+  +--> Academic RAG pipeline
+          |
+          v
+      Hybrid Retriever
+          |
+          +--> Dense Retrieval with ChromaDB + HuggingFace Embeddings
+          |
+          +--> BM25 Keyword Retrieval
+          |
+          v
+      Reciprocal Rank Fusion
+          |
+          v
+      Context Cleaning + Prompt Builder
+          |
+          v
+      Groq LLM
+          |
+          v
+      Answer + Sources + Memory Update
 ```
----
-### 🧪 Example Capabilities
-Query: "Explain the Slutsky substitution effect."
-
-System Action: Retrieves Economics notes from Semester 3, fixes OCR typos in the definition, and presents the derivation.
-
-Query: "Solve the Bernoulli differential equation from Module 1."
-
-System Action: Filters for "Semester 4 - Diff Eq", finds the specific raw formula, converts it to clean LaTeX, and explains the solution steps.
-
-### 🔒 Notes
-
-Handwritten notes are private and not included
-
-Vector database is stored using Git LFS
-
-Memory is stored per user locally via SQLite
 
 ---
 
-### 📁 Project Structure
-```
-QEDS-RAG-Project/
+## How the Application Works
+
+1. The user enters a question in the Streamlit chat input.
+2. Recent conversation history is loaded from Streamlit session state.
+3. The query classifier categorizes the question.
+4. Non-academic questions are handled directly.
+5. Academic questions trigger retrieval.
+6. Dense retrieval searches ChromaDB using HuggingFace embeddings.
+7. BM25 performs keyword retrieval over the same document chunks.
+8. Reciprocal Rank Fusion combines both ranked lists.
+9. Optional semester filtering is applied.
+10. Top chunks are cleaned and placed into the prompt.
+11. Groq generates the final answer.
+12. The UI displays the answer, sources, retrieved chunks, and response time.
+13. The conversation memory is updated.
+
+---
+
+## Project Structure
+
+```text
+qeds-gpt-refactored-hf/
 │
-├── chroma_db/              # Vector database
+├── chroma_db/
+│   └── Persisted ChromaDB vector database files
 │
 ├── src/
-│ ├── streamlit_app.py      # Main conversational RAG app   
+│   ├── __init__.py
+│   ├── classifier.py
+│   ├── config.py
+│   ├── llm.py
+│   ├── memory.py
+│   ├── prompts.py
+│   ├── retriever.py
+│   ├── services.py
+│   ├── streamlit_app.py
+│   ├── text_processor.py
+│   └── ui.py
 │
+├── .gitattributes
+├── .gitignore
 ├── Dockerfile
+├── README.md
 ├── requirements.txt
-└── README.md
+└── requirements-local.txt
 ```
----
-### ⚙️ Tech Stack
 
-```
-- Language: Python
-- UI: Streamlit
-- Vector DB: ChromaDB
-- Embeddings: Hugging Face `BAAI/bge-m3`
-- LLM: Groq (LLaMA-3.1-8B-Instant)
-- Deployment: Docker + Hugging Face Spaces
-```
 ---
-### 🛠️ Installation & Usage
 
-#### 1. Prerequisites  
-Make sure Ollama is installed and running with Llama 3:
+## Module Guide
+
+| File | Purpose |
+|---|---|
+| `src/streamlit_app.py` | Main Streamlit entrypoint. Coordinates UI rendering, chat input, query routing, and service initialization. |
+| `src/config.py` | Central configuration for model names, database path, retrieval settings, memory settings, and query categories. |
+| `src/prompts.py` | Stores academic, classifier, summary, meta, and user prompt templates. |
+| `src/retriever.py` | Loads ChromaDB, HuggingFace embeddings, BM25 retriever, vector retriever, and applies RRF. |
+| `src/classifier.py` | Classifies user queries into supported categories using the LLM. |
+| `src/llm.py` | Wraps Groq API usage and handles LLM errors. |
+| `src/memory.py` | Manages Streamlit session-state chat memory and summarization. |
+| `src/services.py` | Business logic layer that coordinates LLM, classifier, retriever, prompts, and response generation. |
+| `src/ui.py` | Contains Streamlit UI helper functions for sidebar, chat history, answer display, sources, and status messages. |
+| `src/text_processor.py` | Cleans retrieved text and formats document source metadata. |
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Language | Python 3.11 |
+| UI | Streamlit |
+| RAG tooling | LangChain |
+| Vector database | ChromaDB |
+| Embeddings | HuggingFace `BAAI/bge-m3` |
+| Sparse retrieval | BM25 |
+| Fusion method | Reciprocal Rank Fusion |
+| LLM provider | Groq |
+| Default LLM | `llama-3.1-8b-instant` |
+| Containerization | Docker |
+| Large file handling | Git LFS for `chroma_db/` |
+
+---
+
+## Local Setup
+
+### 1. Clone the Repository
 
 ```bash
-ollama run llama3
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+cd YOUR_REPOSITORY_NAME
 ```
 
-#### 2. Setup Environment
+### 2. Create a Virtual Environment
 
-```Bash
+Windows:
 
-git clone https://github.com/apooorv19/QEDS-RAG-Project.git
-cd QEDS-RAG-Project
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+macOS/Linux:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+For local development:
+
+```bash
+pip install -r requirements-local.txt
+```
+
+For Docker/container deployment:
+
+```bash
 pip install -r requirements.txt
 ```
 
-3. Set environment variable
+### 4. Add Your Groq API Key
 
-```Bash
-export GROQ_API_KEY=your_api_key_here
+Create this local file:
+
+```text
+.streamlit/secrets.toml
 ```
 
-4. Run the app
-```Bash
+Add:
+
+```toml
+GROQ_API_KEY = "your_groq_api_key_here"
+```
+
+Do not commit this file to GitHub.
+
+### 5. Run the App
+
+```bash
 streamlit run src/streamlit_app.py
 ```
 
-### 🐳 Docker Deployment
-```Bash
+---
+
+## Docker Usage
+
+Build the Docker image:
+
+```bash
 docker build -t qeds-gpt .
-docker run -p 8501:8501 -e GROQ_API_KEY=your_api_key qeds-gpt
 ```
 
-### 🌐 Live Demo
-https://huggingface.co/spaces/Apooorv69/QEDS-RAG-Project
+Run the container:
+
+```bash
+docker run -p 7860:7860 -e GROQ_API_KEY=your_groq_api_key_here qeds-gpt
+```
+
+Open:
+
+```text
+http://localhost:7860
+```
+
+The Dockerfile runs:
+
+```bash
+streamlit run src/streamlit_app.py --server.port=7860 --server.address=0.0.0.0
+```
 
 ---
 
-### 👤 Author
+## Environment Variables
 
-Apurva Mishra <br>
-IMSc Quantitative Economics & Data Science <br>
-Birla Institute of Technology, Mesra <br>
-
-GitHub: https://github.com/apooorv19
-<br>
-LinkedIn: https://www.linkedin.com/in/apooorv/
+| Variable | Required | Description |
+|---|---|---|
+| `GROQ_API_KEY` | Yes | API key for Groq LLM calls. |
+| `CHROMA_DB_PATH` | No | Optional custom path for the ChromaDB directory. Defaults to `chroma_db` locally or `/app/chroma_db` in Docker. |
 
 ---
 
-### 📜 Citations & Credits
+## GitHub Upload Instructions
+
+Upload these files and folders:
+
+```text
+Dockerfile
+README.md
+requirements.txt
+requirements-local.txt
+.gitattributes
+.gitignore
+src/
+chroma_db/
 ```
-@misc{paruchuri2025surya,
-  author       = {Vikas Paruchuri and Datalab Team},
-  title        = {Surya: A lightweight document OCR and analysis toolkit},
-  year         = {2025},
-  howpublished = {\url{https://github.com/VikParuchuri/surya}},
-  note         = {GitHub repository},
-}
+
+Do not upload:
+
+```text
+.streamlit/secrets.toml
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
 ```
+
+### Recommended Git + Git LFS Workflow
+
+Use Git LFS because `chroma_db/` may contain large database files.
+
+```bash
+cd qeds-gpt-refactored-hf
+git init
+git lfs install
+git lfs track "chroma_db/**"
+git add .
+git commit -m "Initial commit: QEDS-GPT Hybrid RAG app"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git push -u origin main
+```
+
+Replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME` with your actual GitHub details.
+
+---
+
+## Important Notes
+
+- `chroma_db/` must exist at the project root for retrieval to work.
+- The Chroma collection name is configured as `semester_notes`.
+- The app uses Streamlit session state for chat memory, not SQLite memory.
+- The app uses Groq, not Ollama.
+- Retrieval uses BM25 + dense vector search + RRF.
+- The current implementation does not use FLAN-T5, cross-encoder reranking, or Surya OCR inside the app runtime.
+- Keep `GROQ_API_KEY` private.
+
+---
+
+## Troubleshooting
+
+### `GROQ_API_KEY not configured`
+
+Create `.streamlit/secrets.toml` locally or pass the key as an environment variable:
+
+```bash
+set GROQ_API_KEY=your_groq_api_key_here
+```
+
+On macOS/Linux:
+
+```bash
+export GROQ_API_KEY=your_groq_api_key_here
+```
+
+### ChromaDB Is Not Found
+
+Confirm this directory exists:
+
+```text
+chroma_db/
+```
+
+If your database is somewhere else, set:
+
+```bash
+CHROMA_DB_PATH=path/to/chroma_db
+```
+
+### First Academic Question Is Slow
+
+The first academic query may initialize:
+
+- HuggingFace embedding model
+- ChromaDB
+- BM25 index
+
+This can take time, especially on CPU.
+
+### GitHub Rejects Large Files
+
+Use Git LFS:
+
+```bash
+git lfs install
+git lfs track "chroma_db/**"
+```
+
+---
+
+## Security
+
+- API keys are read from Streamlit secrets or environment variables.
+- `.streamlit/secrets.toml` should not be committed.
+- Prompt-injection style requests are classified and refused.
+- Sources are displayed only when retrieved notes are used.
+- Sources are hidden when the model falls back to general knowledge.
+
+---
+
+## Future Improvements
+
+- Add a document ingestion pipeline.
+- Add automated tests.
+- Add retrieval quality evaluation.
+- Add streaming LLM responses.
+- Add optional reranking.
+- Add authentication for private deployments.
+- Add persistent user accounts and chat history.
+- Add observability for latency and retrieval diagnostics.
+
+---
+
+## Author
+
+**Apurva Mishra**  
+IMSc Quantitative Economics and Data Science  
+Birla Institute of Technology, Mesra
+
+GitHub: [apooorv19](https://github.com/apooorv19)  
+LinkedIn: [Apurva Mishra](https://www.linkedin.com/in/apooorv/)
+
+---
+
+## License
+
+Add a license before making the repository public.
