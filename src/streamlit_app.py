@@ -1,5 +1,3 @@
-# SQLITE FIX FOR STREAMLIT CLOUD (MUST BE AT VERY TOP)
-# ======================================================
 import sys
 
 try:
@@ -67,7 +65,7 @@ def main() -> None:
 
     context_messages = chat_manager.get_context_messages()
     category = rag_service.classify_query(user_query, context_messages)
-    immediate_response = rag_service.get_immediate_response(category, user_query)
+    immediate_response = rag_service.get_immediate_response(category, user_query, context_messages)
     if immediate_response is not None:
         render_immediate_response(immediate_response)
         chat_manager.add_turn(user_query, immediate_response)
