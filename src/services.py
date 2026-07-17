@@ -50,13 +50,25 @@ class RAGService:
             logger.error("Retriever initialization error: %s", exc, exc_info=True)
             return []
 
-    def answer_greeting(self, query: str) -> str:
-        """Generate a greeting response."""
+    def answer_greeting(self, query: str, context_messages: Optional[list[dict]] = None) -> str:
+        """Generate a greeting or lightweight conversational response with memory."""
 
+        chat_history = self._format_history_for_response(context_messages or [])
         return self.call_llm(
-            [{"role": "user", "content": f"Respond warmly to: {query}"}],
+            [
+                {
+                    "role": "user",
+                    "content": (
+                        "Respond warmly and naturally to the user. "
+                        "Use the chat history if the user asks about something they already told you. "
+                        "If the answer is not in the chat history, say so briefly.\n\n"
+                        f"CHAT HISTORY:\n{chat_history or 'None'}\n\n"
+                        f"USER MESSAGE:\n{query}"
+                    ),
+                }
+            ],
             temp=0.7,
-            max_tokens=50,
+            max_tokens=120,
         )
 
     def answer_meta(self, query: str) -> str:
@@ -64,13 +76,27 @@ class RAGService:
 
         return self.call_llm([{"role": "user", "content": prompts.get_meta_prompt(query)}])
 
-    def answer_general(self) -> str:
-        """Return the fixed general-query response."""
+    def answer_general(self, query: str, context_messages: Optional[list[dict]] = None) -> str:
+        """Answer simple memory-aware general conversation without retrieval."""
 
-        return (
-            "I am designed primarily for Economics, "
-            "Statistics, Mathematics, Data Science, "
-            "and semester-note related questions."
+        chat_history = self._format_history_for_response(context_messages or [])
+        return self.call_llm(
+            [
+                {
+                    "role": "user",
+                    "content": (
+                        "You are QEDS-GPT. You primarily help with Economics, Statistics, "
+                        "Mathematics, Data Science, and semester-note questions. "
+                        "For simple conversational or memory questions, answer using the chat history. "
+                        "If the user asks for something outside your academic scope and it is not answerable "
+                        "from chat history, briefly explain your academic scope.\n\n"
+                        f"CHAT HISTORY:\n{chat_history or 'None'}\n\n"
+                        f"USER MESSAGE:\n{query}"
+                    ),
+                }
+            ],
+            temp=0.3,
+            max_tokens=150,
         )
 
     def answer_injection(self) -> str:
@@ -115,15 +141,31 @@ class RAGService:
             ][-4:]
         )
 
-    def get_immediate_response(self, category: str, query: str) -> Optional[str]:
+    def _format_history_for_response(self, context_messages: list[dict]) -> str:
+        """Build recent chat history for non-RAG memory-aware replies."""
+
+        return "\n".join(
+            [
+                f"{message['role'].upper()}: {message['content'][:500]}"
+                for message in context_messages
+                if message["role"] != "system"
+            ][-6:]
+        )
+
+    def get_immediate_response(
+        self,
+        category: str,
+        query: str,
+        context_messages: Optional[list[dict]] = None,
+    ) -> Optional[str]:
         """Return a non-RAG response when a category does not require retrieval."""
 
         if category == QueryCategory.GREETING:
-            return self.answer_greeting(query)
+            return self.answer_greeting(query, context_messages)
         if category == QueryCategory.META:
             return self.answer_meta(query)
         if category == QueryCategory.GENERAL:
-            return self.answer_general()
+            return self.answer_general(query, context_messages)
         if category == QueryCategory.INJECTION:
             return self.answer_injection()
         return None
