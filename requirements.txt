@@ -1,10 +1,11 @@
 streamlit
 groq
-chromadb
 langchain
+langchain-community
+langchain-core
 langchain-chroma
 langchain-huggingface
+chromadb
 sentence-transformers
-huggingface-hub
-torch
-transformers
+pysqlite3-binary
+rank-bm25
