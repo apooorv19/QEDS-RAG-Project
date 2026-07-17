@@ -114,12 +114,10 @@ qeds-gpt-refactored-hf/
 │   ├── text_processor.py
 │   └── ui.py
 │
-├── .gitattributes
 ├── .gitignore
 ├── Dockerfile
 ├── README.md
-├── requirements.txt
-└── requirements-local.txt
+└── requirements.txt
 ```
 
 ---
